@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="UkiRetroGameRandomizer.Views.GameView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UkiRetroGameRandomizer.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Black">
+        <Label HorizontalAlignment="Center" VerticalAlignment="Center" 
+               Foreground="{Binding Path=Foreground}" FontSize="{Binding Path=FontSize}"
+               FontWeight="{Binding Path=FontWeight}"
+               Margin="{Binding Path=Margin}"
+               >
+            <TextBlock Name="Name" TextWrapping="Wrap" TextAlignment="Center" />
+        </Label>
+    </Grid>
+</UserControl>

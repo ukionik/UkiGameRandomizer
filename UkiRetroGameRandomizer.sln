@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRandomizerEngine", "GameRandomizerEngine\GameRandomizerEngine.csproj", "{39C77423-155D-4C40-A5C5-1C4F597E7C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRandomizerEngine.Tests", "GameRandomizerEngine.Tests\GameRandomizerEngine.Tests.csproj", "{907BD490-EA01-4B96-A262-7FD96258F162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkiRetroGameRandomizer", "UkiRetroGameRandomizer\UkiRetroGameRandomizer.csproj", "{B000CFFB-0B82-4180-8BF9-9B04B4C2C4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkiRetroGameRandomizer.Design", "UkiRetroGameRandomizer.Design\UkiRetroGameRandomizer.Design.csproj", "{A60FDEE4-C97D-49C9-9E94-BB2728E88147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C77423-155D-4C40-A5C5-1C4F597E7C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C77423-155D-4C40-A5C5-1C4F597E7C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C77423-155D-4C40-A5C5-1C4F597E7C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C77423-155D-4C40-A5C5-1C4F597E7C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907BD490-EA01-4B96-A262-7FD96258F162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907BD490-EA01-4B96-A262-7FD96258F162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907BD490-EA01-4B96-A262-7FD96258F162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907BD490-EA01-4B96-A262-7FD96258F162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B000CFFB-0B82-4180-8BF9-9B04B4C2C4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B000CFFB-0B82-4180-8BF9-9B04B4C2C4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B000CFFB-0B82-4180-8BF9-9B04B4C2C4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B000CFFB-0B82-4180-8BF9-9B04B4C2C4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60FDEE4-C97D-49C9-9E94-BB2728E88147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60FDEE4-C97D-49C9-9E94-BB2728E88147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60FDEE4-C97D-49C9-9E94-BB2728E88147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60FDEE4-C97D-49C9-9E94-BB2728E88147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A9D7A87-DB7B-41C8-BF89-45C06B74C3B9}
+	EndGlobalSection
+EndGlobal
