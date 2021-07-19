@@ -1,6 +1,9 @@
 ﻿using System.Linq;
+using System.Text.RegularExpressions;
 using System.Windows;
 using Caliburn.Micro;
+using UkiHelper;
+using UkiRetroGameRandomizer.Models.Data;
 using UkiRetroGameRandomizer.Models.Enums;
 using UkiRetroGameRandomizer.Models.Events;
 using UkiRetroGameRandomizer.Models.Factories;
@@ -17,12 +20,23 @@ namespace UkiRetroGameRandomizer.ViewModels
         private bool _platformsEnabled = true;
         private Visibility _infoVisibility = Visibility.Collapsed;
         private int _listCount;
+        private string _letter;
 
         public IObservableCollection<IPlatformViewModel> Platforms { get; } =
             new BindableCollection<IPlatformViewModel>();
 
         public IPlatformViewModel SelectedPlatform { get; set; }
 
+        public string Letter
+        {
+            get => _letter;
+            set
+            {
+                _letter = value;
+                NotifyOfPropertyChange(() => Letter);
+            }
+        }
+        
         public bool StartEnabled
         {
             get => _startEnabled;
@@ -77,12 +91,19 @@ namespace UkiRetroGameRandomizer.ViewModels
             _eventAggregator.PublishOnUIThread(new RollStatusChangedEvent(RollStatus.Started));
         }
 
-        public void PlatformChanged()
+        public void RollSettingsChanged()
         {
-            StartEnabled = true;
-            _eventAggregator.PublishOnUIThread(new PlatformChangedEvent(SelectedPlatform.Platform));
+            if (IsValidRollSettings(SelectedPlatform?.Platform, Letter))
+            {
+                StartEnabled = true;
+                _eventAggregator.PublishOnUIThread(new RollSettingsChangedEvent(SelectedPlatform.Platform, Letter));
+            }
+            else
+            {
+                StartEnabled = false;
+            }
         }
-
+        
         public void Handle(RollStatusChangedEvent message)
         {
             var enabled = message.Status == RollStatus.Stopped;
@@ -94,6 +115,27 @@ namespace UkiRetroGameRandomizer.ViewModels
         {
             InfoVisibility = Visibility.Visible;
             ListCount = message.Count;
+        }
+        
+        private bool IsValidRollSettings(Platform platform, string str)
+        {
+            if (platform == null)
+            {
+                return false;
+            }
+
+            if (str.IsNullOrEmpty())
+            {
+                return true;
+            }
+
+            if (str.Length > 1)
+            {
+                return false;
+            }
+            
+            var reg = new Regex((@"a-zA-Z+"));
+            return !reg.Match(str).Success;     
         }
     }
 }

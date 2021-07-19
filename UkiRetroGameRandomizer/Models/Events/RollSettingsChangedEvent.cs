@@ -2,13 +2,15 @@
 
 namespace UkiRetroGameRandomizer.Models.Events
 {
-    public class PlatformChangedEvent
+    public class RollSettingsChangedEvent
     {
         public Platform Platform { get; }
+        public string Letter { get; }
 
-        public PlatformChangedEvent(Platform platform)
+        public RollSettingsChangedEvent(Platform platform, string letter)
         {
             Platform = platform;
+            Letter = letter;
         }
     }
 }

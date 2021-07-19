@@ -9,7 +9,7 @@
     <Border Padding="10" Background="#0376B1">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" /> 
+                <ColumnDefinition Width="2*" /> 
                 <ColumnDefinition Width="1*" /> 
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
@@ -21,12 +21,16 @@
                           Margin="0 0 10 0" VerticalContentAlignment="Center"
                           SelectedItem="{Binding Path=SelectedPlatform}"
                           IsEnabled="{Binding Path=PlatformEnabled}"
-                          cal:Message.Attach="[Event SelectionChanged] = [Action PlatformChanged()]">
+                          cal:Message.Attach="[Event SelectionChanged] = [Action RollSettingsChanged()]">
                 </ComboBox>
                 <Button Name="Start" Width="100" Height="32" 
                         HorizontalAlignment="Left" VerticalAlignment="Center"
                         IsEnabled="{Binding Path=StartEnabled}"
                 >Пуск</Button>
+                <Label HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="18">Буква</Label>
+                <TextBox Name="Letter" Width="30" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" MaxLength="1"
+                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"
+                         cal:Message.Attach="[Event TextChanged] = [Action RollSettingsChanged()]"></TextBox>
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Visibility="{Binding Path=InfoVisibility}" Height="50">
                 <Label HorizontalAlignment="Right" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="18">Всего в списке:</Label>

@@ -19,8 +19,7 @@ namespace UkiRetroGameRandomizer.ViewModels
     public class GameListViewModel : Screen
         , IGameListViewModel
         , IHandle<RollStatusChangedEvent>
-    , IHandle<PlatformChangedEvent>
-
+    , IHandle<RollSettingsChangedEvent>
     {
         private const int Interval = 10;
         private int _dueTime;
@@ -39,6 +38,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private IGameViewModel _nextGame1;
         private IGameViewModel _nextGame2;
         private Platform _platform;
+        private string _letter;
         private IEnumerable<GameInfo> _games;
 
         public IGameViewModel PreviousGame2
@@ -139,7 +139,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             var delta = _random.Next(1000, 3000);
             _dueTime += delta;
             
-            InitGames(_platform);
+            InitGames(_platform, _letter);
             _timer.Stop();
             _timer.Start();
             _stopwatch.Restart();
@@ -148,11 +148,13 @@ namespace UkiRetroGameRandomizer.ViewModels
             _mp3Player.Play(fileName);
         }
 
-        private void InitGames(Platform platform)
+        private void InitGames(Platform platform, string letter)
         {
             var fileName = Path.Combine(AppData.GameListPath, platform.FileName);
             _games = File.ReadAllLines(fileName)
-                .Select(x => new GameInfo(x));
+                .Select(x => new GameInfo(x))
+                .Where(x => string.IsNullOrEmpty(letter) || x.Name.StartsWith(letter.ToUpper()))
+                .Select(x => x);
             _randomizer = new GameRandomizer(_games, _dueTime, DateTime.Now.Millisecond);
         }
 
@@ -194,10 +196,11 @@ namespace UkiRetroGameRandomizer.ViewModels
             }
         }
 
-        public void Handle(PlatformChangedEvent message)
+        public void Handle(RollSettingsChangedEvent message)
         {
             _platform = message.Platform;
-            InitGames(message.Platform);
+            _letter = message.Letter;
+            InitGames(message.Platform, message.Letter);
             _eventAggregator.PublishOnUIThread(new GameListLoadedEvent(_games.Count()));
         }
 
