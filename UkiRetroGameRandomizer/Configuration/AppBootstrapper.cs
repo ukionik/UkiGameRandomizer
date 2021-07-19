@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Windows;
 using Caliburn.Micro;
 using Ninject;
+using UkiRetroGameRandomizer.Models.Data;
 using UkiRetroGameRandomizer.ViewModels;
 
 namespace UkiRetroGameRandomizer.Configuration
@@ -45,6 +46,7 @@ namespace UkiRetroGameRandomizer.Configuration
                 {"Title", "UkiRetroGameRandomizer 0.2"}
             };
 
+            Platforms.InitPlatforms();
             DisplayRootViewFor<IAppViewModel>(windowSettings);
         }
     }

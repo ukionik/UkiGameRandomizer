@@ -1,4 +1,6 @@
-﻿namespace UkiRetroGameRandomizer.Models.Data
+﻿using System;
+
+namespace UkiRetroGameRandomizer.Models.Data
 {
     public class Platform
     {
@@ -6,11 +8,14 @@
         public string Caption { get; }
         public string FileName { get; }
 
-        public Platform(string name, string caption, string fileName)
+        public Platform(string metadata)
         {
-            Name = name;
-            Caption = caption;
-            FileName = fileName;
+            var arr = metadata.Split(';');
+            Console.WriteLine(arr);
+
+            Name = arr[0];
+            Caption = arr[1];
+            FileName = arr[2];
         }
 
         public override string ToString()
