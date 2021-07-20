@@ -1,344 +1,416 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B000CFFB-0B82-4180-8BF9-9B04B4C2C4E0}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>UkiRetroGameRandomizer</RootNamespace>
-    <AssemblyName>UkiRetroGameRandomizer</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <WarningLevel>4</WarningLevel>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
-    </Reference>
-    <Reference Include="Caliburn.Micro.Platform, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Caliburn.Micro.Platform.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <HintPath>..\packages\Castle.Core.4.2.0\lib\net45\Castle.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="NAudio, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\NAudio.1.9.0\lib\net35\NAudio.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Extensions.Factory, Version=3.3.2.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ninject.Extensions.Factory.3.3.2\lib\net45\Ninject.Extensions.Factory.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xaml">
-      <RequiredTargetFramework>4.0</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="UkiHelper">
-      <HintPath>..\Libs\UkiHelper.dll</HintPath>
-    </Reference>
-    <Reference Include="WindowsBase" />
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-  </ItemGroup>
-  <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Compile Include="Configuration\AppBootstrapper.cs" />
-    <Compile Include="Configuration\AppData.cs" />
-    <Compile Include="Configuration\DIConfiguration.cs" />
-    <Compile Include="Configuration\DIFactory.cs" />
-    <Compile Include="Core\Extensions.cs" />
-    <Compile Include="Core\FactoryAttribute.cs" />
-    <Compile Include="Core\IgnoreAutoBindingAttribute.cs" />
-    <Compile Include="Models\Data\Platform.cs" />
-    <Compile Include="Models\Data\Platforms.cs" />
-    <Compile Include="Models\Enums\GameFontSize.cs" />
-    <Compile Include="Models\Enums\RollStatus.cs" />
-    <Compile Include="Models\Events\GameListLoadedEvent.cs" />
-    <Compile Include="Models\Events\RollSettingsChangedEvent.cs" />
-    <Compile Include="Models\Events\RollStatusChangedEvent.cs" />
-    <Compile Include="Models\Factories\IGameViewModelFactory.cs" />
-    <Compile Include="Models\Factories\IPlatformViewModelFactory.cs" />
-    <Compile Include="Models\Services\Mp3Player.cs" />
-    <Compile Include="ViewModels\AppViewModel.cs" />
-    <Compile Include="ViewModels\GameListViewModel.cs" />
-    <Compile Include="ViewModels\GameViewModel.cs" />
-    <Compile Include="ViewModels\HeaderViewModel.cs" />
-    <Compile Include="ViewModels\IAppViewModel.cs" />
-    <Compile Include="ViewModels\IGameListViewModel.cs" />
-    <Compile Include="ViewModels\IGameViewModel.cs" />
-    <Compile Include="ViewModels\IHeaderViewModel.cs" />
-    <Compile Include="ViewModels\IPlatformViewModel.cs" />
-    <Compile Include="ViewModels\IPopupViewModel.cs" />
-    <Compile Include="ViewModels\ISiderbarViewModel.cs" />
-    <Compile Include="ViewModels\PlatformViewModel.cs" />
-    <Compile Include="ViewModels\PopupViewModel.cs" />
-    <Compile Include="ViewModels\SidebarViewModel.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="Resources\Sounds\Povar\Fanfare\1.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Povar\Fanfare\2.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Povar\Fanfare\3.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-	<None Include="Resources\Sounds\Povar\Fanfare\4.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-	<None Include="Resources\Sounds\Povar\Fanfare\5.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-	<None Include="Resources\Sounds\Povar\Fanfare\6.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-	<None Include="Resources\Sounds\Povar\Fanfare\7.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-	<None Include="Resources\Sounds\Povar\Fanfare\8.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-	<None Include="Resources\Sounds\Povar\Fanfare\9.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Povar\Roll\4to_gde_kogda.mp3">
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	</None>
-    <None Include="Resources\Sounds\Retro\Fanfare\Gremlins 2  The New Batch NES Music  Game Over.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GameRandomizerEngine\GameRandomizerEngine.csproj">
-      <Project>{39c77423-155d-4c40-a5c5-1c4f597e7c69}</Project>
-      <Name>GameRandomizerEngine</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="Views\AppView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\GameListView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\GameView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\HeaderView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\PlatformView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\PopupView.xaml" />
-    <Page Include="Views\SidebarView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\List\amg.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\c64.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\dos.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\gba.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\gb_gbc.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\msx_msx2.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\n64.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\nes.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\ps1.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\smd.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\sms_gg.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\snes.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\zx.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\tg16_tcd.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\wheel.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="VersionHistory.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\List\metadata.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Sounds\Povar" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sounds\Retro\Fanfare\Contra NES Music  Title Theme.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Fanfare\Duck Tales NES Music  Item Found.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Fanfare\Ghosts n Goblins NES Music  Game Over.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Fanfare\Ghosts n Goblins NES Music  Game Start.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Fanfare\Ninja Gaiden NES Music  Act Intro.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Area B  Puyo Puyo 2 Genesis Music Extended.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Battletoads NES Music  Rat Race.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Chip n Dale Rescue Rangers NES Music  Zone J.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Contra NES Music  Waterfall Theme.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Duck Tales NES Music  Amazon Stage.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Ghosts n Goblins NES Music  Stage Theme 01.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Gremlins 2  The New Batch NES Music  Stage 01.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Mega Man NES Music  Elec Man Stage.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Ninja Cat AKA Kyattou Ninden Teyande NES Music 3.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Ninja Gaiden NES Music  Boss Battle.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Nintendo  Castlevania 1  Stage 1  Vampire Killer.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Power Blade NES Music  Sector Disarmed.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Rockin Kats NES Music 3.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Retro\Roll\Super C NES Music  Area 08 Red Falcons Poison Palace.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\List\fds.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\List\Wheel\Минус игра.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\List\Wheel\Плюс игра.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{B000CFFB-0B82-4180-8BF9-9B04B4C2C4E0}</ProjectGuid>
+        <OutputType>WinExe</OutputType>
+        <RootNamespace>UkiRetroGameRandomizer</RootNamespace>
+        <AssemblyName>UkiRetroGameRandomizer</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <WarningLevel>4</WarningLevel>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <Deterministic>true</Deterministic>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+            <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
+        </Reference>
+        <Reference Include="Caliburn.Micro.Platform, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+            <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+        </Reference>
+        <Reference Include="Caliburn.Micro.Platform.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+            <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+            <HintPath>..\packages\Castle.Core.4.2.0\lib\net45\Castle.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="NAudio, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\packages\NAudio.1.9.0\lib\net35\NAudio.dll</HintPath>
+            <Private>True</Private>
+        </Reference>
+        <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+            <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+        </Reference>
+        <Reference Include="Ninject.Extensions.Factory, Version=3.3.2.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+            <HintPath>..\packages\Ninject.Extensions.Factory.3.3.2\lib\net45\Ninject.Extensions.Factory.dll</HintPath>
+        </Reference>
+        <Reference Include="System"/>
+        <Reference Include="System.Configuration"/>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Windows.Forms"/>
+        <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+            <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Xml"/>
+        <Reference Include="Microsoft.CSharp"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Xml.Linq"/>
+        <Reference Include="System.Data.DataSetExtensions"/>
+        <Reference Include="System.Net.Http"/>
+        <Reference Include="System.Xaml">
+            <RequiredTargetFramework>4.0</RequiredTargetFramework>
+        </Reference>
+        <Reference Include="UkiHelper">
+            <HintPath>..\Libs\UkiHelper.dll</HintPath>
+        </Reference>
+        <Reference Include="WindowsBase"/>
+        <Reference Include="PresentationCore"/>
+        <Reference Include="PresentationFramework"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ApplicationDefinition Include="App.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </ApplicationDefinition>
+        <Compile Include="Configuration\AppBootstrapper.cs"/>
+        <Compile Include="Configuration\AppData.cs"/>
+        <Compile Include="Configuration\DIConfiguration.cs"/>
+        <Compile Include="Configuration\DIFactory.cs"/>
+        <Compile Include="Core\Extensions.cs"/>
+        <Compile Include="Core\FactoryAttribute.cs"/>
+        <Compile Include="Core\IgnoreAutoBindingAttribute.cs"/>
+        <Compile Include="Models\Data\Platform.cs"/>
+        <Compile Include="Models\Data\Platforms.cs"/>
+        <Compile Include="Models\Enums\GameFontSize.cs"/>
+        <Compile Include="Models\Enums\RollStatus.cs"/>
+        <Compile Include="Models\Events\GameListLoadedEvent.cs"/>
+        <Compile Include="Models\Events\RollSettingsChangedEvent.cs"/>
+        <Compile Include="Models\Events\RollStatusChangedEvent.cs"/>
+        <Compile Include="Models\Factories\IGameViewModelFactory.cs"/>
+        <Compile Include="Models\Factories\IPlatformViewModelFactory.cs"/>
+        <Compile Include="Models\Services\Mp3Player.cs"/>
+        <Compile Include="ViewModels\AppViewModel.cs"/>
+        <Compile Include="ViewModels\GameListViewModel.cs"/>
+        <Compile Include="ViewModels\GameViewModel.cs"/>
+        <Compile Include="ViewModels\HeaderViewModel.cs"/>
+        <Compile Include="ViewModels\IAppViewModel.cs"/>
+        <Compile Include="ViewModels\IGameListViewModel.cs"/>
+        <Compile Include="ViewModels\IGameViewModel.cs"/>
+        <Compile Include="ViewModels\IHeaderViewModel.cs"/>
+        <Compile Include="ViewModels\IPlatformViewModel.cs"/>
+        <Compile Include="ViewModels\IPopupViewModel.cs"/>
+        <Compile Include="ViewModels\ISiderbarViewModel.cs"/>
+        <Compile Include="ViewModels\PlatformViewModel.cs"/>
+        <Compile Include="ViewModels\PopupViewModel.cs"/>
+        <Compile Include="ViewModels\SidebarViewModel.cs"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Properties\AssemblyInfo.cs">
+            <SubType>Code</SubType>
+        </Compile>
+        <Compile Include="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DesignTime>True</DesignTime>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <Compile Include="Properties\Settings.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Settings.settings</DependentUpon>
+            <DesignTimeSharedInput>True</DesignTimeSharedInput>
+        </Compile>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <None Include="packages.config"/>
+        <None Include="Properties\Settings.settings">
+            <Generator>SettingsSingleFileGenerator</Generator>
+            <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\1.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\2.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\3.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\4.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\5.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\6.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\7.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\8.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Fanfare\9.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Povar\Roll\4to_gde_kogda.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="App.config"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\GameRandomizerEngine\GameRandomizerEngine.csproj">
+            <Project>{39c77423-155d-4c40-a5c5-1c4f597e7c69}</Project>
+            <Name>GameRandomizerEngine</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <Page Include="Views\AppView.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+        <Page Include="Views\GameListView.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+        <Page Include="Views\GameView.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+        <Page Include="Views\HeaderView.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+        <Page Include="Views\PlatformView.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+        <Page Include="Views\PopupView.xaml"/>
+        <Page Include="Views\SidebarView.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\List\amg.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\c64.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\dos.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\gba.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\gb_gbc.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\msx_msx2.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\n64.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\nes.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\ps1.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\smd.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\sms_gg.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\snes.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\zx.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\tg16_tcd.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\wheel.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="VersionHistory.txt"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\List\metadata.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Resources\Sounds\Povar"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\List\fds.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\List\Wheel\Минус игра.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Wheel\Плюс игра.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\Sounds\Retro\Fanfare\Aladdin SNES OST   The Diamond in the Rough.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Contra NES Music  Title Theme.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Duck Tales NES Music  Item Found.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Ghosts n Goblins NES Music  Game Over.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Ghosts n Goblins NES Music  Game Start.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Gremlins 2  The New Batch NES Music  Game Over.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Legend of Zelda The NES Music  Dungeon Clear.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Legend of Zelda The NES Music  Receive Item.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Monster in My Pocket NES Music  Game Over.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Monster in My Pocket NES Music  Stage Clear.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Ninja Gaiden NES Music  Act Intro.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Tiny Toon Adventures NES Music  Boss Defeated.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Aladdin SNES OST  Group Hug.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Anything But Tangerines Sega Genesis Ver.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Area B  Puyo Puyo 2 Genesis Music Extended.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Battletoads NES Music  Rat Race.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Big Boss Confrontation 1  Super Metroid.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Castlevania Bloodlines  Message From the Devil  OST.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Chip n Dale Rescue Rangers NES Music  Zone J.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Contra Hard Corps  Probotector  Locked  Loaded GENESISMEGA DRIVE OST.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Contra Hard Corps  Probotector  The Hard Corps GENESISMEGA DRIVE OST.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Contra NES Music  Waterfall Theme.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Dr Mario Music NES  Fever.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Duck Tales NES Music  Amazon Stage.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Ghosts n Goblins NES Music  Stage Theme 01.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Gremlins 2  The New Batch NES Music  Stage 01.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Kirbys Adventure NES Music  Vegetable Valley 1.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Lion King SNES Music  Hakuna Matata.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Mega Man NES Music  Elec Man Stage.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Mega Man X OST  T02 Title.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Monster in My Pocket NES Music  Boss Battle.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Ninja Cat AKA Kyattou Ninden Teyande NES Music 3.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Ninja Gaiden NES Music  Boss Battle.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Nintendo  Castlevania 1  Stage 1  Vampire Killer.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Power Blade NES Music  Sector Disarmed.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Power Rangers SNES  Main Theme.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Puppy Love Sega Genesis Ver.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Rockin Kats NES Music 3.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\RockNRoll Racing SNES  Paranoid.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Sunset Riders  stage 7 and 8.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Super C NES Music  Area 08 Red Falcons Poison Palace.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Tiny Toon Adventures NES Music  Elmyra Battle.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Tiny Toon Adventures NES Music  Staff Roll.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Tom  Jerry The Ultimate Game of Cat and Mouse NES Music Song Soundtrack  Title Theme HQ.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>
