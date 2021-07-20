@@ -12,4 +12,5 @@ MSX;MSX+MSX2;msx_msx2.txt
 C64;Commodore 64;c64.txt
 Amiga;Amiga;amg.txt
 DOS;DOS;dos.txt
+FDS;FDS;fds.txt
 Wheel;Колесо;wheel.txt
