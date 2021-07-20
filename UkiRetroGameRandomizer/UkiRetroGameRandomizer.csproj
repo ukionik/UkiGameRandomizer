@@ -141,7 +141,37 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\Sounds\Roll\4to_gde_kogda.mp3">
+    <None Include="Resources\Sounds\Povar\Fanfare\1.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Povar\Fanfare\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Povar\Fanfare\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Include="Resources\Sounds\Povar\Fanfare\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Include="Resources\Sounds\Povar\Fanfare\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Include="Resources\Sounds\Povar\Fanfare\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Include="Resources\Sounds\Povar\Fanfare\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Include="Resources\Sounds\Povar\Fanfare\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Include="Resources\Sounds\Povar\Fanfare\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Povar\Roll\4to_gde_kogda.mp3">
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+    <None Include="Resources\Sounds\Retro\Fanfare\Gremlins 2  The New Batch NES Music  Game Over.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -231,37 +261,70 @@
     <Resource Include="VersionHistory.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sounds\Fanfare\1.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\2.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\3.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\4.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\5.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\6.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\7.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\8.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\Sounds\Fanfare\9.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <None Include="Resources\List\metadata.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\List\metadata.txt">
+    <Folder Include="Resources\Sounds\Povar" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sounds\Retro\Fanfare\Contra NES Music  Title Theme.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Fanfare\Duck Tales NES Music  Item Found.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Fanfare\Ghosts n Goblins NES Music  Game Over.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Fanfare\Ghosts n Goblins NES Music  Game Start.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Fanfare\Ninja Gaiden NES Music  Act Intro.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Area B  Puyo Puyo 2 Genesis Music Extended.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Battletoads NES Music  Rat Race.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Chip n Dale Rescue Rangers NES Music  Zone J.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Contra NES Music  Waterfall Theme.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Duck Tales NES Music  Amazon Stage.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Ghosts n Goblins NES Music  Stage Theme 01.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Gremlins 2  The New Batch NES Music  Stage 01.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Mega Man NES Music  Elec Man Stage.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Ninja Cat AKA Kyattou Ninden Teyande NES Music 3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Ninja Gaiden NES Music  Boss Battle.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Nintendo  Castlevania 1  Stage 1  Vampire Killer.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Power Blade NES Music  Sector Disarmed.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Rockin Kats NES Music 3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Sounds\Retro\Roll\Super C NES Music  Area 08 Red Falcons Poison Palace.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -19,7 +19,7 @@ namespace UkiRetroGameRandomizer.ViewModels
     public class GameListViewModel : Screen
         , IGameListViewModel
         , IHandle<RollStatusChangedEvent>
-    , IHandle<RollSettingsChangedEvent>
+        , IHandle<RollSettingsChangedEvent>
     {
         private const int Interval = 10;
         private int _dueTime;
@@ -102,7 +102,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         }
 
         public GameListViewModel(IEventAggregator eventAggregator
-        , IGameViewModelFactory gameViewModelFactory)
+            , IGameViewModelFactory gameViewModelFactory)
         {
             _eventAggregator = eventAggregator;
             _eventAggregator.Subscribe(this);
@@ -123,9 +123,10 @@ namespace UkiRetroGameRandomizer.ViewModels
 
         private void Start()
         {
-            var fileName = Path.Combine("Roll", "4to_gde_kogda.mp3");
+            var fileName = GetRandomFile(Path.Combine(AppData.SoundPath, "Roll"));
+
             var length = _mp3Player.TotalTime(fileName);
-            _dueTime = (int)length.TotalMilliseconds;
+            _dueTime = (int) length.TotalMilliseconds;
 
             if (_dueTime > 120_000)
             {
@@ -135,10 +136,10 @@ namespace UkiRetroGameRandomizer.ViewModels
             {
                 _dueTime = 10_000;
             }
-            
+
             var delta = _random.Next(1000, 3000);
             _dueTime += delta;
-            
+
             InitGames(_platform, _letter);
             _timer.Stop();
             _timer.Start();
@@ -178,7 +179,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         {
             if (Started && _stopwatch.ElapsedMilliseconds < _dueTime)
             {
-                UpdateGameList((int)_stopwatch.ElapsedMilliseconds);
+                UpdateGameList((int) _stopwatch.ElapsedMilliseconds);
             }
             else
             {
@@ -209,10 +210,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             Started = false;
             CurrentGame.FontWeight = FontWeights.Bold;
 
-            var fileName = $"{_random.Next(1, 10)}.mp3";
-            _mp3Player.Play(Path.Combine("Fanfare", fileName));
-            
-            
+            _mp3Player.Play(GetRandomFile(Path.Combine(AppData.SoundPath, "Fanfare")));
             _eventAggregator.PublishOnUIThread(new RollStatusChangedEvent(RollStatus.Stopped));
         }
 
@@ -224,6 +222,14 @@ namespace UkiRetroGameRandomizer.ViewModels
                 Process.Start($"http://gamefaqs.com/search?game={query}");
                 Process.Start($"http://youtube.com/results?search_query={query}+longplay");
             }
+        }
+
+        private string GetRandomFile(string path)
+        {
+            var files = Directory.GetFiles(path);
+
+            var index = _random.Next(0, files.Length);
+            return files[index];
         }
     }
 }

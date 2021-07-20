@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Configuration;
+using System.IO;
 using System.Reflection;
 using UkiHelper;
 
@@ -18,7 +19,8 @@ namespace UkiRetroGameRandomizer.Configuration
             AppPath = Assembly.GetExecutablePath();
             ResourcePath = Path.Combine(AppPath, "Resources");
             GameListPath = Path.Combine(ResourcePath, "List");
-            SoundPath = Path.Combine(ResourcePath, "Sounds");
+            var soundSystem = ConfigurationManager.AppSettings["SoundSystem"];
+            SoundPath = Path.Combine(ResourcePath, "Sounds", soundSystem);
         }
     }
 }
