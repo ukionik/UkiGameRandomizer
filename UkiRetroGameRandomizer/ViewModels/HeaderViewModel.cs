@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
 using Caliburn.Micro;
@@ -15,7 +16,9 @@ namespace UkiRetroGameRandomizer.ViewModels
         , IHandle<RollStatusChangedEvent>
         , IHandle<GameListLoadedEvent>
     {
+        private readonly IPopupViewModel _popupViewModel;
         private readonly IEventAggregator _eventAggregator;
+        private readonly IWindowManager _windowManager;
         private bool _startEnabled;
         private bool _platformsEnabled = true;
         private Visibility _infoVisibility = Visibility.Collapsed;
@@ -78,9 +81,13 @@ namespace UkiRetroGameRandomizer.ViewModels
         }
 
         public HeaderViewModel(IPlatformViewModelFactory platformViewModelFactory
-            , IEventAggregator eventAggregator)
+            , IPopupViewModel popupViewModel
+            , IEventAggregator eventAggregator
+            , IWindowManager windowManager)
         {
+            _popupViewModel = popupViewModel;
             _eventAggregator = eventAggregator;
+            _windowManager = windowManager;
             _eventAggregator.Subscribe(this);
             Platforms.AddRange(Models.Data.Platforms.All
                 .Select(platformViewModelFactory.Create));

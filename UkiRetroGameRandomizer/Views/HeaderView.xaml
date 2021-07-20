@@ -31,7 +31,7 @@
                 <TextBox Name="Letter" Width="30" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" MaxLength="1"
                          VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"
                          cal:Message.Attach="[Event TextChanged] = [Action RollSettingsChanged()]"
-                         IsEnabled="{Binding Path=StartEnabled}"></TextBox>
+                         IsEnabled="{Binding Path=Started}"></TextBox>
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Visibility="{Binding Path=InfoVisibility}" Height="50">
                 <Label HorizontalAlignment="Right" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="18">Всего в списке:</Label>

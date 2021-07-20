@@ -30,6 +30,8 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly Stopwatch _stopwatch = new Stopwatch();
         private readonly DispatcherTimer _timer;
         private readonly IEventAggregator _eventAggregator;
+        private readonly IPopupViewModel _popupViewModel;
+        private readonly IWindowManager _windowManager;
         private readonly Mp3Player _mp3Player;
 
         private IGameViewModel _previousGame2;
@@ -102,9 +104,13 @@ namespace UkiRetroGameRandomizer.ViewModels
         }
 
         public GameListViewModel(IEventAggregator eventAggregator
-            , IGameViewModelFactory gameViewModelFactory)
+            , IGameViewModelFactory gameViewModelFactory
+            , IPopupViewModel popupViewModel
+            , IWindowManager windowManager)
         {
             _eventAggregator = eventAggregator;
+            _popupViewModel = popupViewModel;
+            _windowManager = windowManager;
             _eventAggregator.Subscribe(this);
             PreviousGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
             PreviousGame1 = gameViewModelFactory.Create(GameFontSize.Medium, false);
@@ -218,9 +224,38 @@ namespace UkiRetroGameRandomizer.ViewModels
         {
             if (!Started)
             {
-                var query = CurrentGame.Name.Trim().Replace(" ", "+");
-                Process.Start($"http://gamefaqs.com/search?game={query}");
-                Process.Start($"http://youtube.com/results?search_query={query}+longplay");
+                if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase))
+                {
+                    _popupViewModel.Text = FindWheelDescription();
+
+                    var windowSettings = new Dictionary<string, object>
+                    {
+                        {"Width", 640},
+                        {"Height", 480},
+                        {"Title", CurrentGame.Name}
+                    };
+
+                    _windowManager.ShowWindow(_popupViewModel, settings: windowSettings);
+                }
+                else
+                {
+                    var query = CurrentGame.Name.Trim().Replace(" ", "+");
+                    Process.Start($"http://gamefaqs.com/search?game={query}");
+                    Process.Start($"http://youtube.com/results?search_query={query}+longplay");
+                }
+            }
+        }
+
+        private string FindWheelDescription()
+        {
+            var filePath = Path.Combine(AppData.GameListPath, "Wheel", $"{CurrentGame.Name}.txt");
+            if (File.Exists(filePath))
+            {
+                return string.Join(Environment.NewLine, File.ReadAllLines(filePath));
+            }
+            else
+            {
+                return "";
             }
         }
 

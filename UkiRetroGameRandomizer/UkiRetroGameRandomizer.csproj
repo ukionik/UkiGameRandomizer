@@ -111,12 +111,11 @@
     <Compile Include="ViewModels\IGameViewModel.cs" />
     <Compile Include="ViewModels\IHeaderViewModel.cs" />
     <Compile Include="ViewModels\IPlatformViewModel.cs" />
+    <Compile Include="ViewModels\IPopupViewModel.cs" />
     <Compile Include="ViewModels\ISiderbarViewModel.cs" />
     <Compile Include="ViewModels\PlatformViewModel.cs" />
+    <Compile Include="ViewModels\PopupViewModel.cs" />
     <Compile Include="ViewModels\SidebarViewModel.cs" />
-    <Compile Include="Views\PlatformView.xaml.cs">
-      <DependentUpon>PlatformView.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -205,6 +204,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\PopupView.xaml" />
     <Page Include="Views\SidebarView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -329,6 +329,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\List\fds.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List\Wheel\Минус игра.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\List\Wheel\Плюс игра.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
