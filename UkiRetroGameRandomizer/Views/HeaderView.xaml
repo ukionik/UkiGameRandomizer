@@ -23,7 +23,7 @@
                           IsEnabled="{Binding Path=PlatformEnabled}"
                           cal:Message.Attach="[Event SelectionChanged] = [Action RollSettingsChanged()]">
                 </ComboBox>
-                <Button Name="Start" Width="100" Height="32" 
+                <Button Name="Start" Width="80" Height="32" 
                         HorizontalAlignment="Left" VerticalAlignment="Center"
                         IsEnabled="{Binding Path=StartEnabled}"
                 >Пуск</Button>
