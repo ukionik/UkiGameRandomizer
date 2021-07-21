@@ -224,9 +224,18 @@ namespace UkiRetroGameRandomizer.ViewModels
         {
             if (!Started)
             {
-                if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase))
+                if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
+                    || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
                 {
-                    _popupViewModel.Text = FindWheelDescription();
+                    if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase))
+                    {
+                        _popupViewModel.Text = FindWheelDescription();
+                    }
+                    
+                    if (_platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
+                    {
+                        _popupViewModel.Text = FindItemsDescription();
+                    }
 
                     var windowSettings = new Dictionary<string, object>
                     {
@@ -245,20 +254,17 @@ namespace UkiRetroGameRandomizer.ViewModels
                 }
             }
         }
-
         private string FindWheelDescription()
         {
             var filePath = Path.Combine(AppData.GameListPath, "Wheel", $"{CurrentGame.Name}.txt");
-            if (File.Exists(filePath))
-            {
-                return string.Join(Environment.NewLine, File.ReadAllLines(filePath));
-            }
-            else
-            {
-                return "";
-            }
+            return File.Exists(filePath) ? string.Join(Environment.NewLine, File.ReadAllLines(filePath)) : "";
         }
-
+        
+        private string FindItemsDescription()
+        {
+            var filePath = Path.Combine(AppData.GameListPath, "Items", $"{CurrentGame.Name}.txt");
+            return File.Exists(filePath) ? string.Join(Environment.NewLine, File.ReadAllLines(filePath)) : "";
+        }
         private string GetRandomFile(string path)
         {
             var files = Directory.GetFiles(path);
