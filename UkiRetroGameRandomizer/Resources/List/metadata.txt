@@ -19,6 +19,8 @@ Cat;Игры про котеек;cat.txt
 Items;Предметы;items.txt
 Massiveredlight;Список Массива;massiveredlight.txt
 SnesChallenge;SNES Challenge;sneschallenge.txt
+MegaMan;Mega Man;megaman.txt
+Platforms;Платформы;platforms.txt
 Roulette;Русская рулетка;roulette.txt
-HeadTails;ОрелРешка;headtails.txt
+HeadTails;Орел или Решка;headtails.txt
 Players;Участники дропмании;players.txt
