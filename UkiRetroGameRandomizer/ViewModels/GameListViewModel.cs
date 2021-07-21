@@ -217,6 +217,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             CurrentGame.FontWeight = FontWeights.Bold;
 
             _mp3Player.Play(GetRandomFile(Path.Combine(AppData.SoundPath, "Fanfare")));
+            HistoryLogger.Log(_platform.Name, _platform.Caption, CurrentGame.Name);
             _eventAggregator.PublishOnUIThread(new RollStatusChangedEvent(RollStatus.Stopped));
         }
 

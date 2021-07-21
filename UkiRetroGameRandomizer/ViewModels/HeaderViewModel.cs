@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
 using Caliburn.Micro;
 using UkiHelper;
+using UkiRetroGameRandomizer.Configuration;
 using UkiRetroGameRandomizer.Models.Data;
 using UkiRetroGameRandomizer.Models.Enums;
 using UkiRetroGameRandomizer.Models.Events;
@@ -39,7 +42,7 @@ namespace UkiRetroGameRandomizer.ViewModels
                 NotifyOfPropertyChange(() => Letter);
             }
         }
-        
+
         public bool StartEnabled
         {
             get => _startEnabled;
@@ -110,7 +113,80 @@ namespace UkiRetroGameRandomizer.ViewModels
                 StartEnabled = false;
             }
         }
-        
+
+        public void Fabino()
+        {
+            var selectedPlatformName = SelectedPlatform?.Platform?.Name ?? "";
+
+            var windowSettings = new Dictionary<string, object>
+            {
+                {"Width", 640},
+                {"Height", 480},
+                {"Title", $"Привет от Фабино на {selectedPlatformName}"}
+            };
+
+            var dict = new Dictionary<string, string>
+            {
+                {"NES", "A Boy and His Blob: Trouble on Blobolonia"},
+                {"SMD", "Boxing Legends of the Ring"},
+                {"SNES", "Bill Laimbeer's Combat Basketball"},
+                {"GB", "Bionic Battler"},
+                {"GBA", "Barbie and the Magic of Pegasus"},
+                {"TG", "Chō Jikū Yōsai Macross: Eien no Love Song"},
+                {"SMSGG", "Fantasy Zone: The Maze"},
+                {"PS1", "ALIVE"},
+                {"N64", "Eiko no Saint Andrews"},
+                {"ZX", "Artura"},
+                {"MSX", "Aspar GP Master"},
+                {"C64", "Alter Ego: Male Version"},
+                {"Amiga", "Amiga CD Football"},
+                {"DOS", "Adventures of Maddog Williams in the Dungeons of Duridian, The"},
+                {"FDS", "Hikari Shinwa: Palthena no Kagami"}
+            };
+
+
+            if (selectedPlatformName.IsNullOrEmpty())
+            {
+                _popupViewModel.Text = "Нужно выбрать платформу";
+            }
+            else
+            {
+                _popupViewModel.Text = dict.ContainsKey(selectedPlatformName)
+                    ? dict[selectedPlatformName]
+                    : "Игра не найдена";
+            }
+
+            _windowManager.ShowWindow(_popupViewModel, settings: windowSettings);
+        }
+
+        public void History()
+        {
+            var filePath = Path.Combine(AppData.LogPath, "history.log");
+
+            if (File.Exists(filePath))
+            {
+                var res = File.ReadLines(filePath)
+                    .Select(x => new HistoryLogItem(x))
+                    .OrderByDescending(x => x.Date)
+                    .ToList();
+                
+                _popupViewModel.Text = string.Join(Environment.NewLine, res);
+            }
+            else
+            {
+                _popupViewModel.Text = "";
+            }
+
+            var windowSettings = new Dictionary<string, object>
+            {
+                {"Width", 640},
+                {"Height", 480},
+                {"Title", "История ролов"}
+            };
+            
+            _windowManager.ShowWindow(_popupViewModel, settings: windowSettings);
+        }
+
         public void Handle(RollStatusChangedEvent message)
         {
             var enabled = message.Status == RollStatus.Stopped;
@@ -123,7 +199,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             InfoVisibility = Visibility.Visible;
             ListCount = message.Count;
         }
-        
+
         private bool IsValidRollSettings(Platform platform, string str)
         {
             if (platform == null)
@@ -140,9 +216,9 @@ namespace UkiRetroGameRandomizer.ViewModels
             {
                 return false;
             }
-            
+
             var reg = new Regex((@"a-zA-Z+"));
-            return !reg.Match(str).Success;     
+            return !reg.Match(str).Success;
         }
     }
 }
