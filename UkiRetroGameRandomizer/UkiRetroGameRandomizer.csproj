@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -57,65 +57,65 @@
         <Reference Include="Ninject.Extensions.Factory, Version=3.3.2.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
             <HintPath>..\packages\Ninject.Extensions.Factory.3.3.2\lib\net45\Ninject.Extensions.Factory.dll</HintPath>
         </Reference>
-        <Reference Include="System"/>
-        <Reference Include="System.Configuration"/>
-        <Reference Include="System.Data"/>
-        <Reference Include="System.Windows.Forms"/>
+        <Reference Include="System" />
+        <Reference Include="System.Configuration" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Windows.Forms" />
         <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
             <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
         </Reference>
-        <Reference Include="System.Xml"/>
-        <Reference Include="Microsoft.CSharp"/>
-        <Reference Include="System.Core"/>
-        <Reference Include="System.Xml.Linq"/>
-        <Reference Include="System.Data.DataSetExtensions"/>
-        <Reference Include="System.Net.Http"/>
+        <Reference Include="System.Xml" />
+        <Reference Include="Microsoft.CSharp" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Xml.Linq" />
+        <Reference Include="System.Data.DataSetExtensions" />
+        <Reference Include="System.Net.Http" />
         <Reference Include="System.Xaml">
             <RequiredTargetFramework>4.0</RequiredTargetFramework>
         </Reference>
         <Reference Include="UkiHelper">
             <HintPath>..\Libs\UkiHelper.dll</HintPath>
         </Reference>
-        <Reference Include="WindowsBase"/>
-        <Reference Include="PresentationCore"/>
-        <Reference Include="PresentationFramework"/>
+        <Reference Include="WindowsBase" />
+        <Reference Include="PresentationCore" />
+        <Reference Include="PresentationFramework" />
     </ItemGroup>
     <ItemGroup>
         <ApplicationDefinition Include="App.xaml">
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
         </ApplicationDefinition>
-        <Compile Include="Configuration\AppBootstrapper.cs"/>
-        <Compile Include="Configuration\AppData.cs"/>
-        <Compile Include="Configuration\DIConfiguration.cs"/>
-        <Compile Include="Configuration\DIFactory.cs"/>
-        <Compile Include="Core\Extensions.cs"/>
-        <Compile Include="Core\FactoryAttribute.cs"/>
-        <Compile Include="Core\IgnoreAutoBindingAttribute.cs"/>
-        <Compile Include="Models\Data\Platform.cs"/>
-        <Compile Include="Models\Data\Platforms.cs"/>
-        <Compile Include="Models\Enums\GameFontSize.cs"/>
-        <Compile Include="Models\Enums\RollStatus.cs"/>
-        <Compile Include="Models\Events\GameListLoadedEvent.cs"/>
-        <Compile Include="Models\Events\RollSettingsChangedEvent.cs"/>
-        <Compile Include="Models\Events\RollStatusChangedEvent.cs"/>
-        <Compile Include="Models\Factories\IGameViewModelFactory.cs"/>
-        <Compile Include="Models\Factories\IPlatformViewModelFactory.cs"/>
-        <Compile Include="Models\Services\Mp3Player.cs"/>
-        <Compile Include="ViewModels\AppViewModel.cs"/>
-        <Compile Include="ViewModels\GameListViewModel.cs"/>
-        <Compile Include="ViewModels\GameViewModel.cs"/>
-        <Compile Include="ViewModels\HeaderViewModel.cs"/>
-        <Compile Include="ViewModels\IAppViewModel.cs"/>
-        <Compile Include="ViewModels\IGameListViewModel.cs"/>
-        <Compile Include="ViewModels\IGameViewModel.cs"/>
-        <Compile Include="ViewModels\IHeaderViewModel.cs"/>
-        <Compile Include="ViewModels\IPlatformViewModel.cs"/>
-        <Compile Include="ViewModels\IPopupViewModel.cs"/>
-        <Compile Include="ViewModels\ISiderbarViewModel.cs"/>
-        <Compile Include="ViewModels\PlatformViewModel.cs"/>
-        <Compile Include="ViewModels\PopupViewModel.cs"/>
-        <Compile Include="ViewModels\SidebarViewModel.cs"/>
+        <Compile Include="Configuration\AppBootstrapper.cs" />
+        <Compile Include="Configuration\AppData.cs" />
+        <Compile Include="Configuration\DIConfiguration.cs" />
+        <Compile Include="Configuration\DIFactory.cs" />
+        <Compile Include="Core\Extensions.cs" />
+        <Compile Include="Core\FactoryAttribute.cs" />
+        <Compile Include="Core\IgnoreAutoBindingAttribute.cs" />
+        <Compile Include="Models\Data\Platform.cs" />
+        <Compile Include="Models\Data\Platforms.cs" />
+        <Compile Include="Models\Enums\GameFontSize.cs" />
+        <Compile Include="Models\Enums\RollStatus.cs" />
+        <Compile Include="Models\Events\GameListLoadedEvent.cs" />
+        <Compile Include="Models\Events\RollSettingsChangedEvent.cs" />
+        <Compile Include="Models\Events\RollStatusChangedEvent.cs" />
+        <Compile Include="Models\Factories\IGameViewModelFactory.cs" />
+        <Compile Include="Models\Factories\IPlatformViewModelFactory.cs" />
+        <Compile Include="Models\Services\Mp3Player.cs" />
+        <Compile Include="ViewModels\AppViewModel.cs" />
+        <Compile Include="ViewModels\GameListViewModel.cs" />
+        <Compile Include="ViewModels\GameViewModel.cs" />
+        <Compile Include="ViewModels\HeaderViewModel.cs" />
+        <Compile Include="ViewModels\IAppViewModel.cs" />
+        <Compile Include="ViewModels\IGameListViewModel.cs" />
+        <Compile Include="ViewModels\IGameViewModel.cs" />
+        <Compile Include="ViewModels\IHeaderViewModel.cs" />
+        <Compile Include="ViewModels\IPlatformViewModel.cs" />
+        <Compile Include="ViewModels\IPopupViewModel.cs" />
+        <Compile Include="ViewModels\ISiderbarViewModel.cs" />
+        <Compile Include="ViewModels\PlatformViewModel.cs" />
+        <Compile Include="ViewModels\PopupViewModel.cs" />
+        <Compile Include="ViewModels\SidebarViewModel.cs" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs">
@@ -135,7 +135,7 @@
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>Resources.Designer.cs</LastGenOutput>
         </EmbeddedResource>
-        <None Include="packages.config"/>
+        <None Include="packages.config" />
         <None Include="Properties\Settings.settings">
             <Generator>SettingsSingleFileGenerator</Generator>
             <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -172,7 +172,7 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-        <None Include="App.config"/>
+        <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\GameRandomizerEngine\GameRandomizerEngine.csproj">
@@ -201,7 +201,7 @@
             <SubType>Designer</SubType>
             <Generator>MSBuild:Compile</Generator>
         </Page>
-        <Page Include="Views\PopupView.xaml"/>
+        <Page Include="Views\PopupView.xaml" />
         <Page Include="Views\SidebarView.xaml">
             <SubType>Designer</SubType>
             <Generator>MSBuild:Compile</Generator>
@@ -255,7 +255,7 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-        <Resource Include="VersionHistory.txt"/>
+        <Resource Include="VersionHistory.txt" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\List\metadata.txt">
@@ -263,7 +263,7 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-        <Folder Include="Resources\Sounds\Povar"/>
+        <Folder Include="Resources\Sounds\Povar" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\List\fds.txt">
@@ -412,5 +412,10 @@
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
-    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+    <ItemGroup>
+      <None Include="Resources\List\fun.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
