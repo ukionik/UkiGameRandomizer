@@ -15,3 +15,4 @@ DOS;DOS;dos.txt
 FDS;FDS;fds.txt
 Wheel;Колесо;wheel.txt
 Fun;Веселимся до упаду;fun.txt
+Cat;Игры про котеек;cat.txt
