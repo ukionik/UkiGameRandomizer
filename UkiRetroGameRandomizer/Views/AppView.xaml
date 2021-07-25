@@ -15,8 +15,8 @@
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
         <ContentControl Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Name="Header" />
-        <!--<ContentControl Grid.Row="1" Grid.Column="0" Name="Games" />-->
-        <ContentControl Grid.Row="1" Grid.Column="0" Name="ExtraEvent"></ContentControl>
+        <ContentControl Grid.Row="1" Grid.Column="0" Name="Games" />
+        <ContentControl Grid.Row="1" Grid.Column="0" Name="ExtraEvent" Visibility="{Binding Path=Visibility}" />
         <ContentControl Grid.Row="1" Grid.Column="1" Name="Sidebar" Visibility="Collapsed" />
     </Grid>
 </Window>

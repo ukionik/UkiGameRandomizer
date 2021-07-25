@@ -7,14 +7,18 @@ namespace UkiRetroGameRandomizer.ViewModels
         public IHeaderViewModel Header { get; }
         public ISiderbarViewModel Siderbar { get; }
         public IGameListViewModel Games { get; }
+        
+        public IExtraEventViewModel ExtraEvent { get; }
 
         public AppViewModel(IHeaderViewModel header
         , ISiderbarViewModel siderbar
-        , IGameListViewModel games)
+        , IGameListViewModel games
+        , IExtraEventViewModel extraEvent)
         {
             Header = header;
             Siderbar = siderbar;
             Games = games;
+            ExtraEvent = extraEvent;
         }
     }
 }
