@@ -4,6 +4,5 @@ namespace UkiRetroGameRandomizer.ViewModels
 {
     public interface IExtraEventViewModel
     {
-        Visibility Visibility { get; set; }
     }
 }

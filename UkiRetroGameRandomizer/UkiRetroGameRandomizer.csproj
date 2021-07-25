@@ -99,6 +99,7 @@
         <Compile Include="Models\Enums\GameFontSize.cs" />
         <Compile Include="Models\Enums\RollStatus.cs" />
         <Compile Include="Models\Events\GameListLoadedEvent.cs" />
+        <Compile Include="Models\Events\OasisTimerEvent.cs" />
         <Compile Include="Models\Events\RollSettingsChangedEvent.cs" />
         <Compile Include="Models\Events\RollStatusChangedEvent.cs" />
         <Compile Include="Models\Factories\IGameViewModelFactory.cs" />

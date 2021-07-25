@@ -23,11 +23,11 @@ namespace UkiRetroGameRandomizer.ViewModels
     {
         private const int Interval = 10;
         private int _dueTime;
-        private readonly Random _random = new Random(DateTime.Now.Millisecond);
+        private readonly Random _random = new(DateTime.Now.Millisecond);
 
         private GameRandomizer _randomizer;
         private bool _started;
-        private readonly Stopwatch _stopwatch = new Stopwatch();
+        private readonly Stopwatch _stopwatch = new();
         private readonly DispatcherTimer _timer;
         private readonly IEventAggregator _eventAggregator;
         private readonly IPopupViewModel _popupViewModel;
@@ -105,6 +105,7 @@ namespace UkiRetroGameRandomizer.ViewModels
 
         public GameListViewModel(IEventAggregator eventAggregator
             , IGameViewModelFactory gameViewModelFactory
+            , IExtraEventViewModel extraEventViewModel
             , IPopupViewModel popupViewModel
             , IWindowManager windowManager)
         {
@@ -129,10 +130,12 @@ namespace UkiRetroGameRandomizer.ViewModels
 
         private void Start()
         {
+            _eventAggregator.PublishOnUIThread(new OasisTimerEvent(OasisTimerEvent.CommandType.Hide));
             var fileName = GetRandomFile(Path.Combine(AppData.SoundPath, "Roll"));
 
             var length = _mp3Player.TotalTime(fileName);
-            _dueTime = (int) length.TotalMilliseconds;
+            _dueTime = 
+                (int) length.TotalMilliseconds;
 
             if (_dueTime > 120_000)
             {
@@ -142,8 +145,6 @@ namespace UkiRetroGameRandomizer.ViewModels
             {
                 _dueTime = 10_000;
             }
-
-            _dueTime = 1_000;
 
             var delta = _random.Next(1000, 3000);
             _dueTime += delta;
@@ -218,11 +219,14 @@ namespace UkiRetroGameRandomizer.ViewModels
             Started = false;
             CurrentGame.FontWeight = FontWeights.Bold;
 
-            CurrentGame.Name = "Живительный оазис";
-
             _mp3Player.Play(GetRandomFile(Path.Combine(AppData.SoundPath, "Fanfare")));
             HistoryLogger.Log(_platform.Name, _platform.Caption, CurrentGame.Name);
             _eventAggregator.PublishOnUIThread(new RollStatusChangedEvent(RollStatus.Stopped));
+
+            if (_platform.Name == "Wheel" && CurrentGame.Name == "Живительный оазис")
+            {
+                _eventAggregator.PublishOnUIThread(new OasisTimerEvent(OasisTimerEvent.CommandType.Start));
+            }
         }
 
         public void Navigate()
