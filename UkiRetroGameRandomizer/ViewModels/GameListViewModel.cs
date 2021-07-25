@@ -143,6 +143,8 @@ namespace UkiRetroGameRandomizer.ViewModels
                 _dueTime = 10_000;
             }
 
+            _dueTime = 1_000;
+
             var delta = _random.Next(1000, 3000);
             _dueTime += delta;
 
@@ -216,6 +218,8 @@ namespace UkiRetroGameRandomizer.ViewModels
             Started = false;
             CurrentGame.FontWeight = FontWeights.Bold;
 
+            CurrentGame.Name = "Назад в будущее (в прошлое)";
+
             _mp3Player.Play(GetRandomFile(Path.Combine(AppData.SoundPath, "Fanfare")));
             HistoryLogger.Log(_platform.Name, _platform.Caption, CurrentGame.Name);
             _eventAggregator.PublishOnUIThread(new RollStatusChangedEvent(RollStatus.Stopped));
@@ -258,6 +262,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private string FindWheelDescription()
         {
             var filePath = Path.Combine(AppData.GameListPath, "Wheel", $"{CurrentGame.Name}.txt");
+            bool exists = File.Exists(filePath); 
             return File.Exists(filePath) ? string.Join(Environment.NewLine, File.ReadAllLines(filePath)) : "";
         }
         

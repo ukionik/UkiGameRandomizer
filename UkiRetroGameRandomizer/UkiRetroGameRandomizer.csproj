@@ -143,6 +143,9 @@
             <Generator>SettingsSingleFileGenerator</Generator>
             <LastGenOutput>Settings.Designer.cs</LastGenOutput>
         </None>
+        <None Include="Resources\List\dropped.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
         <None Include="Resources\Sounds\Povar\Fanfare\1.mp3">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
@@ -578,7 +581,7 @@
         <None Include="Resources\List\Wheel\Момент истины.txt">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\Wheel\Назад в будущее (прошлое).txt">
+        <None Include="Resources\List\Wheel\Назад в будущее (в прошлое).txt">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\Wheel\Освежитель воздуха.txt">
