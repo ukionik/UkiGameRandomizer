@@ -106,10 +106,12 @@
         <Compile Include="Models\Services\HistoryLogger.cs" />
         <Compile Include="Models\Services\Mp3Player.cs" />
         <Compile Include="ViewModels\AppViewModel.cs" />
+        <Compile Include="ViewModels\ExtraEventViewModel.cs" />
         <Compile Include="ViewModels\GameListViewModel.cs" />
         <Compile Include="ViewModels\GameViewModel.cs" />
         <Compile Include="ViewModels\HeaderViewModel.cs" />
         <Compile Include="ViewModels\IAppViewModel.cs" />
+        <Compile Include="ViewModels\IExtraEventViewModel.cs" />
         <Compile Include="ViewModels\IGameListViewModel.cs" />
         <Compile Include="ViewModels\IGameViewModel.cs" />
         <Compile Include="ViewModels\IHeaderViewModel.cs" />
@@ -191,6 +193,7 @@
             <SubType>Designer</SubType>
             <Generator>MSBuild:Compile</Generator>
         </Page>
+        <Page Include="Views\ExtraEventView.xaml" />
         <Page Include="Views\GameListView.xaml">
             <SubType>Designer</SubType>
             <Generator>MSBuild:Compile</Generator>

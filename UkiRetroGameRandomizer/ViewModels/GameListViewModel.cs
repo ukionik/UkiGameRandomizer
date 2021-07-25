@@ -218,7 +218,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             Started = false;
             CurrentGame.FontWeight = FontWeights.Bold;
 
-            CurrentGame.Name = "Назад в будущее (в прошлое)";
+            CurrentGame.Name = "Живительный оазис";
 
             _mp3Player.Play(GetRandomFile(Path.Combine(AppData.SoundPath, "Fanfare")));
             HistoryLogger.Log(_platform.Name, _platform.Caption, CurrentGame.Name);
