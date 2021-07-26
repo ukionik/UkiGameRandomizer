@@ -147,8 +147,6 @@ namespace UkiRetroGameRandomizer.ViewModels
                 _dueTime = 10_000;
             }
 
-            _dueTime = 1000;
-
             var delta = _random.Next(1000, 3000);
             _dueTime += delta;
 
