@@ -106,6 +106,7 @@
         <Compile Include="Models\Enums\RollStatus.cs" />
         <Compile Include="Models\Events\GameListLoadedEvent.cs" />
         <Compile Include="Models\Events\OasisTimerEvent.cs" />
+        <Compile Include="Models\Events\PopupEvent.cs" />
         <Compile Include="Models\Events\RollSettingsChangedEvent.cs" />
         <Compile Include="Models\Events\RollStatusChangedEvent.cs" />
         <Compile Include="Models\Factories\IGameViewModelFactory.cs" />
@@ -133,7 +134,6 @@
         <Compile Include="ViewModels\ISiderbarViewModel.cs" />
         <Compile Include="ViewModels\PlatformViewModel.cs" />
         <Compile Include="ViewModels\PopupViewModel.cs" />
-        <Compile Include="ViewModels\SidebarViewModel.cs" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs">
@@ -221,10 +221,6 @@
             <Generator>MSBuild:Compile</Generator>
         </Page>
         <Page Include="Views\PopupView.xaml" />
-        <Page Include="Views\SidebarView.xaml">
-            <SubType>Designer</SubType>
-            <Generator>MSBuild:Compile</Generator>
-        </Page>
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\List\amg.txt">

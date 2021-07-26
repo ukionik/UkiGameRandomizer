@@ -19,9 +19,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         , IHandle<RollStatusChangedEvent>
         , IHandle<GameListLoadedEvent>
     {
-        private readonly IPopupViewModel _popupViewModel;
         private readonly IEventAggregator _eventAggregator;
-        private readonly IWindowManager _windowManager;
         private bool _startEnabled;
         private bool _platformsEnabled = true;
         private Visibility _infoVisibility = Visibility.Collapsed;
@@ -84,13 +82,9 @@ namespace UkiRetroGameRandomizer.ViewModels
         }
 
         public HeaderViewModel(IPlatformViewModelFactory platformViewModelFactory
-            , IPopupViewModel popupViewModel
-            , IEventAggregator eventAggregator
-            , IWindowManager windowManager)
+            , IEventAggregator eventAggregator)
         {
-            _popupViewModel = popupViewModel;
             _eventAggregator = eventAggregator;
-            _windowManager = windowManager;
             _eventAggregator.Subscribe(this);
             Platforms.AddRange(Models.Data.Platforms.All
                 .Select(platformViewModelFactory.Create));
@@ -117,14 +111,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         public void Fabino()
         {
             var selectedPlatformName = SelectedPlatform?.Platform?.Name ?? "";
-
-            var windowSettings = new Dictionary<string, object>
-            {
-                {"Width", 640},
-                {"Height", 480},
-                {"Title", $"Привет от Фабино на {selectedPlatformName}"}
-            };
-
+            
             var dict = new Dictionary<string, string>
             {
                 {"NES", "A Boy and His Blob: Trouble on Blobolonia"},
@@ -147,16 +134,15 @@ namespace UkiRetroGameRandomizer.ViewModels
 
             if (selectedPlatformName.IsNullOrEmpty())
             {
-                _popupViewModel.Text = "Нужно выбрать платформу";
+                _eventAggregator.PublishOnUIThread(new PopupEvent(true, "Нужно выбрать платформу"));
             }
             else
             {
-                _popupViewModel.Text = dict.ContainsKey(selectedPlatformName)
+                var text = dict.ContainsKey(selectedPlatformName)
                     ? dict[selectedPlatformName]
                     : "Игра не найдена";
+                _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
             }
-
-            _windowManager.ShowWindow(_popupViewModel, settings: windowSettings);
         }
 
         public void History()
@@ -170,21 +156,13 @@ namespace UkiRetroGameRandomizer.ViewModels
                     .OrderByDescending(x => x.Date)
                     .ToList();
                 
-                _popupViewModel.Text = string.Join(Environment.NewLine, res);
+                var text = string.Join(Environment.NewLine, res);
+                _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
             }
             else
             {
-                _popupViewModel.Text = "";
+                _eventAggregator.PublishOnUIThread(new PopupEvent(true, ""));
             }
-
-            var windowSettings = new Dictionary<string, object>
-            {
-                {"Width", 640},
-                {"Height", 480},
-                {"Title", "История ролов"}
-            };
-            
-            _windowManager.ShowWindow(_popupViewModel, settings: windowSettings);
         }
 
         public void Handle(RollStatusChangedEvent message)

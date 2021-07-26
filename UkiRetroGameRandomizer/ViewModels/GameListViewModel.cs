@@ -34,7 +34,6 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly IDroppedGameRepository _droppedGameRepository;
         private readonly IWheelItemRepository _wheelItemRepository;
         private readonly IPopupViewModel _popupViewModel;
-        private readonly IWindowManager _windowManager;
         private readonly Mp3Player _mp3Player;
 
         private IGameViewModel _previousGame2;
@@ -109,15 +108,11 @@ namespace UkiRetroGameRandomizer.ViewModels
         public GameListViewModel(IEventAggregator eventAggregator
             , IGameViewModelFactory gameViewModelFactory
             , IDroppedGameRepository droppedGameRepository
-            , IWheelItemRepository wheelItemRepository
-            , IPopupViewModel popupViewModel
-            , IWindowManager windowManager)
+            , IWheelItemRepository wheelItemRepository)
         {
             _eventAggregator = eventAggregator;
             _droppedGameRepository = droppedGameRepository;
             _wheelItemRepository = wheelItemRepository;
-            _popupViewModel = popupViewModel;
-            _windowManager = windowManager;
             _eventAggregator.Subscribe(this);
             PreviousGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
             PreviousGame1 = gameViewModelFactory.Create(GameFontSize.Medium, false);
@@ -151,6 +146,8 @@ namespace UkiRetroGameRandomizer.ViewModels
             {
                 _dueTime = 10_000;
             }
+
+            _dueTime = 1000;
 
             var delta = _random.Next(1000, 3000);
             _dueTime += delta;
@@ -262,16 +259,8 @@ namespace UkiRetroGameRandomizer.ViewModels
                 if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
                     || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
                 {
-                    _popupViewModel.Text = _wheelItemRepository.FindByName(_currentGame.Name).Description;
-
-                    var windowSettings = new Dictionary<string, object>
-                    {
-                        {"Width", 640},
-                        {"Height", 480},
-                        {"Title", CurrentGame.Name}
-                    };
-
-                    _windowManager.ShowWindow(_popupViewModel, settings: windowSettings);
+                    var text =_wheelItemRepository.FindByName(_currentGame.Name).Description;
+                    _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
                 }
                 else
                 {
