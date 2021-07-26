@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkiRetroGameRandomizer", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkiRetroGameRandomizer.Design", "UkiRetroGameRandomizer.Design\UkiRetroGameRandomizer.Design.csproj", "{A60FDEE4-C97D-49C9-9E94-BB2728E88147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkiGameRandomizer.Tests", "UkiGameRandomizer.Tests\UkiGameRandomizer.Tests.csproj", "{497F9EDD-D58B-4FAD-AA42-77D832FA8C98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A60FDEE4-C97D-49C9-9E94-BB2728E88147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60FDEE4-C97D-49C9-9E94-BB2728E88147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A60FDEE4-C97D-49C9-9E94-BB2728E88147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497F9EDD-D58B-4FAD-AA42-77D832FA8C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497F9EDD-D58B-4FAD-AA42-77D832FA8C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497F9EDD-D58B-4FAD-AA42-77D832FA8C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497F9EDD-D58B-4FAD-AA42-77D832FA8C98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

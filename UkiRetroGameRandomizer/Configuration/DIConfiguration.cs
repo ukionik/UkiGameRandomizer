@@ -5,6 +5,7 @@ using Ninject.Extensions.Factory;
 using Ninject.Modules;
 using UkiHelper;
 using UkiRetroGameRandomizer.Core;
+using UkiRetroGameRandomizer.Models.Repositories;
 
 namespace UkiRetroGameRandomizer.Configuration
 {
@@ -20,6 +21,7 @@ namespace UkiRetroGameRandomizer.Configuration
         public override void Load()
         {
             BindCore();
+            BindRepositories();
             BindViewModels();
             BindFactories();
         }
@@ -28,6 +30,12 @@ namespace UkiRetroGameRandomizer.Configuration
         {
             Bind<IWindowManager>().To<WindowManager>().InSingletonScope();
             Bind<IEventAggregator>().To<EventAggregator>().InSingletonScope();
+        }
+        
+        private void BindRepositories()
+        {
+            Bind<IDroppedGameRepository>().To<DroppedGameRepository>().InSingletonScope();
+            Bind<IWheelItemRepository>().To<WheelItemRepository>().InSingletonScope();
         }
 
         private void BindViewModels()

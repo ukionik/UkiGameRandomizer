@@ -52,6 +52,10 @@
             <HintPath>..\packages\NAudio.1.9.0\lib\net35\NAudio.dll</HintPath>
             <Private>True</Private>
         </Reference>
+        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+          <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
         <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
             <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
         </Reference>
@@ -93,9 +97,11 @@
         <Compile Include="Core\Extensions.cs" />
         <Compile Include="Core\FactoryAttribute.cs" />
         <Compile Include="Core\IgnoreAutoBindingAttribute.cs" />
+        <Compile Include="Models\Data\DroppedGame.cs" />
         <Compile Include="Models\Data\HistoryLogItem.cs" />
         <Compile Include="Models\Data\Platform.cs" />
         <Compile Include="Models\Data\Platforms.cs" />
+        <Compile Include="Models\Data\WheelItem.cs" />
         <Compile Include="Models\Enums\GameFontSize.cs" />
         <Compile Include="Models\Enums\RollStatus.cs" />
         <Compile Include="Models\Events\GameListLoadedEvent.cs" />
@@ -104,6 +110,12 @@
         <Compile Include="Models\Events\RollStatusChangedEvent.cs" />
         <Compile Include="Models\Factories\IGameViewModelFactory.cs" />
         <Compile Include="Models\Factories\IPlatformViewModelFactory.cs" />
+        <Compile Include="Models\Repositories\IDroppedGameRepository.cs" />
+        <Compile Include="Models\Repositories\IRepository.cs" />
+        <Compile Include="Models\Repositories\DroppedGameRepository.cs" />
+        <Compile Include="Models\Repositories\IWheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\WheelItemRepository.cs" />
+        <Compile Include="Models\Services\DropmaniaApi.cs" />
         <Compile Include="Models\Services\HistoryLogger.cs" />
         <Compile Include="Models\Services\Mp3Player.cs" />
         <Compile Include="ViewModels\AppViewModel.cs" />
@@ -145,9 +157,6 @@
         <None Include="Properties\Settings.settings">
             <Generator>SettingsSingleFileGenerator</Generator>
             <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-        </None>
-        <None Include="Resources\List\dropped.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\Sounds\Povar\Fanfare\1.mp3">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -260,9 +269,6 @@
         <None Include="Resources\List\tg16_tcd.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\wheel.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
     </ItemGroup>
     <ItemGroup>
         <Resource Include="VersionHistory.txt" />
@@ -277,14 +283,6 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\List\fds.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\Wheel\Минус игра.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Плюс игра.txt">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
@@ -433,11 +431,6 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-        <None Include="Resources\List\items.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
         <None Include="Resources\List\sneschallenge.txt">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
@@ -467,277 +460,6 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\List\platforms.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\Wheel\Holy Water.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Mega Man.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\PeepoClown.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\SNESChalenge.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Steam Game Gauntlet.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Автодропиль.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Алфавит.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Баф на ускорение.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Бесплатный кубик.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Бутылка мошны.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Бутылка рерола.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Веселимся до упаду.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Вредные привычки.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Все равно никогда не выпадет.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Вселенское чудо.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Всем везёт а мне нет.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Второй шанс.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Выборы.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Города.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Гремлины.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Дебаф на замедление.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Дефолт.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Донатер выбирает игру.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Доп бросок.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Дропинг.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Жертвоприношение.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Живительный оазис.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Кавардак.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Карма.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Картридж Mario Paint.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Конатяктики.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Котейка.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Кто не работает тот ест.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Лампа джина.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Любимая консоль.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Масс эффект.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Минута славы.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Момент истины.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Назад в будущее (в прошлое).txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Освежитель воздуха.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\ПаРолим.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Плюс игра из списка дропнутого.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Плюс игра соседу.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Подарок.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Подложить свинью.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Подстава.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Помощь братьев меньших.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Поражены Вашей неудачей.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Поражены Вашей удачей.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Привет от Фабино.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Пустая бутылка.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Работяга.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Равноценный обмен.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Разбить лагерь.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Рандомная плюс игра с рандомной платформы.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Рафл тайм.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Рерол колеса.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Русская рулетка.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Самая быстрая рука на диком западе.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Секретная платформа.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Скелеты Геноша.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Сложный выбор.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Соснольщик.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Спидран.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Ставки повышаются.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Стол заказов.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Страховка.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Тёмное прошлое Массива.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Танос.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Тише едешь - дальше будешь.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\У меня лапки.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Хет-трик.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Wheel\Я сам(а).txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\Items\Holy Water.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Бесплатный кубик.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Бутылка мошны.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Бутылка рерола.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Доп бросок.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Дропинг.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Картридж Mario Paint.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Котейка.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Лампа джина.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Любимая консоль.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Освежитель воздуха.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Пустая бутылка.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Рерол колеса.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Страховка.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\Танос.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Items\У меня лапки.txt">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>

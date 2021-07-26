@@ -4,6 +4,7 @@ using System.Windows;
 using Caliburn.Micro;
 using Ninject;
 using UkiRetroGameRandomizer.Models.Data;
+using UkiRetroGameRandomizer.Models.Repositories;
 using UkiRetroGameRandomizer.ViewModels;
 
 namespace UkiRetroGameRandomizer.Configuration
@@ -37,7 +38,7 @@ namespace UkiRetroGameRandomizer.Configuration
             _kernel.Inject(instance);
         }
 
-        protected override void OnStartup(object sender, StartupEventArgs e)
+        protected override async void OnStartup(object sender, StartupEventArgs e)
         {
             var windowSettings = new Dictionary<string, object>
             {
@@ -47,6 +48,8 @@ namespace UkiRetroGameRandomizer.Configuration
             };
 
             Platforms.InitPlatforms();
+            await _kernel.Get<IDroppedGameRepository>().LoadAsync();
+            await _kernel.Get<IWheelItemRepository>().LoadAsync();
             DisplayRootViewFor<IAppViewModel>(windowSettings);
         }
     }

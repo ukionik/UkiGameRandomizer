@@ -12,6 +12,7 @@ using UkiRetroGameRandomizer.Models.Data;
 using UkiRetroGameRandomizer.Models.Enums;
 using UkiRetroGameRandomizer.Models.Events;
 using UkiRetroGameRandomizer.Models.Factories;
+using UkiRetroGameRandomizer.Models.Repositories;
 using UkiRetroGameRandomizer.Models.Services;
 
 namespace UkiRetroGameRandomizer.ViewModels
@@ -30,6 +31,8 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly Stopwatch _stopwatch = new();
         private readonly DispatcherTimer _timer;
         private readonly IEventAggregator _eventAggregator;
+        private readonly IDroppedGameRepository _droppedGameRepository;
+        private readonly IWheelItemRepository _wheelItemRepository;
         private readonly IPopupViewModel _popupViewModel;
         private readonly IWindowManager _windowManager;
         private readonly Mp3Player _mp3Player;
@@ -105,11 +108,14 @@ namespace UkiRetroGameRandomizer.ViewModels
 
         public GameListViewModel(IEventAggregator eventAggregator
             , IGameViewModelFactory gameViewModelFactory
-            , IExtraEventViewModel extraEventViewModel
+            , IDroppedGameRepository droppedGameRepository
+            , IWheelItemRepository wheelItemRepository
             , IPopupViewModel popupViewModel
             , IWindowManager windowManager)
         {
             _eventAggregator = eventAggregator;
+            _droppedGameRepository = droppedGameRepository;
+            _wheelItemRepository = wheelItemRepository;
             _popupViewModel = popupViewModel;
             _windowManager = windowManager;
             _eventAggregator.Subscribe(this);
@@ -134,7 +140,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             var fileName = GetRandomFile(Path.Combine(AppData.SoundPath, "Roll"));
 
             var length = _mp3Player.TotalTime(fileName);
-            _dueTime = 
+            _dueTime =
                 (int) length.TotalMilliseconds;
 
             if (_dueTime > 120_000)
@@ -160,11 +166,31 @@ namespace UkiRetroGameRandomizer.ViewModels
 
         private void InitGames(Platform platform, string letter)
         {
-            var fileName = Path.Combine(AppData.GameListPath, platform.FileName);
-            _games = File.ReadAllLines(fileName)
-                .Select(x => new GameInfo(x))
-                .Where(x => string.IsNullOrEmpty(letter) || x.Name.StartsWith(letter.ToUpper()))
-                .Select(x => x);
+            if (platform.Name == "Wheel")
+            {
+                _games = _wheelItemRepository.Data
+                    .Select(x => new GameInfo(x.Title));
+            }
+            else if (platform.Name == "Items")
+            {
+                _games = _wheelItemRepository.Data
+                    .Where(x => x.Type == "Предмет")
+                    .Select(x => new GameInfo(x.Title));
+            }
+            else if (platform.Name == "Dropped")
+            {
+                _games = _droppedGameRepository.Data
+                    .Select(x => new GameInfo(x.ToString()));
+            }
+            else
+            {
+                var fileName = Path.Combine(AppData.GameListPath, platform.FileName);
+                _games = File.ReadAllLines(fileName)
+                    .Select(x => new GameInfo(x))
+                    .Where(x => string.IsNullOrEmpty(letter) || x.Name.StartsWith(letter.ToUpper()))
+                    .Select(x => x);
+            }
+
             _randomizer = new GameRandomizer(_games, _dueTime, DateTime.Now.Millisecond);
         }
 
@@ -236,15 +262,7 @@ namespace UkiRetroGameRandomizer.ViewModels
                 if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
                     || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
                 {
-                    if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase))
-                    {
-                        _popupViewModel.Text = FindWheelDescription();
-                    }
-                    
-                    if (_platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
-                    {
-                        _popupViewModel.Text = FindItemsDescription();
-                    }
+                    _popupViewModel.Text = _wheelItemRepository.FindByName(_currentGame.Name).Description;
 
                     var windowSettings = new Dictionary<string, object>
                     {
@@ -263,18 +281,13 @@ namespace UkiRetroGameRandomizer.ViewModels
                 }
             }
         }
-        private string FindWheelDescription()
-        {
-            var filePath = Path.Combine(AppData.GameListPath, "Wheel", $"{CurrentGame.Name}.txt");
-            bool exists = File.Exists(filePath); 
-            return File.Exists(filePath) ? string.Join(Environment.NewLine, File.ReadAllLines(filePath)) : "";
-        }
-        
+
         private string FindItemsDescription()
         {
             var filePath = Path.Combine(AppData.GameListPath, "Items", $"{CurrentGame.Name}.txt");
             return File.Exists(filePath) ? string.Join(Environment.NewLine, File.ReadAllLines(filePath)) : "";
         }
+
         private string GetRandomFile(string path)
         {
             var files = Directory.GetFiles(path);
