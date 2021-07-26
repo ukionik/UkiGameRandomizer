@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Windows;
 using Caliburn.Micro;
 using Ninject;
+using UkiHelper;
 using UkiRetroGameRandomizer.Models.Data;
 using UkiRetroGameRandomizer.Models.Repositories;
 using UkiRetroGameRandomizer.ViewModels;
@@ -40,10 +42,13 @@ namespace UkiRetroGameRandomizer.Configuration
 
         protected override async void OnStartup(object sender, StartupEventArgs e)
         {
+            var windowWidth = ConfigurationManager.AppSettings["WindowWidth"].ToInt();
+            var windowHeight = ConfigurationManager.AppSettings["WindowHeight"].ToInt();
+
             var windowSettings = new Dictionary<string, object>
             {
-                {"Width", 1000},
-                {"Height", 800},
+                {"Width", windowWidth},
+                {"Height", windowHeight},
                 {"Title", "UkiRetroGameRandomizer 0.5"}
             };
 
