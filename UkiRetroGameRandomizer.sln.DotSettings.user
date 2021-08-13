@@ -3,5 +3,7 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::497F9EDD-D58B-4FAD-AA42-77D832FA8C98::.NETFramework,Version=v4.5.2::UkiGameRandomizer.Tests.DropmaniaApiTests.GetDroppedGames&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::497F9EDD-D58B-4FAD-AA42-77D832FA8C98::.NETFramework,Version=v4.5.2::UkiGameRandomizer.Tests.DropmaniaApiTests.GetWheelItems&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::907BD490-EA01-4B96-A262-7FD96258F162::.NETFramework,Version=v4.5.2::GameRandomizerEngine.Tests.GameRandomizerTest.TempTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::907BD490-EA01-4B96-A262-7FD96258F162::.NETFramework,Version=v4.5.2::GameRandomizerEngine.Tests.GameRandomizerTest.Temp2Test&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -49,7 +49,7 @@ namespace UkiRetroGameRandomizer.Configuration
             {
                 {"Width", windowWidth},
                 {"Height", windowHeight},
-                {"Title", "UkiRetroGameRandomizer 0.5"}
+                {"Title", "UkiRetroGameRandomizer 0.6"}
             };
 
             Platforms.InitPlatforms();

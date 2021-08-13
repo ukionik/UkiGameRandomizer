@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Web;
 using System.Windows;
 using System.Windows.Threading;
 using Caliburn.Micro;
@@ -262,7 +263,8 @@ namespace UkiRetroGameRandomizer.ViewModels
                 }
                 else
                 {
-                    var query = CurrentGame.Name.Trim().Replace(" ", "+");
+                    //var query = CurrentGame.Name.Trim().Replace(" ", "+");
+                    var query = HttpUtility.UrlEncode(CurrentGame.Name.Trim());
                     Process.Start($"http://gamefaqs.com/search?game={query}");
                     Process.Start($"http://youtube.com/results?search_query={query}+longplay");
                 }

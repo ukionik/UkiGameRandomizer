@@ -53,8 +53,8 @@
             <Private>True</Private>
         </Reference>
         <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
-          <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
             <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
@@ -65,6 +65,7 @@
         <Reference Include="System" />
         <Reference Include="System.Configuration" />
         <Reference Include="System.Data" />
+        <Reference Include="System.Web" />
         <Reference Include="System.Windows.Forms" />
         <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
             <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
@@ -456,6 +457,71 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\List\platforms.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\Sounds\Retro\Fanfare\Castlevania Dracula X OST Chosen Fate.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Duck Tales 2 NES Music  Life Lost.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Duck Tales 2 NES Music  Stage Clear.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Metroid Fusion OST 05 Samus Intro Fanfare.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Rockin Kats NES Music  Stage Clear.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\The Little Mermaid NES Music  Stage Start.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Fanfare\Versus.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Bishoujo Senshi Sailor Moon GenesisMegadrive OST  Title.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Darkwing Duck NES Music  Bonus Stage.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Darkwing Duck NES Music  Boss Battle.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Felix the Cat NES Music OST Track 02  World 1 Theme The Beginning.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Metroid Zero Mission Music  Brinstar Theme.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Ninja Cat AKA Kyattou Ninden Teyande NES Music 7.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Rocket Knight Adventures OST  Boss Sega Genesis Music VA6.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Rockin Kats NES Music  Downtown Street  Credits.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Rockin Kats NES Music  Subway Skateboard  Mine Cart.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\The Jungle Book Genesis Music  Bear Necessities.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\The Little Mermaid NES Music  Title Theme.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Tiny Toon Adventures Busters Hidden Treasure  Grasslands GENESISMEGA DRIVE OST.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\TMNT The Hyperstone Heist Boss.mp3">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\Sounds\Retro\Roll\Wacky Races NES Music  Boss Battle 02.mp3">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
