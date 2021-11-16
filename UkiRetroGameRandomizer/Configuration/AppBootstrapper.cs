@@ -49,12 +49,13 @@ namespace UkiRetroGameRandomizer.Configuration
             {
                 {"Width", windowWidth},
                 {"Height", windowHeight},
-                {"Title", "UkiRetroGameRandomizer 0.6"}
+                {"Title", "UkiRetroGameRandomizer 0.7"}
             };
 
             Platforms.InitPlatforms();
             await _kernel.Get<IDroppedGameRepository>().LoadAsync();
             await _kernel.Get<IWheelItemRepository>().LoadAsync();
+            await _kernel.Get<IRetroPlayPlatformRepository>().LoadAsync();
             DisplayRootViewFor<IAppViewModel>(windowSettings);
         }
     }

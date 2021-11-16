@@ -34,6 +34,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly IEventAggregator _eventAggregator;
         private readonly IDroppedGameRepository _droppedGameRepository;
         private readonly IWheelItemRepository _wheelItemRepository;
+        private readonly IRetroPlayPlatformRepository _retroPlayPlatformRepository;
         private readonly IPopupViewModel _popupViewModel;
         private readonly Mp3Player _mp3Player;
 
@@ -109,11 +110,13 @@ namespace UkiRetroGameRandomizer.ViewModels
         public GameListViewModel(IEventAggregator eventAggregator
             , IGameViewModelFactory gameViewModelFactory
             , IDroppedGameRepository droppedGameRepository
-            , IWheelItemRepository wheelItemRepository)
+            , IWheelItemRepository wheelItemRepository
+            , IRetroPlayPlatformRepository retroPlayPlatformRepository)
         {
             _eventAggregator = eventAggregator;
             _droppedGameRepository = droppedGameRepository;
             _wheelItemRepository = wheelItemRepository;
+            _retroPlayPlatformRepository = retroPlayPlatformRepository;
             _eventAggregator.Subscribe(this);
             PreviousGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
             PreviousGame1 = gameViewModelFactory.Create(GameFontSize.Medium, false);
@@ -177,6 +180,20 @@ namespace UkiRetroGameRandomizer.ViewModels
             {
                 _games = _droppedGameRepository.Data
                     .Select(x => new GameInfo(x.ToString()));
+            }
+            else if (platform.Name == "RetroPlay")
+            {
+                var list = new List<GameInfo>();
+                _games = new List<GameInfo>();
+                _retroPlayPlatformRepository.Data
+                    .ForEach(item =>
+                    {
+                        for (var i = 0; i < item.Count; i++)
+                        {
+                            list.Add(new GameInfo(item.PlatformName));
+                        }
+                    });
+                _games = list;
             }
             else
             {
@@ -258,7 +275,7 @@ namespace UkiRetroGameRandomizer.ViewModels
                 if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
                     || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
                 {
-                    var text =_wheelItemRepository.FindByName(_currentGame.Name).Description;
+                    var text = _wheelItemRepository.FindByName(_currentGame.Name).Description;
                     _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
                 }
                 else
@@ -269,12 +286,6 @@ namespace UkiRetroGameRandomizer.ViewModels
                     Process.Start($"http://youtube.com/results?search_query={query}+longplay");
                 }
             }
-        }
-
-        private string FindItemsDescription()
-        {
-            var filePath = Path.Combine(AppData.GameListPath, "Items", $"{CurrentGame.Name}.txt");
-            return File.Exists(filePath) ? string.Join(Environment.NewLine, File.ReadAllLines(filePath)) : "";
         }
 
         private string GetRandomFile(string path)

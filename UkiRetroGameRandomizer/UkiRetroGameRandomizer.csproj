@@ -102,6 +102,7 @@
         <Compile Include="Models\Data\HistoryLogItem.cs" />
         <Compile Include="Models\Data\Platform.cs" />
         <Compile Include="Models\Data\Platforms.cs" />
+        <Compile Include="Models\Data\RetroPlayPlatformItem.cs" />
         <Compile Include="Models\Data\WheelItem.cs" />
         <Compile Include="Models\Enums\GameFontSize.cs" />
         <Compile Include="Models\Enums\RollStatus.cs" />
@@ -115,11 +116,14 @@
         <Compile Include="Models\Repositories\IDroppedGameRepository.cs" />
         <Compile Include="Models\Repositories\IRepository.cs" />
         <Compile Include="Models\Repositories\DroppedGameRepository.cs" />
+        <Compile Include="Models\Repositories\IRetroPlayPlatformRepository.cs" />
         <Compile Include="Models\Repositories\IWheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\RetroPlayPlatformRepository.cs" />
         <Compile Include="Models\Repositories\WheelItemRepository.cs" />
         <Compile Include="Models\Services\DropmaniaApi.cs" />
         <Compile Include="Models\Services\HistoryLogger.cs" />
         <Compile Include="Models\Services\Mp3Player.cs" />
+        <Compile Include="Models\Services\UkiStreamsApi.cs" />
         <Compile Include="ViewModels\AppViewModel.cs" />
         <Compile Include="ViewModels\ExtraEventViewModel.cs" />
         <Compile Include="ViewModels\GameListViewModel.cs" />
@@ -524,6 +528,11 @@
         <None Include="Resources\Sounds\Retro\Roll\Wacky Races NES Music  Boss Battle 02.mp3">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="Resources\List\retroplay.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
