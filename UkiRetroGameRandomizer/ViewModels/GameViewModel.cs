@@ -10,6 +10,8 @@ namespace UkiRetroGameRandomizer.ViewModels
     {
         private string _name = "----------";
         private FontWeight _fontWeight = FontWeights.Normal;
+        private string _altColor;
+        private readonly string _defaultForegroundColor;
 
         public string Name
         {
@@ -20,7 +22,7 @@ namespace UkiRetroGameRandomizer.ViewModels
                 NotifyOfPropertyChange(() => Name);
             }
         }
-        
+
         public FontWeight FontWeight
         {
             get => _fontWeight;
@@ -31,18 +33,36 @@ namespace UkiRetroGameRandomizer.ViewModels
             }
         }
 
+        public string FocusedColor { get; set; }
+
+        public string AltColor
+        {
+            get => _altColor;
+            set
+            {
+                _altColor = value;
+
+                if (_altColor != null)
+                {
+                    Foreground = new SolidColorBrush((Color) ColorConverter.ConvertFromString(_altColor));
+                    NotifyOfPropertyChange(() => Foreground);
+                }
+                else
+                {
+                    Foreground = new SolidColorBrush((Color) ColorConverter.ConvertFromString(_defaultForegroundColor));
+                    NotifyOfPropertyChange(() => Foreground);
+                }
+            }
+        }
+
         public int FontSize { get; }
-        public Brush Foreground { get; } = new SolidColorBrush(Colors.White);
-        public Thickness Margin { get; } = new Thickness(0, 20, 0 ,20);
+        public Brush Foreground { get; set; } = new SolidColorBrush(Colors.White);
+        public Thickness Margin { get; } = new Thickness(0, 20, 0, 20);
 
         public GameViewModel(GameFontSize fontSize, bool focused)
         {
+            _defaultForegroundColor = focused ? "#BE9A21" : "#FFFFFF";
             FontSize = fontSize.ToRealFontSize();
-
-            if (focused)
-            {
-                Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#BE9A21"));
-            }
         }
     }
 }

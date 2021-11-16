@@ -168,7 +168,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             if (platform.Name == "Wheel")
             {
                 _games = _wheelItemRepository.Data
-                    .Select(x => new GameInfo(x.Title));
+                    .Select(x => new GameInfo(x.Title, x.Type == "Предмет" ? "#0bb3d9" : null));
             }
             else if (platform.Name == "Items")
             {
@@ -217,10 +217,15 @@ namespace UkiRetroGameRandomizer.ViewModels
             var nextGame2 = _randomizer.Games.GetNextGame2(gameInfo);
 
             PreviousGame2.Name = previousGame2.Name;
+            PreviousGame2.AltColor = previousGame2.AltColor;
             PreviousGame1.Name = previousGame.Name;
+            PreviousGame1.AltColor = previousGame.AltColor;
             CurrentGame.Name = gameInfo.Name;
+            CurrentGame.AltColor = gameInfo.AltColor;
             NextGame1.Name = nextGame.Name;
+            NextGame1.AltColor = nextGame.AltColor;
             NextGame2.Name = nextGame2.Name;
+            NextGame2.AltColor = nextGame2.AltColor;
         }
 
         private void TimerTick()
