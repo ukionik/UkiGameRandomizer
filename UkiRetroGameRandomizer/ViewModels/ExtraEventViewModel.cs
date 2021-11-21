@@ -13,7 +13,7 @@ namespace UkiRetroGameRandomizer.ViewModels
     {
         private readonly Stopwatch _stopwatch = new();
         private const int Interval = 10;
-        private static readonly int StartSeconds = 20;
+        private static readonly int StartSeconds = 30;
         private int _currentMillis = StartSeconds * 1000;
         private Visibility _visibility = Visibility.Collapsed;
         private readonly DispatcherTimer _timer;

@@ -267,7 +267,8 @@ namespace UkiRetroGameRandomizer.ViewModels
             HistoryLogger.Log(_platform.Name, _platform.Caption, CurrentGame.Name);
             _eventAggregator.PublishOnUIThread(new RollStatusChangedEvent(RollStatus.Stopped));
 
-            if (_platform.Name == "Wheel" && CurrentGame.Name == "Живительный оазис")
+            if (_platform.Name == "Wheel" && (CurrentGame.Name == "Живительный оазис"
+                || CurrentGame.Name == "Правильное питание"))
             {
                 _eventAggregator.PublishOnUIThread(new OasisTimerEvent(OasisTimerEvent.CommandType.Start));
             }
