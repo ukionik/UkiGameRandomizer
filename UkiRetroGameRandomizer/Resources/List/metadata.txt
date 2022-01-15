@@ -4,7 +4,8 @@ SNES;SNES;snes.txt
 GB;GB+GBC;gb_gbc.txt
 GBA;GBA;gba.txt
 TG;TG-16+TurboCD;tg16_tcd.txt
-SMSGG;SMS+GG;sms_gg.txt
+SMS;SMS;sms.txt
+GG;GG;gg.txt
 PS1;PS1;ps1.txt
 N64;N64;n64.txt
 ZX;ZX Spectrum;zx.txt

@@ -11,7 +11,7 @@ namespace UkiRetroGameRandomizer.Models.Services
 {
     public class DropmaniaApi
     {
-        private readonly string _url = "https://dropmania.sneschallenge.com/api";
+        private readonly string _url = "https://ukistreams.ru:8443/api/v1";
         private readonly HttpClient _httpClient;
 
         public DropmaniaApi()
@@ -21,12 +21,12 @@ namespace UkiRetroGameRandomizer.Models.Services
 
         public async Task<List<DroppedGame>> GetDroppedGames()
         {
-            return await GetResult<List<DroppedGame>>("/dropmania/other/dropedGames");
+            return await GetResult<List<DroppedGame>>("/dropmania-game/dropped");
         }
         
         public async Task<List<WheelItem>> GetWheelItems()
         {
-            return await GetResult<List<WheelItem>>("/dropmania/other/wheelItems");
+            return await GetResult<List<WheelItem>>("/dropmania/wheel-items");
         }
         private async Task<T> GetResult<T>(string url)
         {

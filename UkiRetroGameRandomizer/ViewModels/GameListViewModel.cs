@@ -168,12 +168,12 @@ namespace UkiRetroGameRandomizer.ViewModels
             if (platform.Name == "Wheel")
             {
                 _games = _wheelItemRepository.Data
-                    .Select(x => new GameInfo(x.Title, x.Type == "Предмет" ? "#0bb3d9" : null));
+                    .Select(x => new GameInfo(x.Title, x.Type == "Item" ? "#0bb3d9" : null));
             }
             else if (platform.Name == "Items")
             {
                 _games = _wheelItemRepository.Data
-                    .Where(x => x.Type == "Предмет")
+                    .Where(x => x.Type == "Item")
                     .Select(x => new GameInfo(x.Title));
             }
             else if (platform.Name == "Dropped")

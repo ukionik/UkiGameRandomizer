@@ -6,10 +6,12 @@ namespace UkiRetroGameRandomizer.Models.Data
     {
         public string Name { get; set; }
         public string Platform { get; set; }
+        
+        public string Player { get; set; }
 
         public override string ToString()
         {
-            return $"{Name} ({Platform})";
+            return $"{Name} [{Platform}] ({Player})";
         }
     }
 }

@@ -4,11 +4,6 @@ SNES
 Gameboy + Gameboy Color
 Gameboy Advance
 Turbografx-16 (PC Engine)
-Sega Master System + Game Gear
+Sega Master System / Game Gear
 PS1
 Nintendo 64
-ZX Spectrum
-MSX
-Commodore 64
-Аmiga
-DOS

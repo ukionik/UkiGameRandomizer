@@ -258,7 +258,7 @@
         <None Include="Resources\List\smd.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\sms_gg.txt">
+        <None Include="Resources\List\sms.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\snes.txt">
@@ -531,6 +531,11 @@
     </ItemGroup>
     <ItemGroup>
       <None Include="Resources\List\retroplay.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="Resources\List\gg.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
