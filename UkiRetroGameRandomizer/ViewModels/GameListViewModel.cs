@@ -288,7 +288,7 @@ namespace UkiRetroGameRandomizer.ViewModels
                 {
                     //var query = CurrentGame.Name.Trim().Replace(" ", "+");
                     var query = HttpUtility.UrlEncode(CurrentGame.Name.Trim());
-                    Process.Start($"http://gamefaqs.com/search?game={query}");
+                    Process.Start($"http://gamefaqs.gamespot.com/search?game={query}");
                     Process.Start($"http://youtube.com/results?search_query={query}+longplay");
                 }
             }

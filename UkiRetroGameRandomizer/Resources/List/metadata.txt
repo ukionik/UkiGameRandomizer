@@ -1,9 +1,13 @@
 NES;NES;nes.txt
 SMD;SMD;smd.txt
+SEGACD;SEGACD;sega_cd.txt
+SMDCD;SMD+CD;smd+cd.txt
 SNES;SNES;snes.txt
 GB;GB+GBC;gb_gbc.txt
 GBA;GBA;gba.txt
-TG;TG-16+TurboCD;tg16_tcd.txt
+TG16;TG16;tg16.txt
+TCD;TCD;tcd.txt
+TGCD;TG16+CD;tg16_tcd.txt
 SMS;SMS;sms.txt
 GG;GG;gg.txt
 PS1;PS1;ps1.txt
