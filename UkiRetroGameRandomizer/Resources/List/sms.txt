@@ -1,23 +1,21 @@
-20 em 1
 Ace of Aces
 Action Fighter
 Addams Family, The
 Aerial Assault
 After Burner
 Air Rescue
-Disney's Aladdin
-Alex Kidd BMX Trial
+Aladdin
 Alex Kidd: High-Tech World
 Alex Kidd in Miracle World
 Alex Kidd in Shinobi World
 Alex Kidd: The Lost Stars
+Alex Kidd BMX Trial
 ALF
-Alien³
+Alien 3
 Alien Storm
 Alien Syndrome
 Altered Beast
 Andre Agassi Tennis
-Arcade Smash Hits
 Argos no Juujiken
 Ariel the Little Mermaid
 Assault City
@@ -25,7 +23,6 @@ Asterix
 Asterix and the Great Rescue
 Asterix and the Secret Mission 
 Astro Warrior
-Astro Warrior / Pit Pot
 Ayrton Senna's Super Monaco GP II
 Aztec Adventure
 Back to the Future II
@@ -34,7 +31,7 @@ Baku Baku Animal
 Bank Panic
 Basketball Nightmare
 Batman Returns
-Battle Out Run
+Battle OutRun
 Battletoads in Battlemaniacs
 Black Belt
 Blade Eagle 3-D
@@ -48,20 +45,18 @@ California Games
 California Games 2
 Captain Silver
 Casino Games
-Castelo Rá-Tim-Bum
+Castelo Ra-Tim-Bum
 Castle of Illusion Starring Mickey Mouse
 Champions of Europe
 Championship Hockey
 Chase H.Q.
 Cheese Cat-Astrophe Starring Speedy Gonzales
-Chmuntik: The Arcade Game
-Chmuntik & Evils
 Choplifter
 Chuck Rock
 Chuck Rock II: Son of Chuck
 Cloud Master
 Columns
-Comical Machine Gun Joe (Japan Only)
+Comical MachineGun Joe
 Cool Spot
 Cosmic Spacehead
 Cyber Shinobi, The
@@ -73,17 +68,19 @@ Deep Duck Trouble Starring Donald Duck
 Desert Speedtrap Starring Road Runner & Wile E. Coyote
 Desert Strike: Return to the Gulf
 Dick Tracy
-Dinosaur Dooley (Unlicensed)
+Donald Duck: The Lucky Dime Caper
 Double Dragon
 Double Hawk
-Dr. Hello
 Dr. Robotnik's Mean Bean Machine
-Dragon: The Bruce Lee Story
 Dragon Crystal
+Dragon: The Bruce Lee Story
 Dynamite Duke
 Dynamite Dux
 Dynamite Headdy
 E-SWAT
+Earthworm Jim
+Ecco the Dolphin
+Ecco: The Tides of Time
 Enduro Racer
 F1
 F-16 Fighting Falcon
@@ -91,13 +88,14 @@ Fantastic Dizzy
 Fantasy Zone
 Fantasy Zone II: The Tears of Opa-Opa
 Fantasy Zone: The Maze
-Férias Frustradas do Pica-Pau
+Ferias Frustradas do Pica Pau
 FIFA International Soccer
 Fire & Forget II
-Fire and Ice
+Fire & Ice
 Flash, The
 Flintstones, The
 Forgotten Worlds
+Fushigi no Oshiro Pit Pot
 G-LOC: Air Battle
 Gain Ground
 Galactic Protector
@@ -116,17 +114,19 @@ Golfamania
 Golvellius: Valley of Doom
 GP Rider
 Great Baseball
+Great Baseball (J)
 Great Basketball
 Great Football
 Great Golf 
+Great Golf (J)
 Great Ice Hockey
-Great Soccer (cartridge version)
+Great Soccer
+Great Soccer (Cartridge Version)
 Great Volleyball
 Hang-On
 Heroes of the Lance
 High School! Kimengumi
 Home Alone
-Hook (prototype only)
 Hoshi wo Sagashite...
 Impossible Mission
 Incredible Crash Dummies, The
@@ -147,16 +147,11 @@ Land of Illusion Starring Mickey Mouse
 Laser Ghost
 Legend of Illusion Starring Mickey Mouse
 Lemmings
-Lemmings 2: The Tribe (prototype only)
 Line of Fire
 Lion King, The
 Lord of the Sword
-Loretta no Shouzou
-Lucky Dime Caper Starring Donald Duck
-Mahjong Sengoku Jidai
 Marble Madness
 Marksman Shooting & Trap Shooting
-Marksman Shooting / Trap Shooting / Safari Hunt
 Master of Darkness
 Masters of Combat
 Maze Hunter 3-D
@@ -165,7 +160,7 @@ Mercs
 Michael Jackson's Moonwalker
 Mickey's Ultimate Challenge
 Micro Machines
-Miracle Warriors: Seal of the Dark LordHaja no Fuuin (Japan)
+Miracle Warriors: Seal of the Dark Lord
 Missile Defense 3-D
 Monopoly
 Montezuma's Revenge
@@ -174,7 +169,6 @@ Mortal Kombat II
 Mortal Kombat 3
 Ms. Pac-Man
 My Hero
-Nekyuu Kousien
 New Zealand Story, The
 Ninja Gaiden
 Ninja, The
@@ -182,8 +176,8 @@ Olympic Gold: Barcelona '92
 Operation Wolf
 Ottifants, The
 OutRun
-Out Run 3-D
-Out Run Europa
+OutRun 3-D
+OutRun Europa
 Pac-Mania
 Paperboy
 Parlour Games
@@ -191,7 +185,6 @@ Penguin Land
 PGA Tour Golf
 Phantasy Star
 Pit-Fighter
-Pit Pot
 Populous
 Poseidon Wars 3-D
 Power Strike
@@ -203,6 +196,7 @@ Psychic World
 Psycho Fox
 Putt & Putter
 Quartet
+Quest for the Shaven Yak Starring Ren & Stimpy
 R-Type
 R.C. Grand Prix
 Rainbow Islands
@@ -213,7 +207,6 @@ Rampart
 Rastan
 Reggie Jackson Baseball
 Renegade
-Ren Hoek and Stimpy: Quest for the Shaven Yak
 Rescue Mission
 Road Rash
 RoboCop 3
@@ -221,7 +214,6 @@ RoboCop Versus The Terminator
 Rocky
 Running Battle
 Sagaia
-Samgukji III (Unlicensed)
 Satellite 7
 Scramble Spirits
 Sega Chess
@@ -236,16 +228,14 @@ Simpsons, The: Bart vs. the Space Mutants
 Simpsons, The: Bart vs. the World
 Sítio do Picapau Amarelo
 Slap Shot
-Smash TV
 Smurfs, The
-Smurfs 2, The: Travel the World
-Snail Maze (Free Game built into Early Master System 1 Hardware)
+Smurfs Travel the World, The
 Solomon no Kagi – Oujo Rihita no Namida
 Sonic Blast
-Sonic Chaos
-Sonic Spinball
 Sonic the Hedgehog
 Sonic the Hedgehog 2
+Sonic the Hedgehog Chaos
+Sonic the Hedgehog Spinball
 Space Gun
 Space Harrier
 Space Harrier 3-D
@@ -255,6 +245,7 @@ Speedball 2
 SpellCaster
 Spider-Man: Return of the Sinister Six
 Spider-Man vs. The Kingpin
+Sports Pad Football
 Spy vs. Spy
 Star Wars
 Street Fighter II'
@@ -263,31 +254,29 @@ Streets of Rage 2
 Strider
 Strider II
 Submarine Attack
-Sukeban Deka II (Japan only)
+Sukeban Deka II: Shoujo Tekkamen Densetsu
 Summer Games
-Super Kick-Off
-Super Boy 4
+Super Kick Off
 Super Monaco GP
 Super Off Road
-Super Racing (Japan only)
+Super Racing
+Super Smash T.V.
 Super Space Invaders
 Super Tennis
-Super Tetris
 Superman: The Man of Steel
+T2: The Arcade Game
 Taz in Escape from Mars
 Taz-Mania
 Tecmo World Cup '93
 Teddy Boy
 Tennis Ace
-Tensai Bakabon
 Terminator, The
 Terminator 2: Judgment Day
-T2: The Arcade Game
 Thunder Blade
 Time Soldiers
 Tom & Jerry: The Movie
 TransBot
-Trivial Pursuit: Genus Edition
+Trivial Pursuit
 Ultima IV: Quest of the Avatar
 Ultimate Soccer
 Vigilante
@@ -296,25 +285,24 @@ Walter Payton Football
 Wanted!
 Where in the World is Carmen Sandiego?
 Wimbledon
-Wimbledon 2
-Winter Olympics: Lillehammer 94
+Wimbledon II
+Winter Olympics: Lillehammer '94
 Wolfchild
 Wonder Boy
-Wonder Boy in Monster Land
 Wonder Boy III: The Dragon's Trap
+Wonder Boy in Monster Land
 Wonder Boy in Monster World
 Woody Pop
 World Class Leader Board
-World Cup USA '94
 World Cup Italia '90
+World Cup USA '94
 World Games
 World Grand Prix
-World Soccer / Super Futebol
 WWF WrestleMania: Steel Cage Challenge
-X-Men 3: Mojo World
-Xenon 2 Megablast
+X-Men: Mojo World
+Xenon 2: Megablast
 Ys: The Vanished Omens
 Zaxxon 3-D
 Zillion
 Zillion II: The Tri Formation
-Zool
+Zool: Ninja of the "Nth" Dimension
