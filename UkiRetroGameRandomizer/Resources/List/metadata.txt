@@ -22,6 +22,7 @@ WII;Wii;wii.txt
 3DS;3ds;3ds.txt
 VITA;Vita;vita.txt
 WIIU;Wii U;wiiu.txt 
+CATBAG;Кот в мешке;cat_bag.txt
 GBGBC;GB+GBC;gb_gbc.txt
 SMDCD;SMD+CD;smd+cd.txt
 TGCD;TG16+CD;tg16_tcd.txt
