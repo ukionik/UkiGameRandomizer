@@ -117,9 +117,11 @@
         <Compile Include="Models\Repositories\IRepository.cs" />
         <Compile Include="Models\Repositories\DroppedGameRepository.cs" />
         <Compile Include="Models\Repositories\IRetroPlayPlatformRepository.cs" />
-        <Compile Include="Models\Repositories\IWheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\IDropmaniaWheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\IRhgWheelItemRepository.cs" />
         <Compile Include="Models\Repositories\RetroPlayPlatformRepository.cs" />
-        <Compile Include="Models\Repositories\WheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\DropmaniaWheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\RhgWheelItemRepository.cs" />
         <Compile Include="Models\Services\DropmaniaApi.cs" />
         <Compile Include="Models\Services\HistoryLogger.cs" />
         <Compile Include="Models\Services\Mp3Player.cs" />

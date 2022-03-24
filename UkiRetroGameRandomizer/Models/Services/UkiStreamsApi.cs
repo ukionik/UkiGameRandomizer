@@ -21,6 +21,12 @@ namespace UkiRetroGameRandomizer.Models.Services
             return await GetResult<List<RetroPlayPlatformItem>>("/retro-play/remaining");
         }
         
+        public async Task<List<WheelItem>> GetWheelItems()
+        {
+            return await GetResult<List<WheelItem>>("/rhg/wheel-items");
+        }
+
+        
         private async Task<T> GetResult<T>(string url)
         {
             var fullUrl = $"{_url}{url}";

@@ -31,3 +31,5 @@ Roulette;Русская рулетка;roulette.txt
 HeadTails;Орел или Решка;headtails.txt
 Players;Участники дропмании;players.txt
 RetroPlay;Retro Play;retroplay.txt
+RhgWheel;Колесо RHG;rhg_wheel.txt
+RhgItems;Предметы RHG;rhg_items.txt

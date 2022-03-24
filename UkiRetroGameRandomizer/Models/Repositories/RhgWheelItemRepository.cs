@@ -7,7 +7,7 @@ using UkiRetroGameRandomizer.Models.Services;
 
 namespace UkiRetroGameRandomizer.Models.Repositories
 {
-    public class WheelItemRepository : IWheelItemRepository
+    public class RhgWheelItemRepository : IRhgWheelItemRepository
     {
         public List<WheelItem> Data { get; private set; }
 
@@ -15,7 +15,7 @@ namespace UkiRetroGameRandomizer.Models.Repositories
         {
             try
             {
-                Data = await new DropmaniaApi().GetWheelItems();
+                Data = await new UkiStreamsApi().GetWheelItems();
             }
             catch (Exception)
             {
@@ -27,6 +27,6 @@ namespace UkiRetroGameRandomizer.Models.Repositories
         public WheelItem FindByName(string name)
         {
             return Data.Single(x => x.Title == name);
-        }
+        }        
     }
 }

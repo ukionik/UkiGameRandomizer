@@ -33,7 +33,8 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly DispatcherTimer _timer;
         private readonly IEventAggregator _eventAggregator;
         private readonly IDroppedGameRepository _droppedGameRepository;
-        private readonly IWheelItemRepository _wheelItemRepository;
+        private readonly IDropmaniaWheelItemRepository _dropmaniaWheelItemRepository;
+        private readonly IRhgWheelItemRepository _rhgWheelItemRepository;
         private readonly IRetroPlayPlatformRepository _retroPlayPlatformRepository;
         private readonly IPopupViewModel _popupViewModel;
         private readonly Mp3Player _mp3Player;
@@ -110,12 +111,14 @@ namespace UkiRetroGameRandomizer.ViewModels
         public GameListViewModel(IEventAggregator eventAggregator
             , IGameViewModelFactory gameViewModelFactory
             , IDroppedGameRepository droppedGameRepository
-            , IWheelItemRepository wheelItemRepository
+            , IDropmaniaWheelItemRepository dropmaniaWheelItemRepository
+            , IRhgWheelItemRepository rhgWheelItemRepository
             , IRetroPlayPlatformRepository retroPlayPlatformRepository)
         {
             _eventAggregator = eventAggregator;
             _droppedGameRepository = droppedGameRepository;
-            _wheelItemRepository = wheelItemRepository;
+            _dropmaniaWheelItemRepository = dropmaniaWheelItemRepository;
+            _rhgWheelItemRepository = rhgWheelItemRepository;
             _retroPlayPlatformRepository = retroPlayPlatformRepository;
             _eventAggregator.Subscribe(this);
             PreviousGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
@@ -167,12 +170,23 @@ namespace UkiRetroGameRandomizer.ViewModels
         {
             if (platform.Name == "Wheel")
             {
-                _games = _wheelItemRepository.Data
+                _games = _dropmaniaWheelItemRepository.Data
+                    .Select(x => new GameInfo(x.Title, x.Type == "Item" ? "#0bb3d9" : null));
+            }
+            else if (platform.Name == "RhgWheel")
+            {
+                _games = _rhgWheelItemRepository.Data
                     .Select(x => new GameInfo(x.Title, x.Type == "Item" ? "#0bb3d9" : null));
             }
             else if (platform.Name == "Items")
             {
-                _games = _wheelItemRepository.Data
+                _games = _dropmaniaWheelItemRepository.Data
+                    .Where(x => x.Type == "Item")
+                    .Select(x => new GameInfo(x.Title));
+            }
+            else if (platform.Name == "RhgItems")
+            {
+                _games = _rhgWheelItemRepository.Data
                     .Where(x => x.Type == "Item")
                     .Select(x => new GameInfo(x.Title));
             }
@@ -267,8 +281,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             HistoryLogger.Log(_platform.Name, _platform.Caption, CurrentGame.Name);
             _eventAggregator.PublishOnUIThread(new RollStatusChangedEvent(RollStatus.Stopped));
 
-            if (_platform.Name == "Wheel" && (CurrentGame.Name == "Живительный оазис"
-                || CurrentGame.Name == "Правильное питание"))
+            if (CurrentGame.Name is "Живительный оазис" or "Правильное питание")
             {
                 _eventAggregator.PublishOnUIThread(new OasisTimerEvent(OasisTimerEvent.CommandType.Start));
             }
@@ -281,7 +294,13 @@ namespace UkiRetroGameRandomizer.ViewModels
                 if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
                     || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
                 {
-                    var text = _wheelItemRepository.FindByName(_currentGame.Name).Description;
+                    var text = _dropmaniaWheelItemRepository.FindByName(_currentGame.Name).Description;
+                    _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
+                }
+                else if (_platform.Name.Equals("rhgwheel", StringComparison.OrdinalIgnoreCase)
+                         || _platform.Name.Equals("rhgitems", StringComparison.OrdinalIgnoreCase))
+                {
+                    var text = _rhgWheelItemRepository.FindByName(_currentGame.Name).Description;
                     _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
                 }
                 else
