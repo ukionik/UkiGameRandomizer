@@ -41,3 +41,4 @@ Platforms;Платформы;platforms.txt
 Roulette;Русская рулетка;roulette.txt
 HeadTails;Орел или Решка;headtails.txt
 Players;Участники дропмании;players.txt
+Hypnocolor;Игры от Гипно;hypnocolor.txt
