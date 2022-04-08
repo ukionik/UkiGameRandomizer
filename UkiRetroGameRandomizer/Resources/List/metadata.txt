@@ -34,7 +34,7 @@ MSXMSX2;MSX+MSX2;msx_msx2.txt
 CATBAG;Кот в мешке (RHG);cat_bag.txt
 RhgWheel;Колесо RHG;rhg_wheel.txt
 RhgItems;Предметы RHG;rhg_items.txt
-Wheel;Колесо;wheel.txt
+Wheel;Колесо дропмании;wheel.txt
 Fun;Веселимся до упаду;fun.txt
 Dropped;Список дропнутого;dropped.txt
 Cat;Игры про котеек;cat.txt
