@@ -1,10 +1,14 @@
 NES;NES;nes.txt
 FDS;FDS;fds.txt
 SMS;SMS;sms.txt
+GG;GG;gg.txt
 TG16;TG16;tg16.txt
+TGCD;TG16+CD;tg16_tcd.txt
 SMD;SMD;smd.txt
+SMDCD;SMD+CD;smd+cd.txt
 TCD;TCD;tcd.txt
 GB;GB;gb.txt
+GBGBC;GB+GBC;gb_gbc.txt
 SNES;SNES;snes.txt
 SEGACD;SEGACD;sega_cd.txt
 STN;Saturn;saturn.txt
@@ -21,12 +25,13 @@ PSP;PSP;psp.txt
 WII;Wii;wii.txt
 3DS;3ds;3ds.txt
 VITA;Vita;vita.txt
-WIIU;Wii U;wiiu.txt 
-CATBAG;Кот в мешке;cat_bag.txt
-GBGBC;GB+GBC;gb_gbc.txt
-SMDCD;SMD+CD;smd+cd.txt
-TGCD;TG16+CD;tg16_tcd.txt
-GG;GG;gg.txt
+WIIU;Wii U;wiiu.txt
+C64;Commodore 64;c64.txt
+AMG;Amiga;amg.txt
+DOS;DOS;dos.txt
+ZX;ZX Spectrum;zx.txt
+MSXMSX2;MSX+MSX2;msx_msx2.txt 
+CATBAG;Кот в мешке (RHG);cat_bag.txt
 RhgWheel;Колесо RHG;rhg_wheel.txt
 RhgItems;Предметы RHG;rhg_items.txt
 Wheel;Колесо;wheel.txt
