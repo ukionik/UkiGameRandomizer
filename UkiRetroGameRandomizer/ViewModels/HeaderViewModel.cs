@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -23,6 +24,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private bool _startEnabled;
         private bool _platformsEnabled = true;
         private Visibility _infoVisibility = Visibility.Collapsed;
+        private Visibility _fabinoVisibility = Visibility.Collapsed;
         private int _listCount;
         private string _letter;
 
@@ -70,6 +72,16 @@ namespace UkiRetroGameRandomizer.ViewModels
                 NotifyOfPropertyChange(() => InfoVisibility);
             }
         }
+        
+        public Visibility FabinoVisibility
+        {
+            get => _fabinoVisibility;
+            set
+            {
+                _fabinoVisibility = value;
+                NotifyOfPropertyChange(() => FabinoVisibility);
+            }
+        }
 
         public int ListCount
         {
@@ -88,6 +100,11 @@ namespace UkiRetroGameRandomizer.ViewModels
             _eventAggregator.Subscribe(this);
             Platforms.AddRange(Models.Data.Platforms.All
                 .Select(platformViewModelFactory.Create));
+
+            var challenge = ConfigurationManager.AppSettings["Challenge"];
+            _fabinoVisibility = challenge == "Dropmania3"
+                ? Visibility.Visible
+                : Visibility.Collapsed;
         }
 
         public void Start()
