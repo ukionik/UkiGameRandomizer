@@ -102,7 +102,7 @@ namespace UkiRetroGameRandomizer.ViewModels
                 .Select(platformViewModelFactory.Create));
 
             var challenge = ConfigurationManager.AppSettings["Challenge"];
-            _fabinoVisibility = challenge == "Dropmania3"
+            _fabinoVisibility = challenge == "Dropmania4"
                 ? Visibility.Visible
                 : Visibility.Collapsed;
         }
