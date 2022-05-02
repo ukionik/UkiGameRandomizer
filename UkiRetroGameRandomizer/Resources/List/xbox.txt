@@ -1,25 +1,16 @@
-007: Agent Under Fire
-007: Everything or Nothing
-007: From Russia with Love
-007: Nightfire
+007: NightFire
 187 Ride or Die
 2002 FIFA World Cup
-2006 FIFA World Cup
 25 To Life
 4x4 EVO 2
 50 Cent: Bulletproof
 Advent Rising
-Æon Flux
-AFL Live 2003
-AFL Live 2004
-AFL Live Premiership Edition
-AFL Premiership 2005
+Aeon Flux
 Aggressive Inline
-Airforce Delta Storm
+AirForce Delta Storm
 Alias
 Alien Hominid
 Aliens Versus Predator: Extinction
-Alfa Romeo Racing Italiano
 All-Star Baseball 2003
 All-Star Baseball 2004
 All-Star Baseball 2005
@@ -28,15 +19,13 @@ America's Army: Rise of a Soldier
 American Chopper
 American Chopper 2: Full Throttle
 AMF Bowling 2004
-AMF Xtreme Bowling 2006
+AMF Xtreme Bowling
 Amped: Freestyle Snowboarding
 Amped 2
-AND 1 Streetball
-Angelic Concert
+And 1 Streetball
 Animaniacs: The Great Edgar Hunt
 Antz Extreme Racing
-Aoi Namida
-APEX
+Apex
 Aquaman: Battle for Atlantis
 Arctic Thunder
 Area 51
@@ -45,7 +34,6 @@ Armed and Dangerous
 Army Men: Major Malfunction
 Army Men: Sarge's War
 Arx Fatalis
-Atari Anthology
 ATV Quad Power Racing 2
 Auto Modellista
 Avatar: The Last Airbender
@@ -57,27 +45,24 @@ Baldur's Gate: Dark Alliance
 Baldur's Gate: Dark Alliance II
 Barbarian
 Barbie Horse Adventures: Wild Horse Rescue
-The Bard's Tale
-The Baseball 2002: Battle Ball Park Sengen
+Bard's Tale, The
 Bass Pro Shops: Trophy Bass 2007
-Bass Pro Shops Trophy Hunter 2007
+Bass Pro Shops: Trophy Hunter 2007
 Batman Begins
 Batman: Dark Tomorrow
 Batman: Rise of Sin Tzu
-Batman Vengeance
+Batman: Vengeance
 Battle Engine Aquila
 Battlefield 2: Modern Combat
 Battlestar Galactica
 Beat Down: Fists of Vengeance
 Beyond Good & Evil
-The Bible Game
+Bible Game, The
 Bicycle Casino
 Big Bumpin'
 Big Mutha Truckers
 Big Mutha Truckers 2
 Bionicle
-Bistro Cupid
-Bistro Cupid 2
 Black
 Black Stone: Magic & Steel
 Blade II
@@ -92,7 +77,6 @@ BloodRayne 2
 Bloody Roar Extreme
 BlowOut
 BMX XXX
-Braveknight
 Break Nine: World Billiards Tournament
 Breakdown
 Breeders' Cup World Thoroughbred Championships
@@ -108,46 +92,36 @@ Burnout
 Burnout 2: Point of Impact
 Burnout 3: Takedown
 Burnout Revenge
-C.A.T.: Cyber Attack Team
 Cabela's Big Game Hunter 2005 Adventures
 Cabela's Dangerous Hunts
 Cabela's Dangerous Hunts 2
-Cabela's Deer Hunt: 2004 Season
-Cabela's Deer Hunt: 2005 Season
+Cabela's Deer Hunt 2004 Season
+Cabela's Deer Hunt 2005 Season
 Cabela's Outdoor Adventures
 Call of Cthulhu: Dark Corners of the Earth
 Call of Duty: Finest Hour
 Call of Duty 2: Big Red One
 Call of Duty 3
-Capcom Classics Collection Vol. 1
-Capcom Classics Collection Vol. 2
 Capcom Fighting Evolution
 Capcom vs. SNK 2 EO
 Carmen Sandiego: The Secret of the Stolen Drums
-Cars
 Carve
 Castlevania: Curse of Darkness
 Catwoman
 Cel Damage
-Celebrity Deathmatch
 Championship Bowling
-Championship Manager: Season 01/02
-Championship Manager: Season 02/03
-Championship Manager 2006
-Championship Manager 5
 Charlie and the Chocolate Factory
 Chase: Hollywood Stunt Driver
-Chessmaster 10th Edition
+Chessmaster
 Chicago Enforcer
-Chicken Little
-The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
-The Chronicles of Riddick: Escape from Butcher Bay
+Chronicles of Narnia, The: The Lion, The Witch and The Wardrobe
+Chronicles of Riddick, The: Escape From Butcher Bay
 Circus Maximus: Chariot Wars
 Classified: The Sentinel Crisis
 Close Combat: First to Fight
 Club Football
 Club Football 2005
-Codename: Kids Next Door - Operation: V.I.D.E.O.G.A.M.E.
+Codename: Kids Next Door: Operation V.I.D.E.O.G.A.M.E.
 Cold Fear
 Cold War
 Colin McRae Rally 04
@@ -157,11 +131,11 @@ College Hoops 2K6
 College Hoops 2K7
 Combat Elite: WWII Paratroopers
 Combat: Task Force 121
-Commandos: Strike Force
+Commandos Strike Force
 Commandos 2: Men of Courage
 Conan
 Conflict: Desert Storm
-Conflict: Desert Storm II: Back to Baghdad
+Conflict: Desert Storm II - Back to Baghdad
 Conflict: Global Terror
 Conflict: Vietnam
 Conker: Live & Reloaded
@@ -169,8 +143,8 @@ Conspiracy: Weapons of Mass Destruction
 Constantine
 Corvette
 Counter-Strike
+Crash 'N' Burn
 Crash Bandicoot: The Wrath of Cortex
-Crash 'n' Burn
 Crash Nitro Kart
 Crash Tag Team Racing
 Crash Twinsanity
@@ -181,18 +155,11 @@ Crimson Sea
 Crimson Skies: High Road to Revenge
 Crouching Tiger, Hidden Dragon
 Crusty Demons
-CSI: Crime Scene Investigation
 Curious George
 Curse: The Eye of Isis
-The Da Vinci Code
-Daemon Vector
+Da Vinci Code, The
 Dai Senryaku VII: Modern Military Tactics
 Dakar 2: The World's Ultimate Rally
-Dance Dance Revolution Ultramix
-Dance Dance Revolution Ultramix 2
-Dance Dance Revolution Ultramix 3
-Dance Dance Revolution Ultramix 4
-Dance: UK
 Dark Summit
 Darkwatch
 Dave Mirra Freestyle BMX 2
@@ -200,14 +167,13 @@ David Beckham Soccer
 Dead Man's Hand
 Dead or Alive 3
 Dead or Alive Ultimate
-Dead or Alive Xtreme Beach Volleyball
+Dead or Alive: Xtreme Beach Volleyball
 Dead to Rights
 Dead to Rights II
 Deathrow
 Def Jam: Fight for NY
 Defender
 Delta Force: Black Hawk Down
-Dennou Taisen: DroneZ
 Destroy All Humans!
 Destroy All Humans! 2
 Deus Ex: Invisible War
@@ -215,29 +181,38 @@ Die Hard: Vendetta
 Digimon Rumble Arena 2
 Digimon World 4
 Dino Crisis 3
-Dinosaur Hunting
 Dinotopia: The Sunstone Odyssey
+Disney's Chicken Little
 Disney's Extreme Skate Adventure
+Disney's The Haunted Mansion
+Disney/Pixar Cars
+Disney/Pixar Finding Nemo
+Disney/Pixar Ratatouille
+Disney/Pixar The Incredibles
+Disney/Pixar The Incredibles: Rise of the Underminer
 Doom 3
 Doom 3: Resurrection of Evil
-Double-S.T.E.A.L. - The Second Clash
 Dr. Muto
 Dr. Seuss' The Cat in the Hat
 Dragon Ball Z: Sagas
 Dragon's Lair 3D: Return to the Lair
 Drake of the 99 Dragons
 Dreamfall: The Longest Journey
-Drihoo (JP)
+DreamWorks Madagascar
+DreamWorks Over the Hedge
+DreamWorks Shark Tale
+DreamWorks Shrek SuperSlam
 DRIV3R
+Driv to Survive
 Driver: Parallel Lines
-The Dukes of Hazzard: Return of the General Lee
+Dukes of Hazzard, The: Return of the General Lee
 Dungeons & Dragons: Heroes
 Dynasty Warriors 3
 Dynasty Warriors 4
 Dynasty Warriors 5
 Ed, Edd n Eddy: The Mis-Edventures
 Egg Mania: Eggstreme Madness
-The Elder Scrolls III: Morrowind
+Elder Scrolls III, The: Morrowind
 Enclave
 England International Football
 Enter the Matrix
@@ -258,24 +233,23 @@ ESPN NHL Hockey
 ESPN Winter X-Games Snowboarding 2002
 Evil Dead: A Fistful of Boomstick
 Evil Dead: Regeneration
-ExaSkeleton
 F1 2001
 F1 2002
 F1 Career Challenge
 Fable
 Fable: The Lost Chapters
-The Fairly OddParents: Breakin' Da Rules
+Fairly OddParents, The: Breakin' Da Rules
 Fallout: Brotherhood of Steel
-Family Guy Video Game!
+Family Guy
 Fantastic 4
 Far Cry Instincts
-Far Cry Instincts: Evolution
+Far Cry Instincts Evolution
 Fatal Frame
-Fatal Frame II: Crimson Butterfly
+Fatal Frame II: Crimson Butterfly Director's Cut
 FIFA 06 Soccer
 FIFA 07
-FIFA Football 2003
-FIFA Football 2004
+FIFA Soccer 2003
+FIFA Soccer 2004
 FIFA 2005
 FIFA Street
 FIFA Street 2
@@ -284,13 +258,11 @@ Fight Club
 Fight Night 2004
 Fight Night Round 2
 Fight Night: Round 3
-FILA World Tour Tennis
+Fila World Tour Tennis
 Final Fight: Streetwise
-Finding Nemo
 Fire Blade
 FlatOut
 FlatOut 2
-Flight Academy
 Ford Bold Moves Street Racing
 Ford Mustang: The Legend Lives
 Ford Racing 2
@@ -298,19 +270,20 @@ Ford Racing 3
 Ford vs. Chevy
 Forgotten Realms: Demon Stone
 Forza Motorsport
+Frankie Dettori Racing
 Freaky Flyers
 Freedom Fighters
-Freestyle MetalX
+Freestyle Metal X
 Freestyle Street Soccer
-Frogger Beyond
 Frogger: Ancient Shadow
+Frogger Beyond
+From Russia With Love
 Full Spectrum Warrior
 Full Spectrum Warrior: Ten Hammers
 Furious Karting
 Futurama
 Future Tactics: The Uprising
 Fuzion Frenzy
-Galaxy Angel
 Galleon
 Gauntlet: Dark Legacy
 Gauntlet: Seven Sorrows
@@ -320,7 +293,7 @@ Ghost Master: The Gravenville Chronicles
 Gladiator: Sword of Vengeance
 Gladius
 Goblin Commander: Unleash the Horde
-The Godfather: The Game
+Godfather, The
 Godzilla: Destroy All Monsters Melee
 Godzilla: Save the Earth
 GoldenEye: Rogue Agent
@@ -330,28 +303,27 @@ Grand Theft Auto III
 Grand Theft Auto: San Andreas
 Grand Theft Auto: Vice City
 Gravity Games Bike: Street. Vert. Dirt.
-The Great Escape
+Great Escape, The
 Greg Hastings Tournament Paintball
 Greg Hastings' Tournament Paintball Max'd
 Grooverider: Slot Car Thunder
 Group S Challenge
 Guilty Gear Isuka
-Guilty Gear X2#Reload
+Guilty Gear X2 #Reload
 Gun
 Gun Metal
 GunGriffon: Allied Strike
 Gunvalkyrie
-The Guy Game
+Guy Game, The
 Half-Life 2
 Halo: Combat Evolved
 Halo 2
-Halo 2 Multiplayer Map Pack
+Halo: Triple Pack
 Harry Potter and the Chamber of Secrets
 Harry Potter and the Goblet of Fire
 Harry Potter and the Prisoner of Azkaban
 Harry Potter and the Sorcerer's Stone
 Harry Potter: Quidditch World Cup
-The Haunted Mansion
 Headhunter Redemption
 Hello Kitty: Roller Rescue
 Heroes of the Pacific
@@ -360,59 +332,51 @@ High Rollers Casino
 Hitman: Blood Money
 Hitman: Contracts
 Hitman 2: Silent Assassin
-The Hobbit
+Hobbit, The
 Hot Wheels: Stunt Track Challenge
-The House of the Dead III
 Hulk
 Hummer Badlands
 Hunter: The Reckoning
-Hunter: The Reckoning: Redeemer
-The Hustle: Detroit Streets
+Hunter: The Reckoning Redeemer
+Hustle, The: Detroit Streets
 I-Ninja
 Ice Age 2: The Meltdown
 IHRA Drag Racing 2004
 IHRA Drag Racing: Sportsman Edition
 IHRA Professional Drag Racing 2005
-Innocent Tears
-The Incredible Hulk: Ultimate Destruction
-The Incredibles
-The Incredibles: Rise of the Underminer
+Incredible Hulk, The: Ultimate Destruction
 Indiana Jones and the Emperor's Tomb
 Indigo Prophecy
 IndyCar Series
 IndyCar Series 2005
 Inside Pitch 2003
-The Italian Job
-Intellivision Lives!
 International Superstar Soccer 2
 Iron Phoenix
+Italian Job, The
 Jacked
 Jade Empire
+James Bond 007: Agent Under Fire
+James Bond 007: Everything or Nothing
 James Cameron's Dark Angel
 Jaws Unleashed
-Jet Set Radio Future
-Jikkyou World Soccer 2002
-Jockey's Road
-Judge Dredd: Dredd Vs. Death
+JSRF: Jet Set Radio Future
+Judge Dredd: Dredd VS Death
 Juiced
 Jurassic Park: Operation Genesis
 Just Cause
 Justice League Heroes
 Kabuki Warriors
 Kakuto Chojin
-Kao the Kangaroo: Round 2
-Karaoke Revolution
-Karaoke Revolution Party
+Kao the Kangaroo Round 2
 Kelly Slater's Pro Surfer
-Kikou Heidan J-Phoenix +
-Kill Switch
+kill.switch
 King Arthur
 Kingdom Under Fire: Heroes
 Kingdom Under Fire: The Crusaders
-The King of Fighters 2002
-The King of Fighters 2003
-The King of Fighters Neowave
-The King of Fighters: Maximum Impact
+King of Fighters 2002, The
+King of Fighters 2003, The
+King of Fighters Neowave, The
+King of Fighters, The: Maximum Impact
 Knight's Apprentice: Memorick's Adventures
 Knights of the Temple: Infernal Crusade
 Knights of the Temple II
@@ -421,28 +385,23 @@ Kung Fu Chaos
 L.A. Rush
 Land of the Dead: Road to Fiddler's Green
 Largo Winch: Empire Under Threat
+Le Tour de France
 Legacy of Kain: Defiance
-The Legend of Spyro: A New Beginning
+Legend of Spyro, The: A New Beginning
 Legends of Wrestling
 Legends of Wrestling II
-Lego Star Wars: The Video Game
-Lego Star Wars II: The Original Trilogy
+LEGO Star Wars
+LEGO Star Wars II: The Original Trilogy
 Leisure Suit Larry: Magna Cum Laude
 Lemony Snicket's A Series of Unfortunate Events
 Links 2004
-LMA Manager 2003
-LMA Manager 2004
-LMA Manager 2005
-LMA Manager 2006
 Loons: The Fight for Fame
-The Lord of the Rings: The Fellowship of the Ring
-The Lord of the Rings: The Return of the King
-The Lord of the Rings: The Third Age
-The Lord of the Rings: The Two Towers
-Lotus Challenge
-Mace Griffin: Bounty Hunter
+Lord of the Rings, The: The Fellowship of the Ring
+Lord of the Rings, The: The Return of the King
+Lord of the Rings, The: The Third Age
+Lord of the Rings, The: The Two Towers
+Mace Griffin Bounty Hunter
 Mad Dash Racing
-Madagascar
 Madden NFL 06
 Madden NFL 07
 Madden NFL 08
@@ -451,35 +410,28 @@ Madden NFL 2002
 Madden NFL 2003
 Madden NFL 2004
 Madden NFL 2005
-Mafia: The City of Lost Heaven
-Magatama
-Magic the Gathering: Battlegrounds
-Magi Death Fight: Mahou Gakuen
+Mafia
+Magic: The Gathering - Battlegrounds
 Major League Baseball 2K5
 Major League Baseball 2K5: World Series Edition
 Major League Baseball 2K6
 Major League Baseball 2K7
 Malice
-Manchester United Manager 2005
 Manhunt
 Marc Ecko's Getting Up: Contents Under Pressure
-Marvel: Ultimate Alliance
 Marvel Nemesis: Rise of the Imperfects
+Marvel: Ultimate Alliance
 Marvel vs. Capcom 2
-Mashed: Drive to Survive
-Mashed: Fully Loaded
 Mat Hoffman's Pro BMX 2
-The Matrix: Path of Neo
+Matrix, The: Path of Neo
 Max Payne
 Max Payne 2: The Fall of Max Payne
 Maximum Chase
 MechAssault
 MechAssault 2: Lone Wolf
+Medal of Honor Frontline
 Medal of Honor: European Assault
-Medal of Honor: Frontline
 Medal of Honor: Rising Sun
-Mega Man Anniversary Collection
-Melbourne Cup Challenge
 Men of Valor
 Mercenaries: Playground of Destruction
 Metal Arms: Glitch in the System
@@ -488,21 +440,17 @@ Metal Gear Solid 2: Substance
 Metal Slug 3
 Metal Slug 4
 Metal Slug 5
-Metal Wolf Chaos
 Miami Vice
 Micro Machines
 Midnight Club II
 Midnight Club 3: DUB Edition
 Midnight Club 3: DUB Edition Remix
 Midtown Madness 3
-Midway Arcade Treasures
-Midway Arcade Treasures 2
-Midway Arcade Treasures 3
 Mike Tyson Heavyweight Boxing
 Minority Report: Everybody Runs
-Mission Impossible: Operation Surma
-MLB Slugfest 2003
-MLB Slugfest 2004
+Mission: Impossible: Operation Surma
+MLB Slugfest 20-03
+MLB Slugfest 20-04
 MLB Slugfest 2006
 MLB Slugfest: Loaded
 Mojo!
@@ -516,27 +464,23 @@ Mortal Kombat: Shaolin Monks
 Motocross Mania 3
 MotoGP
 MotoGP 2
-MotoGP 3
-MTV Music Generator 3: This is the Remix
-MTX: Mototrax
+MotoGP 3: Ultimate Racing Technology
+Motor Trend presents Lotus Challenge
+MTV's Celebrity Deathmatch
+MTX Mototrax
 Murakumo: Renegade Mech Pursuit
-Muzzle Flash
-MVP 06: NCAA Baseball
+MVP 06 NCAA Baseball
 MVP Baseball 2003
 MVP Baseball 2004
 MVP Baseball 2005
-MX 2002
+MX 2002 featuring Ricky Carmichael
 MX Superfly
 MX Unleashed
 MX vs. ATV Unleashed
 MX World Tour Featuring Jamie Little
 Myst III: Exile
 Myst IV: Revelation
-N.U.D.E.@ Natural Ultimate Digital Experiment
-Nakashima Tetsuya no Othello Seminar
-Namco Museum
-Namco Museum 50th Anniversary
-Narc
+NARC
 NASCAR 06: Total Team Control
 NASCAR 07
 NASCAR 2005: Chase for the Cup
@@ -583,8 +527,8 @@ Neighbours from Hell
 New Legends
 NFL 2K2
 NFL 2K3
-NFL Blitz 2002
-NFL Blitz 2003
+NFL Blitz 20-02
+NFL Blitz 20-03
 NFL Blitz Pro
 NFL Fever 2002
 NFL Fever 2003
@@ -606,12 +550,11 @@ NHL Hitz 20-03
 NHL Hitz Pro
 NHL Rivals 2004
 Nickelodeon Party Blast
-NightCaster
+NightCaster: Defeat the Darkness
 NightCaster II: Equinox
 Ninja Gaiden
 Ninja Gaiden Black
-Nobunaga no Yabou: Ranseiki
-ObsCure
+Obscure
 Oddworld: Munch's Oddysee
 Oddworld: Stranger's Wrath
 Open Season
@@ -620,53 +563,50 @@ Otogi: Myth of Demons
 Otogi 2: Immortal Warriors
 Outlaw Golf
 Outlaw Golf 2
-Outlaw Golf: 9 More Holes of X-Mas
-Outlaw Golf: Holiday Golf (9 Holes of X-Mas)
+Outlaw Golf: 9 Holes of X-Mas
+Outlaw Golf: 9 More Holes Of X-Mas
+Outlaw Golf: Holiday Golf
 Outlaw Tennis
 Outlaw Volleyball
 Outlaw Volleyball: Red Hot
-OutRun 2
+OutRun2
 OutRun 2006: Coast 2 Coast
-Over the Hedge
 Pac-Man World 2
 Pac-Man World 3
 Painkiller: Hell Wars
 Panzer Dragoon Orta
 Panzer Elite Action: Fields of Glory
 Pariah
-Peter Jackson's King Kong
-Petit Copter
+Peter Jackson's King Kong: The Official Game of the Movie
 Phantasy Star Online Episode I & II
 Phantom Crash
 Phantom Dust
 Pilot Down: Behind Enemy Lines
-Pinball Hall of Fame
+Pinball Hall of Fame: The Gottlieb Collection
 Pirates of the Caribbean
 Pirates: The Legend of Black Kat
 Pitfall: The Lost Expedition
 Playboy: The Mansion
 Plus Plum 2
-PocketBike Racer
+Pocketbike Racer
 Pool Shark 2
-Powerdrome
+Power Drome
 Predator: Concrete Jungle
 Prince of Persia: The Sands of Time
 Prince of Persia: The Two Thrones
 Prince of Persia: Warrior Within
-Prisoner of War
-Pro Cast Sports Fishing
+Pro Cast Sports Fishing Game
 Pro Fishing Challenge
 Pro Race Driver
 Project Gotham Racing
 Project Gotham Racing 2
 Project Snowblind
-ProStroke Golf: World Tour 2007
+ProStroke Golf - World Tour 2007
 Psi-Ops: The Mindgate Conspiracy
 Psychonauts
-Psyvariar 2
+Psyvariar 2: Extend Edition
 Pulse Racer
-Pump It Up: Exceed
-The Punisher
+Punisher, The
 Pure Pinball
 Puyo Pop: Fever
 Quantum Redshift
@@ -675,7 +615,6 @@ Rallisport Challenge
 RalliSport Challenge 2
 Rally Fusion: Race of Champions
 Rapala Pro Fishing
-Ratatouille
 Rayman 3: Hoodlum Havoc
 Rayman Arena
 Raze's Hell
@@ -685,7 +624,6 @@ Red Faction II
 Red Ninja: End of Honor
 RedCard 20-03
 Reign of Fire
-Rent-A-Hero No. 1
 Reservoir Dogs
 Return to Castle Wolfenstein: Tides of War
 Richard Burns Rally
@@ -703,12 +641,13 @@ Rogue Ops
 Rogue Trooper
 RollerCoaster Tycoon
 Rolling
-Room Zoom
+Room Zoom: Race for Impact
 Rugby 06
 Rugby 2005
 Rugby Challenge 2006
 Rugby League
 Rugby League 2
+S.C.A.R. - Squadra Corse Alfa Romeo
 Samurai Shodown V
 Samurai Warriors
 Scaler
@@ -716,46 +655,39 @@ Scarface: The World Is Yours
 Scooby-Doo! Mystery Mayhem
 Scooby-Doo! Night of 100 Frights
 Scooby-Doo! Unmasked
-American McGee Presents: Scrapland
+Scrapland
 SeaBlade
-SeaWorld: Shamu's Deep Sea Adventures
+Sea World: Shamu's Deep Sea Adventures
 Second Sight
 Secret Weapons Over Normandy
 Sega GT 2002
 Sega GT Online
 Sega Soccer Slam
 Sensible Soccer 2006
-Sentou Yousei Yukikaze: Yousei no Mau Sora
 Serious Sam
 Serious Sam II
 Shadow of Memories
 Shadow Ops: Red Mercury
 Shadow the Hedgehog
-Shark Tale
 Shattered Union
 Shellshock: Nam '67
 Shenmue II
 Shikigami no Shiro
-Shikigami no Shiro Evolution Blue
-Shikigami no Shiro Evolution Red
+Shikigami no Shiro Evolution
 Shikigami no Shiro II
-Shinchou Mahjong (Nobunaga Mahjong)
-Shin Megami Tensei: Nine
 Showdown: Legends of Wrestling
 Shrek
 Shrek 2
-Shrek Super Party
-Shrek SuperSlam
+Shrek: Super Party
 Sid Meier's Pirates!
-Silent Hill 2
+Silent Hill 2: Restless Dreams
 Silent Hill 4: The Room
-Silent Scope Complete
-The Simpsons: Hit & Run
-The Simpsons: Road Rage
-The Sims
-The Sims 2
-The Sims Bustin' Out
-Ski Racing 2005
+Simpsons, The: Hit & Run
+Simpsons, The: Road Rage
+Sims, The
+Sims 2, The
+Sims Bustin' Out, The
+Ski Racing 2005 Featuring Hermann Maier
 Ski Racing 2006
 Slam Tennis
 Smashing Drive
@@ -764,7 +696,6 @@ Sneakers
 Sniper Elite
 Soldier of Fortune II: Double Helix
 Sonic Heroes
-Sonic Mega Collection Plus
 Sonic Riders
 Soul Calibur II
 Spartan: Total Warrior
@@ -772,14 +703,14 @@ Spawn: Armageddon
 Special Forces: Nemesis Strike
 Speed Kings
 Sphinx and the Cursed Mummy
-Spider-Man
+Spider-Man: The Movie
 Spider-Man 2
 Spikeout: Battle Street
 Splashdown
-Splat Magazine Renegade Paintball
+Splat Renegade Paintball
 SpongeBob SquarePants: Battle for Bikini Bottom
 SpongeBob SquarePants: Lights, Camera, Pants!
-The SpongeBob SquarePants Movie Game
+SpongeBob SquarePants Movie, The
 Spy Hunter
 Spy Hunter 2
 Spy Hunter: Nowhere to Run
@@ -791,17 +722,17 @@ SSX Tricky
 Stacked with Daniel Negreanu
 Stake: Fortune Fighters
 Star Trek: Shattered Universe
-Star Wars: Jedi Knight: Jedi Academy
-Star Wars: Jedi Knight II: Jedi Outcast
 Star Wars: Battlefront
 Star Wars: Battlefront II
 Star Wars: Episode III: Revenge of the Sith
+Star Wars Jedi Knight: Jedi Academy
+Star Wars Jedi Knight II: Jedi Outcast
 Star Wars: Jedi Starfighter
 Star Wars: Knights of the Old Republic
-Star Wars: Knights of the Old Republic II: The Sith Lords
+Star Wars: Knights of the Old Republic II - The Sith Lords
 Star Wars: Obi-Wan
 Star Wars: Republic Commando
-Star Wars: Starfighter
+Star Wars Starfighter: Special Edition
 Star Wars: The Clone Wars
 Starsky & Hutch
 State of Emergency
@@ -809,14 +740,13 @@ Steel Battalion
 Steel Battalion: Line of Contact
 Still Life
 Stolen
-Street Fighter Anniversary Collection
 Street Hoops
 Street Racing Syndicate
 Strike Force Bowling
 Stubbs the Zombie in Rebel Without a Pulse
 Sudeki
-The Suffering
-The Suffering: Ties That Bind
+Suffering, The
+Suffering, The: Ties That Bind
 Super Bubble Pop
 Super Monkey Ball Deluxe
 Superman Returns
@@ -826,33 +756,25 @@ SWAT: Global Strike Team
 SX Superstar
 Syberia
 Syberia II
-Taito Legends
-Taito Legends 2
 Tak: The Great Juju Challenge
 Tak 2: The Staff of Dreams
-Takahashi Akiko no Mahjong Seminar
 Tao Feng: Fist of the Lotus
-Taz: Wanted
-Tecmo Classic Arcade
+Taz Wanted
 Teen Titans
 Teenage Mutant Ninja Turtles
-Teenage Mutant Ninja Turtles: Mutant Melee
 Teenage Mutant Ninja Turtles 2: Battle Nexus
 Teenage Mutant Ninja Turtles 3: Mutant Nightmare
-Tenchu: Return from Darkness
-Tenerezza
+Tenchu: Return From Darkness
 Tennis Masters Series 2003
-The Terminator: Dawn of Fate
+Terminator, The: Dawn of Fate
 Terminator 3: Rise of the Machines
 Terminator 3: The Redemption
 Test Drive
 Test Drive: Eve of Destruction
 Test Drive Off-Road Wide Open
 Tetris Worlds
-Tetris Worlds (Online Edition)
 Thief: Deadly Shadows
-The Thing
-Thousand Land
+Thing, The
 Thrillville
 Tiger Woods PGA Tour 2003
 Tiger Woods PGA Tour 2004
@@ -862,6 +784,7 @@ Tiger Woods PGA Tour 07
 Tim Burton's The Nightmare Before Christmas: Oogie's Revenge
 TimeSplitters 2
 TimeSplitters: Future Perfect
+TMNT: Mutant Melee
 TOCA Race Driver 2: The Ultimate Racing Simulator
 TOCA Race Driver 3
 ToeJam & Earl III: Mission to Earth
@@ -869,7 +792,7 @@ Tom and Jerry in War of the Whiskers
 Tom Clancy's Ghost Recon
 Tom Clancy's Ghost Recon 2
 Tom Clancy's Ghost Recon 2: Summit Strike
-Tom Clancy's Ghost Recon: Advanced Warfighter
+Tom Clancy's Ghost Recon Advanced Warfighter
 Tom Clancy's Ghost Recon: Island Thunder
 Tom Clancy's Rainbow Six 3
 Tom Clancy's Rainbow Six 3: Black Arrow
@@ -888,25 +811,20 @@ Tony Hawk's Project 8
 Tony Hawk's Underground
 Tony Hawk's Underground 2
 Top Gear RPM Tuning
-Top Spin Tennis
-Torino 2006
+Top Spin
+Torino 2006 - The Official Video Game of the XX Olympic Winter Games
 Tork: Prehistoric Punk
-Total Club Manager 2004
-Total Club Manager 2005
 Total Immersion Racing
 Total Overdose: A Gunslinger's Tale in Mexico
 Totaled!
 Touge R
-Tour de France
 Toxic Grind
 TransWorld Snowboarding
 TransWorld Surf
-Triangle Again
-Triangle Again 2
 Trigger Man
 Triple Play 2002
 Trivial Pursuit Unhinged
-Tron 2.0 Killer App
+Tron 2.0: Killer App
 True Crime: New York City
 True Crime: Streets of LA
 Turok: Evolution
@@ -914,19 +832,18 @@ Ty the Tasmanian Tiger
 Ty the Tasmanian Tiger 2: Bush Rescue
 Ty the Tasmanian Tiger 3: Night of the Quinkan
 UEFA Champions League 2004-2005
-UEFA Euro 2004
+UEFA Euro 2004: Portugal
 UFC: Tapout
 UFC: Tapout 2
 Ultimate Beach Soccer
 Ultimate Pro Pinball
 Ultimate Spider-Man
-Ultra Bust-a-Move
-Umezawa Yukari no Igo Seminar
+Ultra Bust-A-Move
 Unreal Championship
 Unreal Championship 2: The Liandri Conflict
 Unreal II: The Awakening
 Urban Chaos: Riot Response
-The Urbz: Sims in the City
+Urbz, The: Sims in the City
 V-Rally 3
 Van Helsing
 Vexx
@@ -934,15 +851,15 @@ Vietcong: Purple Haze
 Virtual Pool: Tournament Edition
 Volvo: Drive For Life
 Voodoo Vince
-Wakeboarding Unleashed
+Wakeboarding Unleashed Featuring Shaun Murray
 Wallace & Gromit in Project Zoo
 Wallace & Gromit: The Curse of the Were-Rabbit
 Warpath
-The Warriors
+Warriors, The
 Whacked!
 Whiplash
 Whiteout
-The Wild Rings
+Wild Rings, The
 WinBack 2: Project Poseidon
 Wings of War
 Without Warning
@@ -955,7 +872,7 @@ World Championship Snooker 2004
 World Poker Tour
 World Racing
 World Racing 2
-World Series Baseball 2K2
+World Series Baseball
 World Series Baseball 2K3
 World Series of Poker
 World Snooker Championship 2005
@@ -963,6 +880,7 @@ World Soccer Winning Eleven 8 International
 World Soccer Winning Eleven 9
 World War II Combat: Iwo Jima
 World War II Combat: Road to Berlin
+World War II: Prisoner of War
 Worms 3D
 Worms 4: Mayhem
 Worms Forts: Under Siege
@@ -983,9 +901,6 @@ XIII
 Xyanide
 Yager
 Yetisports Arctic Adventures
-Yonenaga Kunio no Shougi Seminar
-Yourself!Fitness
 Yu-Gi-Oh! The Dawn of Destiny
-Zapper: One Wicked Cricket
+Zapper
 Zathura
-ZillerNet
