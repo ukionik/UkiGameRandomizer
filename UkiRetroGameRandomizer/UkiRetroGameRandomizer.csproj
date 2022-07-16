@@ -25,6 +25,7 @@
         <DefineConstants>DEBUG;TRACE</DefineConstants>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
+        <Prefer32bit>true</Prefer32bit>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -165,35 +166,311 @@
             <Generator>SettingsSingleFileGenerator</Generator>
             <LastGenOutput>Settings.Designer.cs</LastGenOutput>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\1.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\3ds.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\2.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\amg.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\3.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\c64.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\4.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\dc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\5.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\dos.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\6.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\ds.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\7.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\fds.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\8.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\gb.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Fanfare\9.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\gba.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\Sounds\Povar\Roll\4to_gde_kogda.mp3">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <None Include="Resources\List\Default\gbc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\gb_gbc.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\gc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\gg.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\headtails.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\metadata.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\msx_msx2.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\n64.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\nes.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\ps1.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\ps2.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\psp.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\saturn.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\sega_cd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\smd+cd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\smd.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\sms.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\snes.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\tcd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\tg16.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\tg16_tcd.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\vita.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\wii.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\wiiu.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\xbox.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Default\zx.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\cat.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\dc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\dos.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\fds.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\fun.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\gb.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\gba.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\gbc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\gb_gbc.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\gc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\gg.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\headtails.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\massiveredlight.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\megaman.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\metadata.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\n64.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\nes.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\platforms.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\players.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\ps1.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\ps2.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\psp.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\roulette.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\saturn.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\sega_cd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\smd+cd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\smd.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\sms.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\snes.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\sneschallenge.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\tcd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\tg16.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\tg16_tcd.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\3ds.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\castlevania.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\cat.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\cat_bag.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\dc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\ds.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\fds.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\gb.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\gba.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\gbc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\gc.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\gg.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\headtails.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\megaman.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\metadata.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\n64.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\nes.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\platforms.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\ps1.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\ps2.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\psp.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\roulette.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\saturn.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\sega_cd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\smd.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\sms.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\snes.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\sneschallenge.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\tcd.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\tg16.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\vita.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\wii.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\wiiu.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\RHG\xbox.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
     <ItemGroup>
@@ -230,49 +507,7 @@
         <Page Include="Views\PopupView.xaml" />
     </ItemGroup>
     <ItemGroup>
-        <None Include="Resources\List\gba.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\gb_gbc.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\n64.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\nes.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\ps1.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\smd.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\sms.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\snes.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\tg16_tcd.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
         <Resource Include="VersionHistory.txt" />
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\metadata.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <Folder Include="Resources\Sounds\Povar" />
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\fds.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\Sounds\Retro\Fanfare\Aladdin SNES OST   The Diamond in the Rough.mp3">
@@ -409,49 +644,6 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-        <None Include="Resources\List\fun.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\cat.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\sneschallenge.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\massiveredlight.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\headtails.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\roulette.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\players.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\megaman.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="Resources\List\platforms.txt">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
-    <ItemGroup>
         <None Include="Resources\Sounds\Retro\Fanfare\Castlevania Dracula X OST Chosen Fate.mp3">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
@@ -517,127 +709,22 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\gg.txt">
+      <None Include="Resources\List\Default\wheel.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\sega_cd.txt">
+      <None Include="Resources\List\RHG\contra.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\smd+cd.txt">
+      <None Include="Resources\List\RHG\konatyactics">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\tcd.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\tg16.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\3ds.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\dc.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\ds.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\gbc.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\gc.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\ps2.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\psp.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\saturn.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\vita.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\wii.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\wiiu.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\xbox.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\gb.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\cat_bag.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\hypnocolor.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\castlevania.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Include="Resources\List\megaman_rhg.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\amg.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Include="Resources\List\c64.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Include="Resources\List\dos.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Include="Resources\List\msx_msx2.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Include="Resources\List\zx.txt">
+      <None Include="Resources\List\RHG\metroid.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

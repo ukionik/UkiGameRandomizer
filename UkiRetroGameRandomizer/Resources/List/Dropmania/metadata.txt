@@ -1,0 +1,34 @@
+NES;NES;nes.txt
+FDS;FDS;fds.txt
+SMS;SMS;sms.txt
+GG;GG;gg.txt
+TG16;TG16;tg16.txt
+TGCD;TG16+CD;tg16_tcd.txt
+SMD;SMD;smd.txt
+SMDCD;SMD+CD;smd+cd.txt
+TCD;TCD;tcd.txt
+GB;GB;gb.txt
+GBGBC;GB+GBC;gb_gbc.txt
+SNES;SNES;snes.txt
+SEGACD;SEGACD;sega_cd.txt
+STN;Saturn;saturn.txt
+PS1;PS1;ps1.txt
+N64;N64;n64.txt
+GBC;GBC;gbc.txt
+DC;Dreamcast;dc.txt
+PS2;PS2;ps2.txt
+GBA;GBA;gba.txt
+GC;Gamecube;gc.txt
+PSP;PSP;psp.txt
+Wheel;Колесо;wheel.txt
+Items;Предметы;items.txt
+Fun;Веселимся до упаду;fun.txt
+Dropped;Список дропнутого;dropped.txt
+Cat;Игры про котеек;cat.txt
+Massiveredlight;Список Массива;massiveredlight.txt
+SnesChallenge;SNES Challenge;sneschallenge.txt
+MegaMan;Mega Man;megaman.txt
+Platforms;Платформы;platforms.txt
+Roulette;Русская рулетка;roulette.txt
+HeadTails;Орел или Решка;headtails.txt
+Players;Участники дропмании;players.txt
