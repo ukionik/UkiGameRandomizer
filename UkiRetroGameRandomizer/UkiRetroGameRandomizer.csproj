@@ -106,6 +106,7 @@
         <Compile Include="Models\Data\RetroPlayPlatformItem.cs" />
         <Compile Include="Models\Data\WheelItem.cs" />
         <Compile Include="Models\Enums\GameFontSize.cs" />
+        <Compile Include="Models\Enums\Profile.cs" />
         <Compile Include="Models\Enums\RollStatus.cs" />
         <Compile Include="Models\Events\GameListLoadedEvent.cs" />
         <Compile Include="Models\Events\OasisTimerEvent.cs" />
@@ -127,6 +128,7 @@
         <Compile Include="Models\Services\HistoryLogger.cs" />
         <Compile Include="Models\Services\Mp3Player.cs" />
         <Compile Include="Models\Services\UkiStreamsApi.cs" />
+        <Compile Include="Models\Util\PlatformGamesUtil.cs" />
         <Compile Include="ViewModels\AppViewModel.cs" />
         <Compile Include="ViewModels\ExtraEventViewModel.cs" />
         <Compile Include="ViewModels\GameListViewModel.cs" />

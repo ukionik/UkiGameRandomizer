@@ -12,6 +12,7 @@ using UkiRetroGameRandomizer.Models.Data;
 using UkiRetroGameRandomizer.Models.Enums;
 using UkiRetroGameRandomizer.Models.Events;
 using UkiRetroGameRandomizer.Models.Factories;
+using UkiRetroGameRandomizer.Models.Util;
 
 namespace UkiRetroGameRandomizer.ViewModels
 {
@@ -101,7 +102,7 @@ namespace UkiRetroGameRandomizer.ViewModels
             Platforms.AddRange(Models.Data.Platforms.All
                 .Select(platformViewModelFactory.Create));
             
-            _fabinoVisibility = AppData.Profile == "Dropmania"
+            _fabinoVisibility = AppData.ProfileEnum == Profile.Dropmania
                 ? Visibility.Visible
                 : Visibility.Collapsed;
         }
@@ -127,26 +128,6 @@ namespace UkiRetroGameRandomizer.ViewModels
         public void Fabino()
         {
             var selectedPlatformName = SelectedPlatform?.Platform?.Name ?? "";
-            
-            var dict = new Dictionary<string, string>
-            {
-                {"NES", "A Boy and His Blob: Trouble on Blobolonia"},
-                {"SMD", "Boxing Legends of the Ring"},
-                {"SNES", "Bill Laimbeer's Combat Basketball"},
-                {"GB", "Bionic Battler"},
-                {"GBA", "Barbie and the Magic of Pegasus"},
-                {"TG", "Chō Jikū Yōsai Macross: Eien no Love Song"},
-                {"SMSGG", "Fantasy Zone: The Maze"},
-                {"PS1", "ALIVE"},
-                {"N64", "Eiko no Saint Andrews"},
-                {"ZX", "Artura"},
-                {"MSX", "Aspar GP Master"},
-                {"C64", "Alter Ego: Male Version"},
-                {"Amiga", "Amiga CD Football"},
-                {"DOS", "Adventures of Maddog Williams in the Dungeons of Duridian, The"},
-                {"FDS", "Hikari Shinwa: Palthena no Kagami"}
-            };
-
 
             if (selectedPlatformName.IsNullOrEmpty())
             {
@@ -154,9 +135,11 @@ namespace UkiRetroGameRandomizer.ViewModels
             }
             else
             {
-                var text = dict.ContainsKey(selectedPlatformName)
-                    ? dict[selectedPlatformName]
-                    : "Игра не найдена";
+                var text = PlatformGamesUtil.FindGames(SelectedPlatform.Platform)
+                    .Skip(92)
+                    .Select(x => x.Name)
+                    .FirstOrDefault() ?? "Игра не найдена";
+
                 _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
             }
         }

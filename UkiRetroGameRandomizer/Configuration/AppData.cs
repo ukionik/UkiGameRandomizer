@@ -1,7 +1,9 @@
-﻿using System.Configuration;
+﻿using System;
+using System.Configuration;
 using System.IO;
 using System.Reflection;
 using UkiHelper;
+using UkiRetroGameRandomizer.Models.Enums;
 
 namespace UkiRetroGameRandomizer.Configuration
 {
@@ -10,8 +12,16 @@ namespace UkiRetroGameRandomizer.Configuration
         public static Assembly Assembly { get; }
         public static string AppPath { get; }
         public static string ResourcePath { get; }
-        
         public static string Profile { get; }
+
+        public static Profile ProfileEnum
+        {
+            get
+            {
+                Enum.TryParse(Profile, true, out Profile profile);
+                return profile;                
+            }
+        } 
         public static string GameListPath { get; }
         public static string SoundPath { get; }
         public static string LogPath { get; }

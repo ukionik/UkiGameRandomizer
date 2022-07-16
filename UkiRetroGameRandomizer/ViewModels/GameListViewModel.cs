@@ -15,6 +15,7 @@ using UkiRetroGameRandomizer.Models.Events;
 using UkiRetroGameRandomizer.Models.Factories;
 using UkiRetroGameRandomizer.Models.Repositories;
 using UkiRetroGameRandomizer.Models.Services;
+using UkiRetroGameRandomizer.Models.Util;
 
 namespace UkiRetroGameRandomizer.ViewModels
 {
@@ -35,7 +36,6 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly IDroppedGameRepository _droppedGameRepository;
         private readonly IDropmaniaWheelItemRepository _dropmaniaWheelItemRepository;
         private readonly IRhgWheelItemRepository _rhgWheelItemRepository;
-        private readonly IRetroPlayPlatformRepository _retroPlayPlatformRepository;
         private readonly IPopupViewModel _popupViewModel;
         private readonly Mp3Player _mp3Player;
 
@@ -112,14 +112,12 @@ namespace UkiRetroGameRandomizer.ViewModels
             , IGameViewModelFactory gameViewModelFactory
             , IDroppedGameRepository droppedGameRepository
             , IDropmaniaWheelItemRepository dropmaniaWheelItemRepository
-            , IRhgWheelItemRepository rhgWheelItemRepository
-            , IRetroPlayPlatformRepository retroPlayPlatformRepository)
+            , IRhgWheelItemRepository rhgWheelItemRepository)
         {
             _eventAggregator = eventAggregator;
             _droppedGameRepository = droppedGameRepository;
             _dropmaniaWheelItemRepository = dropmaniaWheelItemRepository;
             _rhgWheelItemRepository = rhgWheelItemRepository;
-            _retroPlayPlatformRepository = retroPlayPlatformRepository;
             _eventAggregator.Subscribe(this);
             PreviousGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
             PreviousGame1 = gameViewModelFactory.Create(GameFontSize.Medium, false);
@@ -168,34 +166,34 @@ namespace UkiRetroGameRandomizer.ViewModels
 
         private void InitGames(Platform platform, string letter)
         {
-            if (platform.Name == "Wheel")
+            if (platform.Name == "Wheel" && AppData.ProfileEnum == Profile.Dropmania)
             {
                 _games = _dropmaniaWheelItemRepository.Data
                     .Select(x => new GameInfo(x.Title, x.Type == "Item" ? "#0bb3d9" : null));
             }
-            else if (platform.Name == "RhgWheel")
+            else if (platform.Name == "Wheel" && AppData.ProfileEnum == Profile.RHG)
             {
                 _games = _rhgWheelItemRepository.Data
                     .Select(x => new GameInfo(x.Title, x.Type == "Item" ? "#0bb3d9" : null));
             }
-            else if (platform.Name == "Items")
+            else if (platform.Name == "Items" && AppData.ProfileEnum == Profile.Dropmania)
             {
                 _games = _dropmaniaWheelItemRepository.Data
                     .Where(x => x.Type == "Item")
                     .Select(x => new GameInfo(x.Title));
             }
-            else if (platform.Name == "RhgItems")
+            else if (platform.Name == "Items" && AppData.ProfileEnum == Profile.RHG)
             {
                 _games = _rhgWheelItemRepository.Data
                     .Where(x => x.Type == "Item")
                     .Select(x => new GameInfo(x.Title));
             }
-            else if (platform.Name == "Dropped")
+            else if (platform.Name == "Dropped" && AppData.ProfileEnum == Profile.Dropmania)
             {
                 _games = _droppedGameRepository.Data
                     .Select(x => new GameInfo(x.ToString()));
             }
-            else if (platform.Name == "RetroPlay")
+            /*else if (platform.Name == "RetroPlay")
             {
                 var list = new List<GameInfo>();
                 _games = new List<GameInfo>();
@@ -208,14 +206,10 @@ namespace UkiRetroGameRandomizer.ViewModels
                         }
                     });
                 _games = list;
-            }
+            }*/
             else
             {
-                var fileName = Path.Combine(AppData.GameListPath, platform.FileName);
-                _games = File.ReadAllLines(fileName)
-                    .Select(x => new GameInfo(x))
-                    .Where(x => string.IsNullOrEmpty(letter) || x.Name.StartsWith(letter.ToUpper()))
-                    .Select(x => x);
+                _games = PlatformGamesUtil.FindGames(platform, letter);
             }
 
             _randomizer = new GameRandomizer(_games, _dueTime, DateTime.Now.Millisecond);

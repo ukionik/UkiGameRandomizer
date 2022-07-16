@@ -6,6 +6,7 @@ using Caliburn.Micro;
 using Ninject;
 using UkiHelper;
 using UkiRetroGameRandomizer.Models.Data;
+using UkiRetroGameRandomizer.Models.Enums;
 using UkiRetroGameRandomizer.Models.Repositories;
 using UkiRetroGameRandomizer.ViewModels;
 
@@ -53,10 +54,19 @@ namespace UkiRetroGameRandomizer.Configuration
             };
 
             Platforms.InitPlatforms();
-            await _kernel.Get<IDroppedGameRepository>().LoadAsync();
-            await _kernel.Get<IDropmaniaWheelItemRepository>().LoadAsync();
-            await _kernel.Get<IRhgWheelItemRepository>().LoadAsync();
-            await _kernel.Get<IRetroPlayPlatformRepository>().LoadAsync();
+
+            if (AppData.ProfileEnum == Profile.Dropmania)
+            {
+                await _kernel.Get<IDroppedGameRepository>().LoadAsync();
+                await _kernel.Get<IDropmaniaWheelItemRepository>().LoadAsync();
+            }
+            else if (AppData.ProfileEnum == Profile.RHG)
+            {
+                await _kernel.Get<IRhgWheelItemRepository>().LoadAsync();
+            }
+
+            //await _kernel.Get<IRetroPlayPlatformRepository>().LoadAsync();
+
             DisplayRootViewFor<IAppViewModel>(windowSettings);
         }
     }
