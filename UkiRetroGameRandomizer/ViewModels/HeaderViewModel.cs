@@ -100,9 +100,8 @@ namespace UkiRetroGameRandomizer.ViewModels
             _eventAggregator.Subscribe(this);
             Platforms.AddRange(Models.Data.Platforms.All
                 .Select(platformViewModelFactory.Create));
-
-            var challenge = ConfigurationManager.AppSettings["Challenge"];
-            _fabinoVisibility = challenge == "Dropmania4"
+            
+            _fabinoVisibility = AppData.Profile == "Dropmania"
                 ? Visibility.Visible
                 : Visibility.Collapsed;
         }

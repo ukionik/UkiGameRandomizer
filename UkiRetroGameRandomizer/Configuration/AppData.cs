@@ -10,6 +10,8 @@ namespace UkiRetroGameRandomizer.Configuration
         public static Assembly Assembly { get; }
         public static string AppPath { get; }
         public static string ResourcePath { get; }
+        
+        public static string Profile { get; }
         public static string GameListPath { get; }
         public static string SoundPath { get; }
         public static string LogPath { get; }
@@ -19,7 +21,8 @@ namespace UkiRetroGameRandomizer.Configuration
             Assembly = typeof(AppData).Assembly;
             AppPath = Assembly.GetExecutablePath();
             ResourcePath = Path.Combine(AppPath, "Resources");
-            GameListPath = Path.Combine(ResourcePath, "List");
+            Profile = ConfigurationManager.AppSettings["Profile"];
+            GameListPath = Path.Combine(ResourcePath, "List", Profile);
             var soundSystem = ConfigurationManager.AppSettings["SoundSystem"];
             SoundPath = Path.Combine(ResourcePath, "Sounds", soundSystem);
             LogPath = Path.Combine(AppPath, "Log");
