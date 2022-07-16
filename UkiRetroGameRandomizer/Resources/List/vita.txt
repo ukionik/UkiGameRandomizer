@@ -1,30 +1,17 @@
 &: Sora no Mukō de Saki Masuyō ni
-@Field
 1001 Spikes
-10 Second Ninja X
 12-ji no Kane to Cinderella
-2013: Infected Wars
 2064: Read Only Memories
 36 Fragments of Midnight
 3rd Super Robot Wars Z: Jigoku-hen
 3rd Super Robot Wars Z: Tengoku-hen
-5-nin no Koi Prince: Himitsu no Keiyaku Kekkon
-7'scarlet
 99Vidas
 A-Men
-A-Men 2
-A Winter's Daydream
-Aabs Animals
-Abunai Koi no Sōsashitsu: Eternal Happiness
 Accel World vs. Sword Art Online: Millennium Twilight
 Active Soccer 2 DX
-Actual Sunlight
-Adventures of Mana
 Adventure Time: The Secret of the Nameless Kingdom
-Aegis of Earth: Protonovus Assault
 Aerial Life
 AeternoBlade
-Age of Zombies
 Ai Kiss
 Air Race Speed
 Air
@@ -32,18 +19,13 @@ Airship Q
 Aiyoku no Eustia: Angel's Blessing
 Akai Suna Ochiru Tsuki
 AKB1/149 Ren'ai Sōsenkyo
-Akiba's Beat
 Akiba's Trip: Undead & Undressed
 Alia's Carnival: Sacrament
 Alien Breed
 Alien Shooter
-Alone with You
 Alteric
-Amagami EbiKore+
 Amaekata wa Kanojo Nari ni
 Amamane
-Amatsumi Misora ni! Kumo no Hatate ni
-Amatsutsumi
 The Amazing Spider-Man
 Amenity's Life
 Amnesia Later X Crowd V Edition
@@ -59,14 +41,10 @@ Antiquia Lost
 Ao no Kanata no Four Rhythm
 Aonatsu Line
 Aqua Kitty: Milk Mine Defender DX
-AR Combat DigiQ: Tomodachi Sensha-tai
 Arcana Famiglia: La storia della Arcana Famiglia Ancora
 Arcana Heart 3: Love Max!!!!!
-Army Corps of Hell
 Ar Nosurge Plus
 Asdivine Hearts
-Asphalt: Injection
-Assassin's Creed III: Liberation
 Assassin's Creed Chronicles Trilogy Pack
 Assault Gunners
 AstralAir no Shiroki Towa: White Eternity
@@ -81,7 +59,6 @@ Atelier Shallie Plus: Alchemists of the Dusk Sea
 Atelier Sophie: The Alchemist of the Mysterious Book
 Atelier Totori Plus: The Adventurer of Arland
 Atomic Ninjas
-Attack of the Toy Tanks
 Attack on Titan
 Attack on Titan 2
 Attractio
@@ -104,84 +81,59 @@ The Bard’s Tale: Remastered and Resnarkled
 Baseball Riot
 Bastion
 Batman: Arkham Origins Blackgate
-Battalion Commander
 Battle Rockets
 Believer!
 Ben 10: Galactic Racing
 Beniiro Tenjō Ayakashi Kitan Futaai
-Bentley's Hackpack
-Bento Fujiyama Tamagoyaki
 Berserk and the Band of the Hawk
 Best of Arcade Games
 Best of Board Games
-BigFest
-Big Sky: Infinity
 BinaryStar
 The Binding of Isaac: Rebirth
-Bit.Trip
 Bit.Trip Presents... Runner2: Future Legend of Rhythm Alien
-Bit Dungeon Plus
 Bitter Smile
 Black Wolves Saga: Weiβ und Schwarz
 Blast 'Em Bunnies
-Blasting Agent: Ultimate Edition
 BlazBlue: Chrono Phantasma
 BlazBlue: Chrono Phantasma Extend
 BlazBlue: Continuum Shift Extend
 Bloodstained: Curse of the Moon
-Bloxiq
-Blue-Collar Astronaut
 Blue Reflection
 Bodycheck
 Boku to Nurse no Kenshū Nisshi
-Bombing Busters
-Bonds of the Skies
-Boolink
 Borderlands 2
 Boss!
 A Boy and His Blob
 Breach & Clear
 BreakQuest: Extra Evolution
 The Bridge
-Bridge Constructor
 Broken Age: The Complete Adventure
 Broken Sword 5: The Serpent's Curse, Episode 1
-Broken Sword 5: The Serpent's Curse, Episode 2
 Brothers Conflict: Precious Baby
 Bullet Girls
 Bullet Girls 2
 Bullet Girls Fantasy
 Bunny Must Die! Chelsea and the 7 Devils
-Burly Men at Sea
-Burn the Rope
 Cafe Cuillere
 The Caligula Effect
-Call of Duty: Black Ops: Declassified
 Captain Earth: Mind Labyrinth
-Castle Invasion: Throne Out
 CastleStorm
 Catherine: Full Body
 Cel Damage HD
-Chain Chronicle V
 Chaos;Child
 Chaos;Child Love Chu Chu!!
 Chaos;Head Dual
 Chaos Rings III: The Prequel Trilogy
 Charade Maniacs
-Chasm
-Chicken Range
 Child of Light
 Chronovolt
 Chōchō Jiken Rhapsodic
 Chō no Doku Hana no Kusari: Taishō Enren Ibun
 ChuSinGura46+1
-Ciel Nosurge
 Citizens of Earth
-Civilization Revolution 2 Plus
 Cladun Returns: This is Sengoku
 Claire: Extended Cut
 Clannad
-Cliff Diving
 Clock Zero: Shūen no Ichibyō ExTime
 Clover Day's
 Coconut Dodge Revitalised
@@ -192,32 +144,23 @@ Collar × Malice
 Collar × Malice: Unlimited
 Color Guardians
 Conception II: Children of the Seven Stars
-Corridor Z
 Corpse Party: Blood Drive
-Cosmic Star Heroine
-Cosmophony
 CounterSpy
-The Count Lucanor
 Coven and Labyrinth of Galleria
 Crank In
-Crazy Market
 Criminal Girls: Invite Only
 Criminal Girls 2: Party Favors
 Crimsonland
 Croixleur Sigma
-Cross Ange: Tenshi to Ryū no Rondo tr.
 Cross Channel: For All People
 Crypt of the NecroDancer
 Cure Mate Club
 Curses 'N Chaos
-Daidai Daisuki
 Dance with Devils
 Dance with Devils: My Carol
 Dairansō Dash or Dasshu!!
-Daisenryaku Daitōa Kōbōshi 3 Dai Niji Sekai Taisen Boppatsu! Sūjiku-gun Tai Rengō-gun Zen Sekai-sen
 Daisenryaku Exceed II
 Daisenryaku Perfect: Senjō no Hasha
-Daisenryaku Web
 Daitoshokan no Hitsujikai: Library Party
 Damascus Gear: Operation Osaka
 Damascus Gear: Operation Tokyo
@@ -233,9 +176,6 @@ Darkest Dungeon
 Date A Live Twin Edition: Rio Reincarnation
 Day D Tower Rush
 Day of the Tentacle Remastered
-Dead Ahead: Zombie Warfare
-Deadbolt
-Deadman's Cross
 Dead Nation
 Dead or Alive 5 Plus
 Dead or Alive Xtreme 3: Venus
@@ -245,76 +185,54 @@ Deception IV: Blood Ties
 Deception IV: The Nightmare Princess
 Deep Ones
 Deep Space Rush
-Deemo: The Last Recital
 The Deer God
-Defender's Quest
-Delta Strike: First Assault
 Demetrios
 Demon's Tier+
 Demon Gaze
 Demon Gaze II
-Dengeki Bunko: Fighting Climax
-Dengeki Bunko: Fighting Climax Ignition
 Desert Ashes
 Desire Remaster Version
-Destiny of Spirits
-Devious Dungeon
-Dex
 Diabolik Lovers: Dark Fate
 Diabolik Lovers Limited V Edition
 Diabolik Lovers: Lost Eden
 Diabolik Lovers: Lunatic Parade
 Diabolik Lovers: More,Blood Limited V Edition
 Diabolik Lovers: Vandead Carnival
-Die! Die! Die!
 Digimon Story: Cyber Sleuth
 Digimon Story: Cyber Sleuth – Hacker's Memory
 Digimon World: Next Order
-Dino Dini's Kick Off Revival
 Disgaea 3: Absence of Detention
 Disgaea 4: A Promise Revisited
 Disney Infinity: Marvel Super Heroes
 Divekick
-DJMax Technika Tune
-Doctor Who: The Eternity Clock
 Dogimegi Inryoku-chan: Love & Peace
 Doki-Doki Universe
-Dokuro
 Don't Die, Mr. Robot!
 Don't Starve: Giant Edition
 Doodle Devil
 Doodle God
-Doodle Kingdom
 Doukoku Soshite...
 Downwell
-Dragon Ball Z: Battle of Z
 Dragon Fantasy Book I
 Dragon Fantasy Book II
 Dragon Fantasy: The Black Tome of Ice
 Dragon Fin Soup
-Dragon Quest Builders
 Dragon Quest Heroes II
 Dragon's Crown
 Dragon's Dogma Quest
 Dragons Online
 Dragon Sinker
 Dramatical Murder Re:code
-Draw Slasher
-Dream Club Zero Portable
 Dreamwalker
-Dreii
 Drive! Drive! Drive!
-Drive Girls
 D.S. Dal Segno
 Duke Nukem 3D: Megaton Edition
-Dungeon Hunter: Alliance
 Dungeon Punks
 Dungeon Travelers 2: The Royal Library & the Monster Seal
 Dungeon Travelers 2-2
 Durarara!! 3way standoff alley V
 Durarara!! Relay
 Dustforce
-Dying: Reborn
 Dynamic Chord feat. Apple-polisher V Edition
 Dynamic Chord feat. Kyosho V Edition
 Dynamic Chord feat. Liar-S V Edition
@@ -322,12 +240,9 @@ Dynamic Chord feat. rêve parfait V Edition
 Dynasty Warriors 8: Empires
 Dynasty Warriors 8: Xtreme Legends Complete Edition
 Dynasty Warriors: Godseekers
-Dynasty Warriors Next
-Dynasty Warriors Online Z
 Earth Defense Force 2017 Portable
 Earth Defense Force 2: Invaders from Planet Space
 Eikoku Tantei Mysteria: The Crown
-Ecolibrium
 Eiyū Senki
 Element4l
 Jūzaengi: Engetsu Sangokuden 1-2
@@ -335,20 +250,13 @@ Emerald Shores
 End Sleep
 Energy Balance
 Energy Cycle
-Energy Cycle Edge
 Energy Invasion
 Enkan no Memoria: Kakera Tomoshi
 Entwined
 Ephemeral: Fantasy on Dark
-Epic Mickey 2: The Power of Two
-Escape Plan
 escapeVektor
 Ethan: Meteor Hunter
-Eufloria
-Eufloria Adventures
-Balthazar's Dream
 Eve: Burst Error R
-Everybody's Golf 6
 Exile's End
 Exist Archive: The Other Side of the Sky
 Exstetra
@@ -368,44 +276,29 @@ Fate/Extella Link
 Fate/Extella: The Umbral Star
 Fate/hollow ataraxia
 Fate/stay night [Réalta Nua]
-Fat Princess: Piece of Cake
 Fez
-Fieldrunners 2
-FIFA 13
 FIFA 14: Legacy Edition
-FIFA 15: Legacy Edition
 FIFA Football
 Fill-a-Pix: Phil's Epic Adventure
 Final Fantasy X HD
 Final Fantasy X-2 HD
 Final Horizon
-Fireworks
 Flame Over
 Floating Cloud God Saves the Pilgrims in HD!
 Floral Flowlove
-Flow
-Flower
 Flowers
 Flowers: Le Volume sur Automne
 Flowers: Le Volume sur Été
 Flowers: Le Volume sur Hiver
 Flyhunter Origins
-Flying Hamster HD
 Foosball 2012
-Football Manager Classic 2014
-Forevolution
 Forma.8
 Fort Defense
 Fort Defense North Menace
 Fortissimo
 Foul Play
-Foxyland
 Freedom Wars
-Frobisher Says!
 Frozen Synapse: Prime
-Fruit Ninja
-FullBlast
-Full Throttle Remastered
 Funk of Titans
 Fureraba: Friend to Lover
 Furmins
@@ -414,34 +307,24 @@ Furuki Yoki Jidai no Bōkentan
 Furuiro Meikyū Rondo: La Roue de fortune
 Futagoza no Paradox
 Futuridium EP Deluxe
-Fuuraiki 3
 Gakuen Club: Himitsu no Nightclub
 Gakuen Heaven: Boy's Love Scramble!
 Gakuen Heaven 2: Double Scramble
 Gakuen K: Wonderful School Days V Edition
-Gal*Gun: Double Peace
 Gal Gunvolt
 Galtia V Edition
 Garou: Mark of the Wolves
-Geki Yaba Runner
-Gem Legends
-Gem Smashers
 Gendai Daisenryaku 2016: Chitsujo no Hōkai Haken Kokka Shittsui
-Genimus
 Genji Koi Emaki'
-Genkai Tokki: Seven Pirates
 Geometry Wars 3: Dimensions Evolved
 Germinator
 Geten no Hana with Yume Akari Aizō-ban
-Get off my Lawn!
 Getsuei Gakuen: Kou [ja]
 Getsuei no Kusari: Kyouran Moratorium [ja]
 Getsuei no Kusari: Sakuran Paranoia [ja]
 Ghoulboy
 Ginsei Igo: Next Generation [ja]
 Ginsei Shogi: Kyōtendo Toufū Raijin [ja]
-Gintama Ranbu
-Girl Friend (Kari): Kimi to Sugosu Natsuyasumi
 Girls und Panzer: Senshadō, Kiwamemasu!
 Gochūmon wa Usagi Desu ka?? Wonderful Party!
 God Eater 2
@@ -457,13 +340,9 @@ God of War Collection
 God Wars: Future Past
 Goes!
 Goetia: Sen no Majin to Mugen no Tō
-Golden Time: Vivid Memories
 Go-nin no Koi Prince: Himitsu no Keiyaku Kekkon
 Grand Kingdom
-Gravity Badgers
 Gravity Crash Ultra
-Gravity Rush
-Green Game: TimeSwapper
 Grim Fandango Remastered
 Grisaia no Kajitsu: Le Fruit De La Grisaia
 Grisaia no Kajitsu: Side Episode
@@ -473,14 +352,11 @@ Grisaia no Kajitsu Spin-out!? Idol Magical Girl Chiruchiru Michiru
 Grisaia: Phantom Trigger Vol. 1 & 2
 Grisaia: Phantom Trigger Vol. 3 & 4
 Guacamelee!
-Guardian Hearts Online
 Guilty Gear XX Accent Core Plus R
 Gundam Breaker
 Gundam Breaker 2
 Gundam Breaker 3
-Gundemoniums
 Gun Gun Pixies
-Gunhouse
 Gunslugs
 Habroxia
 Haiyore! Nyaruko-san: Meijo Shigatai Game no You na Mono
@@ -497,15 +373,12 @@ Hanasaku Manimani [ja]
 Hanayaka Nari, Waga Ichizoku Gentō Nostalgie [ja]
 Hanayaka Nari, Waga Ichizoku Modern Nostalgie [ja]
 Hanayamata: Yosakoi Live!
-Handball 16
 Harukanaru Toki no Naka de Ultimate
 Harukanaru Toki no Naka de 3 Ultimate
 Harukanaru Toki no Naka de 6
 Harukanaru Toki no Naka de 6: Gentō Rondo
 Harvest Overray
 Hatoful Boyfriend
-Hatoful Boyfriend: Holiday Star
-Hatsune Miku: Project Diva F
 Hatsune Miku: Project Diva F 2nd
 Hatsune Miku: Project Diva X
 Hatsuru Koto Naki Mirai Yori [ja]
@@ -513,13 +386,10 @@ Hatsuyuki Sakura
 The HD Adventures of Rotating Octopus Character
 Heiligenstadt no Uta
 Helldivers
-Hello Kitty to Issho: Block Crash V
 Hello Lady! Superior Dynamis
 Heroes of Loot
 Hero Must Die
 Heroes Trials
-Hideboh: Tap Dance Hero
-High School DxD: New Fight
 Higurashi When They Cry Sui
 Hiiro no Kakera: Omoi Iro no Kioku
 Himawari: Pebble in the Sky [ja]
@@ -537,61 +407,34 @@ Hotaru no Nikki
 Hotchkiss [ja]
 Hotline Miami
 Hotline Miami 2: Wrong Number
-HTR High Tech Racing Plus
-Hue
-Hungry Giraffe
 The Hungry Horde
-Hustle Kings
 Hyakka Hyakurō: Sengoku Ninpōchō
 Hyakka Ryōran Elixir: Record of Torenia Revival
 Hyakka Yakō [ja]
 Hyperdevotion Noire: Goddess Black Heart
-Hyperdimension Neptunia: Producing Perfection
-Hyperdimension Neptunia Re;Birth 1
 Hyperdimension Neptunia Re;Birth 2: Sisters Generation
 Hyperdimension Neptunia Re;Birth 3: V Generation
 Hyperdimension Neptunia U: Action Unleashed
-I and Me
 IA/VT Colorful
-Ice Cream Surfer
 Iconoclasts
 Idol Death Game TV
 Idolish7: Twelve Fantasia
-The Idolmaster: Must Songs Blue Board
-The Idolmaster: Must Songs Red Board
 I Doll U [ja]
 ID Rebirth Session [ja]
-Ikemen Bakumatsu: Unmei no Koi no Miyako to Koi no Ran
 Ikemen Sengoku: Toki o Kakeru Koi Arata Naru Deai
 Ikenie to Yuki no Setsuna
 Ima Sugu Oniichan ni Imōto da tte Iitai!
-Indoor Sports World
-Infinità Strada
 Infinite Stratos 2: Ignition Hearts
 Infinite Stratos 2: Love and Purge
-Injustice: Gods Among Us Ultimate Edition
-InkSplosion
 International Snooker
-Invizimals: The Alliance
-Invizimals: The Resistance
-Invokers Tournament
-iO
-Iron Sea Defenders
-Irotoridori no Sekai: World's End Re:Birth [ja]
 Island
-Itadaki Street: Dragon Quest and Final Fantasy 30th Anniversary
-It's Spring Again
 Iwaihime: Matsuri
 J-Stars Victory VS Plus
-Jacob Jones and the Bigfoot Mystery
-Jak and Daxter Collection
 Jazz: Trump's Journey
 Jet Car Stunts
 Jet Set Radio
 Jetpack Joyride
 Jetpack Joyride Deluxe
-Jikkyō Powerful Pro Yakyū 2012 [ja]
-Jikkyō Powerful Pro Yakyū 2012 Kettei-ban [ja]
 Jikkyō Powerful Pro Yakyū 2013 [ja]
 Jikkyō Powerful Pro Yakyū 2014 [ja]
 Jikkyō Powerful Pro Yakyū 2016 [ja]
@@ -599,14 +442,10 @@ Jikkyō Powerful Pro Yakyū 2018 [ja]
 Jikkyō Powerful Pro Yakyū Championship 2017 [ja]
 Jikkyō Powerful Pro Yakyū Championship 2018
 Jikkyō Powerful Pro Yakyū Success Special [ja]
-Jinrō Game
 Joe Danger
 Joe Danger 2: The Movie
-Jonah Lomu Rugby Challenge
 Judas Code
-Jungle Rumble
 Justy×Nasty: Maō Hajimemashita
-Kadenz fermata Akkord: fortissimo
 Kaeru Batake de Tsukamaete [ja]
 Kaeru Batake de Tsukamaete: Natsu Chigira Sansen!
 Kai-Ri-Sei Million Arthur [ja]
@@ -618,27 +457,17 @@ Kamidanomi Shisugite Ore no Mirai ga Yabai
 Kamigami no Asobi InFinite
 Kamisama to Koigokoro
 Kamaitachi no Yoru: Rinne Saisei
-KanColle Kai
 Kanojo Step
 Karumaruka Circle [ja]
 Katahane: An' call Belle [ja]
-The Keeper of 4 Elements
 Ken ga Kimi for V [ja]
 Ken ga Kimi: Momoyo Tsuzuri [ja]
-Kenka Bancho Otome
-Kenka Bancho Otome: Kanzen Muketsu no My Honey
-Kenka Bancho Otome: 2nd Rumble!!
 Kick & Fennick
 KickBeat
 Kidō Senshi Gundam SEED Battle Destiny
-Kidō Senshi Gundam: Battle Fortress
-Kidō Senshi Gundam: Conquest V
-Kilka Card Gods
-KillAllZombies
 Killzone: Mercenary
 Kimi no Hitomi ni Hit Me [ja]
 Kimi o Aogi Otome wa Hime ni
-The King of Fighters '97 Global Match
 Kin'iro no Corda 2ff
 Kin'iro no Corda 4
 King Oddball
@@ -646,37 +475,26 @@ Kiss Ato [ja]
 Kissbell [ja]
 Klap!! Kind Love and Punish [ja]
 Klap!! Kind Love and Punish: Fun Party [ja]
-Knight Solitaire
-Knobswitch
-Knock-Knock
 Knytt Underground
 Koezaru wa Akai Hana: Koi wa Tsuki ni Michibikareru
-Koi
 Kono Aozora ni Yakusoku o
-Kono Ōzora ni, Tsubasa o Hirogete: Cruise Sign
 Kono Subarashii Sekai ni Shukufuku o! Attack of the Destroyer
 Kono Subarashii Sekai ni Shukufuku o! Kono Yokubukai Game ni Shinpan o!
 Kono Uta ga Owattara: When This Song Is Over [ja]
 Koroshiya to Strawberry
 Koshotengai no Hashihime
-Krinkle Krusher
 Kud Wafter Converted Edition
 Kujiragami no Tearstilla [ja]
 Kung Fu Rabbit
-Kung Fury: Street Rage
 Kurenai no Homura: Sanada Ninpōchō
 Kurogane Kaikitan: Ichigo Ichie [ja]
 Kurogane Kaikitan: Senya Ichiya [ja]
-Kurogane Kaikijong
 Kyōkai no Shirayuki
 La-Mulana EX
 Lara Croft Go
-Laser Disco Defenders
 The Last Blade 2
 Last Wings
-League of Evil
 The Legend of Dark Witch [ja]
-The Legend of Heroes: Akatsuki no Kiseki
 The Legend of Heroes: Ao no Kiseki Evolution
 The Legend of Heroes: Sora no Kiseki Evolution
 The Legend of Heroes: Sora no Kiseki SC Evolution
@@ -689,40 +507,27 @@ Lego Batman 2: DC Super Heroes
 Lego Batman 3: Beyond Gotham
 Lego Harry Potter: Years 5–7
 Lego Jurassic World
-Lego Legends of Chima: Laval's Journey
 Lego The Hobbit
 Lego The Lord of the Rings
 Lego Marvel's Avengers
-Lego Marvel Super Heroes: Universe in Peril
 The Lego Movie Videogame
 Lego Ninjago: Nindroids
 Lego Ninjago: Shadow of Ronin
 Lego Star Wars: The Force Awakens
 Knightin'+
-Lemmings Touch
 Let's Fish! Hooked On
-Letter Quest: Grimm's Journey Remastered
 Level 22
 Liberation Maiden SIN
-Lichtspeer
 Licky the Lucky Lizard Lives Again
 Limbo
 Little Adventure on the Prairie
-LittleBigPlanet PS Vita
 Little Busters! Converted Edition
-Little Deviants
-Little Red Lie
 Lone Survivor: The Director's Cut
 The Longest 5 Minutes
 The Long Reach
-Looney Tunes: Galactic Sports
 Lord of Apocalypse
-The Lost Child
 Lost Dimension
 Lovely×cation 1&2
-Love Live! School Idol Paradise Vol. 1: Printemps
-Love Live! School Idol Paradise Vol. 2: BiBi
-Love Live! School Idol Paradise Vol. 3: Lily White
 Lovely Quest: Unlimited [ja]
 Love of Ren'ai Kōtei of Love!
 Love Quiz: Koisuru Otome no Final Answer
@@ -731,56 +536,41 @@ Lucky Dog 1
 Luftrausers
 Lumines Electronic Symphony
 Luminous Arc Infinity
-Lumo
 M3: Sono Kuroki Hagane: Mission Memento Mori
 Machinarium
-Macross Delta Scramble
 Madden NFL 13
 Magical Beat
 Magic-kyun! Renaissance
-Mahjong Carnival
 Mahjong Fight Club: Shinsei Zenkoku Taisen-ban
 Mahjong Gold
 Mahjong Royal Towers
 Mahjong World Contest
 Mahō Shōjo Taisen Zanbatsu
 Mahōka Kōkō no Rettōsei: Out of Order
-Maison de Maou
 Majo Koi Nikki: Dragon×Caravan
 Maldita Castilla EX
 Malicious Rebirth
-Maliya
 Manga Kakeru
 Marginal 4: Idol of Supernova
 Marginal 4: Road to Galaxy
 Maru Gōkaku! Tatsuken Shiken Heisei 27-nendo-ban
 Mary Skelter: Nightmares
-Mecho Tales
-Medieval Defenders
 MegaTagmension Blanc + Neptune VS Zombies
 Meiji Tokyo Renka Full Moon
 Meikyuu Cross Blood: Infinity [ja]
 Meikyuu Cross Blood: Infinity Ultimate [ja]
-MeiQ
 MeiQ: Labyrinth of Death
 Melty Moment [ja]
 Memories Off 6: Next Revelation
 Memories Off 6: T-wave
 Memories Off: Innocent Fille
 Memories Off: Yubikiri no Kioku
-Men's Room Mayhem
 Mercenary Kings: Reloaded Edition
 Metagal
-Metal Gear Solid HD Collection
 Metal Max Xeno
 Metal Slug 3
-Metrico
-Metropolis: Lux Obscura
 Michael Jackson: The Experience
-Midnight Deluxe
 Mikagami Sumika no Seifuku Katsudō
-Miku Miku Hockey
-Miku Miku Hockey 2.0
 Miles & Kilo
 Milo's Quest
 Minecraft
@@ -788,53 +578,35 @@ Minna de Spelunker Z
 Minutes
 Mind Zero
 Miracle Girls Festival
-MLB 12: The Show
 MLB 13: The Show
 MLB 14: The Show
 MLB 15: The Show
 Mobile Suit Gundam: Extreme VS-Force
-ModNation Racers: Road Trip
 Moe Moe Daisensou Gendaibaan Plus Plus [ja]
 Moe Moe Niji Taisen (Ryoku) 3 [ja]
-Moe Chronicle
-Moero Crystal
 Mōjūtachi to Ohime-sama
 Mōjūtachi to Ohime-sama: In Blossom
 Mōjūzukai to Ōji-sama [ja]
 Mōjūzukai to Ōji-sama: Flower & Snow [ja]
 Monobeno: Pure Smile [ja]
-MonsterBag
 Monster Hunter: Frontier G
 Monster Monpiece
-Monster Radar [ja]
 MOP: Operation Cleanup
-Mortal Kombat
 Moshi, Kono Sekai ni Kamisama ga Iru to suru Naraba
-MotoGP 13
-MotoGP 13 Compact
-MotoGP 14
 MotoGP 14 Compact
 MotorStorm: RC
 Motto nee, Chanto Shiyou yo! Plus [ja]
 Mousecraft
-Mr. Pumpkin Adventure
 Ms. Germinator
 MUD: FIM Motocross World Championship
-The Muppets Movie Adventures
 Muramasa Rebirth
-Murasaki Baby
 Murasaki Mist: Akara's Journey
 Musou Stars
-Musynx
 Mutant Mudds Deluxe
-Mutant Mudds: Super Challenge
 Muv-Luv Alternative
 Muv-Luv
 MXGP The Official Motocross Videogame
 MXGP The Official Motocross Videogame Compact
-My Name is Mayo
-My Singing Monsters
-Mystery Chronicle: One Way Heroics
 Mekabolt
 NadeRevo!
 Naitei! Shūkatsu Kanzen Taisaku ES, SPI, Mensetsu
@@ -865,11 +637,9 @@ NextRev Sharō-shi Shiken
 NextRev Takken-shi Shiken
 NextRev Takken-shi Shiken 2015
 Neo Angelique: Tenshi no Namida
-Neo Atlas 1469
 Neon Chrome
 Nep-Nep Connect: Chaos Chanpuru
 Net High [ja]
-NeuroVoider
 NeverEnd
 Neverending Nightmares
 New Game! The Challenge Stage
@@ -878,7 +648,6 @@ Nidhogg
 NightCry
 Nights of Azure
 Nights of Azure 2
-Nihilumbra
 Nihon Mahjong Renmei Kōnin Motto Nijū-bai! Mahjong ga Tsuyoku Naru Hōhō: Hatsu Chūkyū-sha-hen
 Nihon Pro Mahjong Renmei Suisen Tokoton Mahjong! Joryū Pro ni Chōsen! Tetsuman Megami Special
 Nikoli no Puzzle V: Bijutsukan
@@ -900,8 +669,6 @@ Ninja Senki DX
 Ninja Usagimaru: Two Tails of Adventure
 Ninki Seiyū no Tsukurikata
 Nisekoi: Yomeiri!?
-No Heroes Allowed: No Puzzles Either!
-Nobunaga no Yabō 201X
 Nobunaga no Yabō: Sozō
 Nobunaga no Yabō: Sozō - Sengoku Risshiden
 Nobunaga no Yabō: Tendō with Power-Up Kit
@@ -913,32 +680,23 @@ Norn9: Act Tune
 North
 Nova-111
 Nuclear Throne
-Nun Attack
 Nurse Love Addiction [ja]
 Occultic;Nine
 Oceanhorn: Monster of Uncharted Seas
 Octodad: Dadliest Catch
 Oddworld: Munch's Oddysee HD
-Oddworld: New 'n' Tasty!
-Oddworld: Stranger's Wrath HD
 Odin Sphere: Leifthrasir
 Ōedo Blacksmith
-Ōka Ranman
 OlliOlli
 OlliOlli2: Welcome to Olliwood
 Omega Labyrinth
 Omega Labyrinth Z
 Omerta Code: Tycoon Kai [ja]
 OMG HD Zombies!
-Onigiri
-One Eyed Kutkh
-One More Dungeon
 One Piece: Burning Blood
 One Piece: Pirate Warriors 2
 One Piece: Pirate Warriors 3
 One Piece: Unlimited World Red
-One Tap Hero
-Open Me!
 Operation Abyss: New Tokyo Legacy
 Operation Babel: New Tokyo Legacy [ja]
 Ore ni Hatarakette Iwaretemo Otsu HD [ja]
@@ -957,55 +715,38 @@ Ouka Sabaki Zan
 Oumagatoki: Kakuriyo no Enishi
 Owaru Sekai to Birthday [ja]
 Ozmafia!! Vivace [ja]
-Papers, Please
 Paradox Soul
-Paranautical Activity
 Parfait
-Pato Box
-Peasant Knight
 Penny-Punching Princess
-Perils of Baking: Refrosted
 Period Cube: Shackles of Amadeus
 Persona 3: Dancing Moon Night
 Persona 4: Dancing All Night
 Persona 4: Golden
 Persona 5: Dancing Star Night
 Phantasy Star Nova
-Phantasy Star Online 2
 Phantom Breaker: Battle Grounds
-Phineas and Ferb: Day of Doofensmirtz
-Photo Kano Kiss
-Photon Cubed
 Pic-a-Pix Color
-Picotto Knights
 Piofiore no Banshō
 The Pinball Arcade
 Pinball Heroes: Complete
-Pirate Solitaire
 Pixel Hunter
 Pixeljunk Monsters Ultimate HD
 Pixeljunk Shooter Ultimate
 Pix the Cat
 Plague Road
-Plantera
 Plants vs. Zombies
 Plastic Memories
-PlayStation All-Stars Battle Royale
-PlayStation Vita Pets
 Pocket God vs. Desert Ashes
 Pocket RPG
 Polara
 Poltergeist: A Pixelated Horror
 Possession Magenta
 Power Pro Stadium
-PoxNora
 Present for You
 PriministAr
 Prince of Stride
 Princess Arthur
 Princess Strike!
-Project Root
-Pro Yakyū Spirits 2012
 Pro Yakyū Spirits 2013
 Pro Yakyū Spirits 2014
 Pro Yakyū Spirits 2015
@@ -1016,22 +757,16 @@ PsychicEmotion6
 Psycho-Pass: Mandatory Happiness
 Puddle
 Puella Magi Madoka Magica: The Battle Pentagram
-PulzAR
-Pumped BMX +
 Punch Line
 Pure Chess
 Puramai Wars V
-Putty Squad
 Puyo Puyo Tetris
 Puzzle by Nikoli V Slitherlink
 Puzzle by Nikoli V Sudoku
 Q*bert Rebooted
 The Quiet Collection
 Quell Memento
-Rabi Laby
-Rabi-Ribi
 Race the Sun
-Radio Hammer Station
 Ragnarok Odyssey
 Ragnarok Odyssey Ace
 Rainbow Moon
@@ -1039,29 +774,19 @@ Rainbow Skies
 Raishi
 Raishi: Konpeki no Shō
 Rally Copters
-Ratchet & Clank Collection
-Ratchet & Clank: Full Frontal Assault
 Ray Gigant
-Rayman Legends
 Rayman Origins
-Real Boxing
-Reality Fighters
 Rear pheles: Red of Another
 Re:Birthday Song Shinigami Kareshi - Another Record
-Reco Love
-Red Game Without a Great Name
 Reel Fishing: Master's Challenge
 Refrain no Chika Meikyuu to Majo no Ryodan
 Rei-Jin-G-Lu-P
 Reine des Fleurs
 Ren'ai 0 Kilometer V
 Rep Kiss
-Resident Evil: Revelations 2
-Resistance: Burning Skies
 Resogun
 Retro City Rampage
 Retro City Rampage DX
-Revenant Dogma
 Revenant Saga
 Reverie
 Reviced
@@ -1069,51 +794,32 @@ Rewrite
 Rewrite: Harvest Festa!
 Re:Zero kara Hajimeru Isekai Seikatsu: Death or Kiss
 Riddled Corpses EX
-Ridge Racer
 Ring Run Circus
-Rise of Mana
-RisingStar
 Risk of Rain
 Robotics;Notes Elite
 Rock Boshers DX: Director's Cut
-Rocketbirds: Hardboiled Chicken
 Rocketbirds 2: Evolution
-Rodem the Wild
 Ro-Kyu-Bu! Naisho no Shutter Chance
-Rogue Aces
 Rogue Legacy
 Rollers of the Realm
 Romance of the Three Kingdoms 12
 Romance of the Three Kingdoms 13 with Power-Up Kit
-Romancing SaGa 2
 Romancing SaGa 3
 Romeo VS Juliet Zenkan Pack
 Root Double: Before Crime * After Days – Xtend Edition
 Root Letter
 Root Rexx
 A Rose in the Twilight
-Roundabout
-Royal Defense
-Royal Defense: Invisible Threat
 Rozen Maiden: Wechseln Sie Welt ab
-Rugby 15
-Rugby World Cup 2015
 Rui wa Tomo o Yobu
 Run Like Hell
-Run Sackboy! Run!
 Ryūyoku no Melodia: Diva with the Blessed Dragonol
-SA7: Silent Ability Seven
-Scared Rider Xechs Rev.
 Saenai Kanojo (Heroine) no Sodatekata: Blessing Flowers
-SaGa: Scarlet Grace
 Sakaagari Hurricane Portable
-Sakatsuku: Pro Soccer Club o Tsukurou!
 Saki: Zenkoku-hen
 Sakura Sakura
 Sakurasou no Pet na Kanojo
 Salt and Sanctuary
-Samurai & Dragons
-Samurai Shodown V Special
 Samurai Warriors 2 with Xtreme Legends & Empires HD Version
 Samurai Warriors 4
 Samurai Warriors 4-II
@@ -1131,15 +837,10 @@ Sayonara Umihara Kawase Plus
 School Wars: Zenkan Pack Honpen & Sotsugyō Sensen
 Scram Kitty DX
 SD Gundam G Generation Genesis
-Secret of Mana
-Sekai Seifuku: Costume Fes
 Semispheres
 Sengoku Hime 3: Tenka o Kirisaku Hika to Kage [ja]
 Sengoku Hime 4: Sōhai Hyakkei, Hana Mamoru Chikai [ja]
-Sengoku Hime 5: Senka Tatsu Haō No Keifu [ja]
-Sengoku Hime 7: Sen'un Tsuranuku Guren no Ishi [ja]
 Sengoku Otome: Legend Battle
-Sengoku Shura Soul
 Sengo Muramasa DX: Guren no Kettō
 Senjō no Waltz [ja]
 Sen no Hatō, Tsukisome no Kōki [ja]
@@ -1148,15 +849,11 @@ Senran Kagura Estival Versus
 Senran Kagura Shinovi Versus
 Seraph of the End: The Origin of Fate
 Seven Days: Anata to Sugosu Nanokakan
-Severed
-Shake Spears!
 Shakedown: Hawaii
 Shantae: Half-Genie Hero
 Shin Gundam Musou
 Shin Hayarigami [ja]
 Shin Hayarigami 2 [ja]
-Shin Kamaitachi no Yoru: Jyuichi-nin-me no Suspect
-Shinobiashi
 Shinobido 2: Revenge of Zen
 Shinobi, Koi Utsutsu: Kanmitsu Hana Emaki [ja]
 Shinobi, Koi Utsutsu: Setsugetsuka Koi Emaki [ja]
@@ -1167,52 +864,31 @@ Shinsō-ban Heart no Kuni no Alice: Wonderful Wonder World
 Shinsō-ban Mahōtsukai to Goshujin-sama [ja]
 Shinsō-ban Majo'ou [ja]
 Shinsō-ban Okashi na Shima no Peter Pan [ja]
-Shitsuji ga Aruji o Erabu Toki [ja]
 Shiren the Wanderer: The Tower of Fortune and the Dice of Fate
 Shirogane × Spirits!
 Shiro to Kuro no Alice
-Shōjo to Dragon Genjū Keiyaku Cryptract
 Shovel Knight
-Shu
 Shutshimi Seriously Swole
 Side Kicks!
-Sigi: A Fart for Melusina
-Silent Hill: Book of Memories
 Silverio Vendetta: Verse of Orpheus
 Simple V Series Vol. 1: The Docodemo Gal Mahjong
 Simple V Series Vol. 2: The Tōsō Highway Fullboost: Nagoya–Tokyo Gekisō 4-jikan
-Sine Mora
-Siralim
-Siralim 2
-Sir Eatsalot
 Skeleton Rider
 Sketchcross
 Skullgirls 2nd Encore
 Sky Force Anniversary
-Skylight Freerange
-Skylight Freerange 2: Gachduine
-Slain: Back from Hell
-Slotter Mania V: Black Lagoon
 Slotter Mania V: Highschool of the Dead
 Slotter Mania V: Zettai Shougeki II
-The Sly Collection
 Sly Cooper: Thieves in Time
-Smart As...
-Sokoban Next
 Söldner-X 2: Final Prototype
-Sonic & All-Stars Racing Transformed
 Son of Scoregasm
 Sorayume [ja]
 Sorcery Saga: Curse of the Great Curry God
-Sōsei no Onmyōji
 Sōshū Senshinkan Gakuen: Hachimyoujin: Ten no Koku [ja]
 Sōkai Buccaneers!
-Soul Sacrifice
 Soul Sacrifice Delta
 Sound Shapes
-Space Hulk
 Spacejacked
-Space Overlords
 Sparkle
 Sparkle 2
 Sparkle Unleashed
@@ -1224,13 +900,8 @@ Spider: Rite of the Shrouded Moon
 Spiral Splatter
 SpongeBob HeroPants
 Spy Chameleon: RGB Agent
-Spy Hunter
 Squareboy vs Bullies: Arena Edition
-Squares
-Stardew Valley
-StarDrone Extreme
 Starlight Inception
-Star Ocean: Second Evolution
 Starry Sky: Autumn Stories
 Starry Sky: Spring Stories
 Starry Sky: Summer Stories
@@ -1249,102 +920,65 @@ Steins;Gate Elite
 Steins;Gate: Hiyoku Renri no Darling
 Steins;Gate: Senkei Kōsoku no Phenogram
 Stick It to the Man!
-Still Time
 Storm Lover
 Storm Lover 2nd V
 Stranded: A Mars Adventure
 Stranger of Sword City
 Stranger of Sword City Revisited
 Strawberry Nauts
-Street Fighter X Tekken
-Strike Solitaire
 Strike Solitaire 2
 Sūgaku-ryoku-ō Jōkyū
 Sūgaku-ryoku-ō Shokyū
 Sūgaku-ryoku-ō Chūkyū
-Sumioni: Demon Arts
 Summon Night 6
-The Sun & Moon
-Sunflowers
 Superbeat: Xonic
 Super Blackout
 Super Blast Deluxe
-Super Destronaut DX
 Superdimension Neptune VS Sega Hard Girls [ja]
 Super Exploding Zoo
 Superfrog HD
 Super Hero Generation
-Super Heroine Chronicle
 Super Hydorah
-Super Life of Pixel
 Supermagical
 Super Meat Boy
-Super Monkey Ball: Banana Splitz
 Super Mutant Alien Assault
 Super Robot Wars Taisen Original Generation Saga: Masō Kishin 3 – Pride of Justice
 Super Robot Wars V
 Super Robot Wars X
 Super Skull Smash Go! 2 Turbo
-Super Stardust Delta
 Super Star Wars
 Super Time Force Ultra
-Supremacy MMA: Unrestricted
 Sūran Digit
-Surge Deluxe
 The Swapper
-SwapQuest
 Sweet Clown: Gozen San-ji no Okashi na Dōkeshi
 Sweet Pool
 The Swindle
-Switch Galaxy Ultra
 Sword Art Online: Hollow Fragment
 Sword Art Online: Hollow Realization
 Sword Art Online: Lost Song
-Synergia
-Table Football
-Table Ice Hockey
-Table Mini Golf
 Table Top Racing
-Table Top Tanks
-Tachyon Project
-Taco Master
-Tadeo Jones
-Tadeo Jones Y El Manuscrito Perdido
 Taiheiyō no Arashi: Kōkoku no Kōhai Koko ni Ari, 1942 Senkan Yamato Hankō no Gōjū
 Taiheiyō no Arashi: Shijōsaidai no Gekisen Normandy Kōbō-sen!
-Taiko no Tatsujin V Version
 Taishō Mebiusline Vitable
 Taishō Mebiusline Teito Bibouroku Hare
 Taishō x Alice: All in One
 Taishō x Alice: Heads & Tails
-Tales from Space: Mutant Blobs Attack
 Tales of Hearts R
 Tales of Innocence R
 Talisman: Digital Edition
-Tearaway
 Teikoku Kaigun Koi Bojō: Meiji Yokosuka Kōshinkyoku
 Teikoku Kaleido: Kakumei no Rondo
 Tengai ni Mau, Iki na Hana
 Tennis in the Face
 Tenshitsuki no Shōjo
-Terraria
-Teslagrad
-Tetra's Escape
-Tetris Ultimate
 Thomas Was Alone
-Three Fourths Home: Extended Edition
 Timepiece Ensemble
-Time Recoil
-Timespinner
 Time Travelers
-Tiny Troopers: Joint Ops
 Titan Souls
 Titan Attacks!
-Toaru Majutsu no Virtual-On
 TOEIC Test Jissen Tokkun
 TOEIC Test Jissen Tokkun 2
 To Heart 2: Dungeon Travelers
-To Love-Ru Darkness: Battle Ecstasy
 To Love-Ru Darkness: True Princess
 Tokushu Hōdōbu
 Tokeijikake no Ley Line: Kagerō ni Samayō Majo
@@ -1352,7 +986,6 @@ Tokimeki Restaurant: Project Tristars
 Tokyo Clanpool
 Tokyo Ghoul: Jail
 Tokyo Onmyōji: Tengenjibashi Ryō no Baai V Edition
-Tokyo Tattoo Girls
 Mato Kurenai Yuugekitai: Tokyo Twilight Ghosthunters
 Tokyo Twilight Ghost Hunters: Daybreak Special Gigs
 Tokyo Xanadu
@@ -1361,27 +994,17 @@ Tokyo Yamanote Boys for V: Main Disk
 Tonari ni Kanojo no Iru Shiawase: Two Farce
 Tonari ni Kanojo no Iru Shiawase: Winter Guest
 Torikago no Marriage: Hatsukoi no Tsubasa
-Top Darts
-Top Trumps Turbo
-Toro's Friend Network
 Torquel
-Total Recoil
 Tottemo E Mahjong
-Touch Battle Sensha SP
-Touch My Katamari
 Touhou Double Focus
-Touhou Genso Maroku W: The Devil of Decline
 Touhou Genso Wanderer
 Touhou Genso Wanderer Reloaded
-Touhou Sky Arena: Gensokyo Kuusen Hime Matsuri Climax
-Touhou Kobuto V: Burst Battle
 Touhou Sōjin Engi V: The Genius of Sappheiros
 Toukiden: The Age of Demons
 Toukiden: Kiwami
 Toukiden 2
 TowerFall Ascension
 Traveling Stars
-Treasures of Montezuma 4
 Treasures of Montezuma: Arena
 Treasures of Montezuma: Blitz
 Trillion: God of Destruction
@@ -1389,29 +1012,19 @@ Tsuihō Senkyo
 Tsuki ni Yorisō: Otome no Sahō: Hidamari no Hibi
 Tsukitomo: Tsukiuta 12 Memories
 Tsumikui: Sen no Noroi, Sen no Inori for V
-Twin Robots
 TxK
-Type:Rider
 Ukiyo no Rōshi
 Ultimate Marvel vs. Capcom 3
 Ultracore
 Ultra Mission
 Ultratron
 Un:Birthday Song: Ai o Utau Shinigami - Another Record
-Uncanny Valley
 Uncharted: Fight for Fortune
-Uncharted: Golden Abyss
-Under Night In-Birth Exe:Latest
 Undertale
-Unepic
 The Unfinished Swan
-Unit 13
 Uppers
-Urban Trial Freestyle
 Usotsuki Hime to Moumoku Ouji
 Usotsuki Shangri-La
-Uta Kumi 575
-Uta no Prince-sama: Amazing Aria & Sweet Serenade
 Uta no Prince-sama Music 3
 Uta no Prince-sama Repeat Love
 Utawarerumono: Prelude to the Fallen
@@ -1425,14 +1038,10 @@ Valkyria Revolution
 Valkyrie Drive: Bhikkhuni
 Vamwolf Cross
 Variable Barricade
-Vegas Party
 Velocibox
 Velocity Ultra
 Velocity 2X
 Venus Project
-Vertical Drop Heroes HD
-Virtua Tennis 4: World Tour Edition
-A Virus Named TOM
 Vitamin X: Destination
 Vitamin Z
 Volgarr the Viking
@@ -1448,7 +1057,6 @@ Wanderjahr
 Wand of Fortune R
 Wand of Fortune R2: Jikū ni Shizumu Mokushiroku
 Wand of Fortune R2 FD: Kimi ni Sasageru Epilogue
-Wanted Corp.
 Warriors Orochi 3 Ultimate
 We Are Doomed
 When Vikings Attack
@@ -1461,37 +1069,24 @@ Winning Post 8 2016
 Winning Post 8 2017
 Winning Post 8 2018
 Windjammers
-Wipeout 2048
-Wizardry: Labyrinth of Lost Souls
-Wizardry: Torawareshi Bourei no Machi
 Woah Dave!
-The Wolf Among Us
-Word Search by POWGI
-Word Sudoku by POWGI
 World Election
 World End Syndrome
 World Trigger: Borderless Mission
-World Trigger: Smash Borders
 Worms Revolution Extreme
-World of Final Fantasy
 WRC 3: FIA World Rally Championship
-WRC 4: FIA World Rally Championship
 WRC 5
 Xblaze Code: Embryo
 Xblaze: Lost Memories
-XCOM: Enemy Unknown Plus
 Xeno Crisis
 Xenon Valkyrie Plus
-Xeodrifter
 Xenoraid
-YIIK: A Postmodern RPG
 Yahari Game Demo Ore no Seishun Love-Come wa Machigatteiru
 Yahari Game Demo Ore no Seishun Love-Come wa Machigatteiru. Zoku.
 Yomawari: Midnight Shadows
 Yomawari: Night Alone
 Yoshiwara Higanbana: Kuon no Chigiri
 Ys: Memories of Celceta
-Ys Origin
 Ys VIII: Lacrimosa of Dana
 Yūki Yūna wa Yūsha de Aru: Jukai no Kioku
 Yūkyū no Tierblade: Fragments of Memory
@@ -1499,15 +1094,12 @@ Yūkyū no Tierblade: Lost Chronicle
 YU-NO: A Girl Who Chants Love at the Bound of this World
 Yunohana Spring!
 Yunohana Spring! Cherishing Time
-Yūsha no Kiroku
 Zanki Zero
 Z-Run
 Zen Pinball 2
 Zero Escape: The Nonary Games
 Zero Escape: Virtue's Last Reward
 Zero Time Dilemma
-Zero Zero Zero Zero
 Zettai Kaikyū Gakuen: Eden with Roses and Phantasm
 Zettai Meikyū: Himitsu no Oyayubihime
 Zombie Tycoon 2: Brainhov's Revenge
-Zombies: The Last Survivor
