@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:UkiRetroGameRandomizer.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="Black">
+    <Grid>
         <Label HorizontalAlignment="Center" VerticalAlignment="Center" 
                Foreground="{Binding Path=Foreground}" FontSize="{Binding Path=FontSize}"
                FontWeight="{Binding Path=FontWeight}"

@@ -5,6 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Windows;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using Caliburn.Micro;
 using GameRandomizerEngine;
@@ -39,7 +41,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly IRhgWheelItemRepository _rhgWheelItemRepository;
         private readonly IPopupViewModel _popupViewModel;
         private readonly Mp3Player _mp3Player;
-
+        private ImageSource _backgroundImage;
         private IGameViewModel _previousGame2;
         private IGameViewModel _previousGame1;
         private IGameViewModel _currentGame;
@@ -48,6 +50,16 @@ namespace UkiRetroGameRandomizer.ViewModels
         private Platform _platform;
         private string _letter;
         private IEnumerable<GameInfo> _games;
+
+        public ImageSource BackgroundImage
+        {
+            get => _backgroundImage;
+            set
+            {
+                _backgroundImage = value;
+                NotifyOfPropertyChange(() => BackgroundImage);
+            }
+        }
 
         public IGameViewModel PreviousGame2
         {
@@ -128,6 +140,8 @@ namespace UkiRetroGameRandomizer.ViewModels
             NextGame1 = gameViewModelFactory.Create(GameFontSize.Medium, false);
             NextGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
 
+            BackgroundImage = FindBackgroundImage();
+
             _timer = new DispatcherTimer
             {
                 Interval = TimeSpan.FromMilliseconds(Interval)
@@ -135,6 +149,23 @@ namespace UkiRetroGameRandomizer.ViewModels
 
             _timer.Tick += (s, e) => TimerTick();
             _mp3Player = new Mp3Player(AppData.SoundPath);
+        }
+
+        private ImageSource FindBackgroundImage()
+        {
+            ImageSource imageSource = null;
+            
+            if (File.Exists(AppData.BackgroundPath))
+            {
+                var fileStream = new FileStream(AppData.BackgroundPath, FileMode.Open, FileAccess.Read);
+                var img = new BitmapImage();
+                img.BeginInit();
+                img.StreamSource = fileStream;
+                img.EndInit();
+                imageSource = img;
+            }
+
+            return imageSource;
         }
 
         private void Start()

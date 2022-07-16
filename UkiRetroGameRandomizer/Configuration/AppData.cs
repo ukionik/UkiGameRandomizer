@@ -13,6 +13,8 @@ namespace UkiRetroGameRandomizer.Configuration
         public static string AppPath { get; }
         public static string ResourcePath { get; }
         public static string Profile { get; }
+        
+        public static string ImgPath { get; }
 
         public static Profile ProfileEnum
         {
@@ -25,6 +27,8 @@ namespace UkiRetroGameRandomizer.Configuration
         public static string GameListPath { get; }
         public static string SoundPath { get; }
         public static string LogPath { get; }
+        
+        public static string BackgroundPath { get; }
 
         static AppData()
         {
@@ -36,6 +40,8 @@ namespace UkiRetroGameRandomizer.Configuration
             var soundSystem = ConfigurationManager.AppSettings["SoundSystem"];
             SoundPath = Path.Combine(ResourcePath, "Sounds", soundSystem);
             LogPath = Path.Combine(AppPath, "Log");
+            ImgPath = Path.Combine(ResourcePath, "Img");
+            BackgroundPath = Path.Combine(ImgPath, ConfigurationManager.AppSettings["Background"]);
         }
     }
 }

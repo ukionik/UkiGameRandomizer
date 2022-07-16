@@ -725,6 +725,12 @@
       </None>
     </ItemGroup>
     <ItemGroup>
+      <None Include="Resources\Img\background.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Include="Resources\Img\background-samus.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
       <Content Include="Resources\List\RHG\konatyactics.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
