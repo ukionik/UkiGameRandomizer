@@ -9,6 +9,7 @@
     <Grid>
         <Label HorizontalAlignment="Center" VerticalAlignment="Center" 
                Foreground="{Binding Path=Foreground}" FontSize="{Binding Path=FontSize}"
+               FontFamily="{Binding Path=FontFamily}"
                FontWeight="{Binding Path=FontWeight}"
                Margin="{Binding Path=Margin}"
                >

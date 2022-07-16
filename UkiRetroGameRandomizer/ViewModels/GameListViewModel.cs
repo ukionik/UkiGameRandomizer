@@ -154,7 +154,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private ImageSource FindBackgroundImage()
         {
             ImageSource imageSource = null;
-            
+
             if (File.Exists(AppData.BackgroundPath))
             {
                 var fileStream = new FileStream(AppData.BackgroundPath, FileMode.Open, FileAccess.Read);
@@ -203,12 +203,12 @@ namespace UkiRetroGameRandomizer.ViewModels
             if (platform.Name == "Wheel" && AppData.ProfileEnum == Profile.Dropmania)
             {
                 _games = _dropmaniaWheelItemRepository.Data
-                    .Select(x => new GameInfo(x.Title, x.Type == "Item" ? "#0bb3d9" : null));
+                    .Select(x => new GameInfo(x.Title, x.Type == "Item" ? AppData.SelectedItemColor : null));
             }
             else if (platform.Name == "Wheel" && AppData.ProfileEnum == Profile.RHG)
             {
                 _games = _rhgWheelItemRepository.Data
-                    .Select(x => new GameInfo(x.Title, x.Type == "Item" ? "#0bb3d9" : null));
+                    .Select(x => new GameInfo(x.Title, x.Type == "Item" ? AppData.SelectedItemColor : null));
             }
             else if (platform.Name == "Items" && AppData.ProfileEnum == Profile.Dropmania)
             {
@@ -337,18 +337,11 @@ namespace UkiRetroGameRandomizer.ViewModels
                     var text = _dropmaniaWheelItemRepository.FindByName(_currentGame.Name).Description;
                     _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
                 }
-                else if (_platform.Name.Equals("rhgwheel", StringComparison.OrdinalIgnoreCase)
-                         || _platform.Name.Equals("rhgitems", StringComparison.OrdinalIgnoreCase))
-                {
-                    var text = _rhgWheelItemRepository.FindByName(_currentGame.Name).Description;
-                    _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
-                }
                 else
                 {
-                    //var query = CurrentGame.Name.Trim().Replace(" ", "+");
                     var query = HttpUtility.UrlEncode(CurrentGame.Name.Trim());
-                    Process.Start($"http://gamefaqs.gamespot.com/search?game={query}");
-                    Process.Start($"http://youtube.com/results?search_query={query}+longplay");
+                    Process.Start($"https://gamefaqs.gamespot.com/search?game={query}");
+                    Process.Start($"https://youtube.com/results?search_query={query}+longplay");
                 }
             }
         }

@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Media;
 using Caliburn.Micro;
+using UkiRetroGameRandomizer.Configuration;
 using UkiRetroGameRandomizer.Core;
 using UkiRetroGameRandomizer.Models.Enums;
 
@@ -12,6 +13,17 @@ namespace UkiRetroGameRandomizer.ViewModels
         private FontWeight _fontWeight = FontWeights.Normal;
         private string _altColor;
         private readonly string _defaultForegroundColor;
+        private string _fontFamily;
+
+        public string FontFamily
+        {
+            get => _fontFamily;
+            set
+            {
+                _fontFamily = value;
+                NotifyOfPropertyChange(() => FontFamily);
+            }
+        }
 
         public string Name
         {
@@ -61,7 +73,8 @@ namespace UkiRetroGameRandomizer.ViewModels
 
         public GameViewModel(GameFontSize fontSize, bool focused)
         {
-            _defaultForegroundColor = focused ? "#BE9A21" : "#FFFFFF";
+            _fontFamily = AppData.FontName;
+            _defaultForegroundColor = focused ? AppData.SelectedGameRollColor : AppData.GameRollColor;
             FontSize = fontSize.ToRealFontSize();
         }
     }
