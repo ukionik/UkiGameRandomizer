@@ -99,12 +99,14 @@
         <Compile Include="Core\Extensions.cs" />
         <Compile Include="Core\FactoryAttribute.cs" />
         <Compile Include="Core\IgnoreAutoBindingAttribute.cs" />
+        <Compile Include="Models\Data\DropmaniaRolledGame.cs" />
         <Compile Include="Models\Data\DroppedGame.cs" />
         <Compile Include="Models\Data\HistoryLogItem.cs" />
         <Compile Include="Models\Data\Platform.cs" />
         <Compile Include="Models\Data\Platforms.cs" />
         <Compile Include="Models\Data\RetroPlayPlatformItem.cs" />
         <Compile Include="Models\Data\WheelItem.cs" />
+        <Compile Include="Models\Enums\DropmaniaGameStatus.cs" />
         <Compile Include="Models\Enums\GameFontSize.cs" />
         <Compile Include="Models\Enums\Profile.cs" />
         <Compile Include="Models\Enums\RollStatus.cs" />
@@ -115,6 +117,8 @@
         <Compile Include="Models\Events\RollStatusChangedEvent.cs" />
         <Compile Include="Models\Factories\IGameViewModelFactory.cs" />
         <Compile Include="Models\Factories\IPlatformViewModelFactory.cs" />
+        <Compile Include="Models\Repositories\DropmaniaRolledGameRepository.cs" />
+        <Compile Include="Models\Repositories\IDropmaniaRolledGameRepository.cs" />
         <Compile Include="Models\Repositories\IDroppedGameRepository.cs" />
         <Compile Include="Models\Repositories\IRepository.cs" />
         <Compile Include="Models\Repositories\DroppedGameRepository.cs" />
@@ -721,9 +725,9 @@
       </None>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\RHG\konatyactics">
+      <Content Include="Resources\List\RHG\konatyactics.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
+      </Content>
     </ItemGroup>
     <ItemGroup>
       <None Include="Resources\List\RHG\metroid.txt">

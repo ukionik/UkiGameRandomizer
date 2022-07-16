@@ -26,7 +26,7 @@ WIIU;Wii U;wiiu.txt
 Wheel;Колесо;wheel.txt
 Items;Предметы;items.txt
 Platforms;Платформы;platforms.txt
-CATBAG;Кот в мешке (RHG);cat_bag.txt
+CATBAG;Кот в мешке;cat_bag.txt
 Roulette;Русская рулетка;roulette.txt
 HeadTails;Орел или Решка;headtails.txt
 Cat;Игры про котеек;cat.txt

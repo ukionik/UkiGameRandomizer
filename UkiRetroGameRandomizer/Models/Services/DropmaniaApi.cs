@@ -28,6 +28,12 @@ namespace UkiRetroGameRandomizer.Models.Services
         {
             return await GetResult<List<WheelItem>>("/dropmania/wheel-items");
         }
+        
+        public async Task<List<DropmaniaRolledGame>> GetRolledGames()
+        {
+            return await GetResult<List<DropmaniaRolledGame>>("/dropmania/rolled-games");
+        }
+        
         private async Task<T> GetResult<T>(string url)
         {
             var fullUrl = $"{_url}{url}";

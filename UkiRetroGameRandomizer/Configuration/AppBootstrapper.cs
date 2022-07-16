@@ -63,6 +63,7 @@ namespace UkiRetroGameRandomizer.Configuration
             else if (AppData.ProfileEnum == Profile.RHG)
             {
                 await _kernel.Get<IRhgWheelItemRepository>().LoadAsync();
+                await _kernel.Get<IDropmaniaRolledGameRepository>().LoadAsync();
             }
 
             //await _kernel.Get<IRetroPlayPlatformRepository>().LoadAsync();

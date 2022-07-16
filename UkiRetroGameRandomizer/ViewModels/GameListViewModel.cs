@@ -35,6 +35,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly IEventAggregator _eventAggregator;
         private readonly IDroppedGameRepository _droppedGameRepository;
         private readonly IDropmaniaWheelItemRepository _dropmaniaWheelItemRepository;
+        private readonly IDropmaniaRolledGameRepository _dropmaniaRolledGameRepository;
         private readonly IRhgWheelItemRepository _rhgWheelItemRepository;
         private readonly IPopupViewModel _popupViewModel;
         private readonly Mp3Player _mp3Player;
@@ -112,11 +113,13 @@ namespace UkiRetroGameRandomizer.ViewModels
             , IGameViewModelFactory gameViewModelFactory
             , IDroppedGameRepository droppedGameRepository
             , IDropmaniaWheelItemRepository dropmaniaWheelItemRepository
+            , IDropmaniaRolledGameRepository dropmaniaRolledGameRepository
             , IRhgWheelItemRepository rhgWheelItemRepository)
         {
             _eventAggregator = eventAggregator;
             _droppedGameRepository = droppedGameRepository;
             _dropmaniaWheelItemRepository = dropmaniaWheelItemRepository;
+            _dropmaniaRolledGameRepository = dropmaniaRolledGameRepository;
             _rhgWheelItemRepository = rhgWheelItemRepository;
             _eventAggregator.Subscribe(this);
             PreviousGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
@@ -192,6 +195,18 @@ namespace UkiRetroGameRandomizer.ViewModels
             {
                 _games = _droppedGameRepository.Data
                     .Select(x => new GameInfo(x.ToString()));
+            }
+            else if (platform.Name == "Dropmania1" && AppData.ProfileEnum == Profile.RHG)
+            {
+                _games = _dropmaniaRolledGameRepository.Data
+                    .Where(x => x.Status == DropmaniaGameStatus.Dropped)
+                    .Select(x => new GameInfo($"{x.Game} [{x.Platform}] ({x.Player})"));
+            }
+            else if (platform.Name == "Dropmania2" && AppData.ProfileEnum == Profile.RHG)
+            {
+                _games = _dropmaniaRolledGameRepository.Data
+                    .Where(x => x.Status == DropmaniaGameStatus.Completed)
+                    .Select(x => new GameInfo($"{x.Game} [{x.Platform}] ({x.Player})"));
             }
             /*else if (platform.Name == "RetroPlay")
             {

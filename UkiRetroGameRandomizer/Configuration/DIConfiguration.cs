@@ -37,6 +37,7 @@ namespace UkiRetroGameRandomizer.Configuration
         {
             Bind<IDroppedGameRepository>().To<DroppedGameRepository>().InSingletonScope();
             Bind<IDropmaniaWheelItemRepository>().To<DropmaniaDropmaniaWheelItemRepository>().InSingletonScope();
+            Bind<IDropmaniaRolledGameRepository>().To<DropmaniaRolledGameRepository>().InSingletonScope();
             Bind<IRhgWheelItemRepository>().To<RhgWheelItemRepository>().InSingletonScope();
             Bind<IRetroPlayPlatformRepository>().To<RetroPlayPlatformRepository>().InSingletonScope();
         }
