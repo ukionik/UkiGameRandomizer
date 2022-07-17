@@ -327,19 +327,50 @@ namespace UkiRetroGameRandomizer.ViewModels
             }
         }
 
-        public void Navigate()
+        public void Navigate(string source)
         {
             if (!Started)
             {
-                if (_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
-                    || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
+                string gameName = "";
+                switch (source)
                 {
-                    var text = _dropmaniaWheelItemRepository.FindByName(_currentGame.Name).Description;
+                    case "NextGame2":
+                        gameName = _nextGame2.Name;
+                        break;
+                    case "NextGame1":
+                        gameName = _nextGame1.Name;
+                        break;
+                    case "CurrentGame":
+                        gameName = _currentGame.Name;
+                        break;
+                    case "PreviousGame1":
+                        gameName = _previousGame1.Name;
+                        break;
+                    case "PreviousGame2":
+                        gameName = _previousGame2.Name;
+                        break;
+                }
+                
+                
+                if ((_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
+                    || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
+                    && AppData.ProfileEnum is Profile.Dropmania or Profile.RHG)
+                {
+                    var text = "";
+                    if (AppData.ProfileEnum is Profile.Dropmania)
+                    {
+                        text = _dropmaniaWheelItemRepository.FindByName(gameName).Description;                        
+                    }
+                    else if (AppData.ProfileEnum is Profile.RHG)
+                    {
+                        text = _rhgWheelItemRepository.FindByName(gameName).Description;
+                    }
+                    
                     _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
                 }
                 else
                 {
-                    var query = HttpUtility.UrlEncode(CurrentGame.Name.Trim());
+                    var query = HttpUtility.UrlEncode(gameName.Trim());
                     Process.Start($"https://gamefaqs.gamespot.com/search?game={query}");
                     Process.Start($"https://youtube.com/results?search_query={query}+longplay");
                 }

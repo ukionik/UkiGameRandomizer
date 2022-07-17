@@ -12,13 +12,13 @@
             <ImageBrush ImageSource="{Binding Path=BackgroundImage}"></ImageBrush>
         </Grid.Background>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <ContentControl Name="NextGame2" />
-            <ContentControl Name="NextGame1" />
+            <ContentControl Name="NextGame2" cal:Message.Attach="[Event MouseUp] = [Action Navigate('NextGame2')]" Cursor="Hand" />
+            <ContentControl Name="NextGame1" cal:Message.Attach="[Event MouseUp] = [Action Navigate('NextGame1')]" Cursor="Hand" />
             <ContentControl Name="CurrentGame"
                             Cursor="Hand"
-                            cal:Message.Attach="[Event MouseUp] = [Action Navigate()]" />
-            <ContentControl Name="PreviousGame1" />
-            <ContentControl Name="PreviousGame2" />
+                            cal:Message.Attach="[Event MouseUp] = [Action Navigate('CurrentGame')]" />
+            <ContentControl Name="PreviousGame1" cal:Message.Attach="[Event MouseUp] = [Action Navigate('PreviousGame1')]" Cursor="Hand" />
+            <ContentControl Name="PreviousGame2" cal:Message.Attach="[Event MouseUp] = [Action Navigate('PreviousGame2')]" Cursor="Hand" />
         </StackPanel>
     </Grid>
 </UserControl>

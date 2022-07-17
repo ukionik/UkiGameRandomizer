@@ -27,6 +27,7 @@
                           IsEnabled="{Binding Path=PlatformEnabled}"
                           cal:Message.Attach="[Event SelectionChanged] = [Action RollSettingsChanged()]" />
                 <Button Name="Start" Width="80" Height="32"
+                        Cursor="Hand"
                         HorizontalAlignment="Left" VerticalAlignment="Center"
                         IsEnabled="{Binding Path=StartEnabled}">
                     Пуск
@@ -41,12 +42,14 @@
                          cal:Message.Attach="[Event TextChanged] = [Action RollSettingsChanged()]"
                          IsEnabled="{Binding Path=Started}" />
                 <Button Name="Fabino" Width="120" Height="32" Margin="4 0"
+                        Cursor="Hand"
                         HorizontalAlignment="Left" VerticalAlignment="Center"
                         IsEnabled="{Binding Path=StartEnabled}"
                         Visibility="{Binding Path=FabinoVisibility}">
                     Привет от Фабино
                 </Button>
                 <Button Name="History" Width="120" Height="32" Margin="4 0"
+                        Cursor="Hand"
                         HorizontalAlignment="Left" VerticalAlignment="Center">
                     История ролов
                 </Button>
