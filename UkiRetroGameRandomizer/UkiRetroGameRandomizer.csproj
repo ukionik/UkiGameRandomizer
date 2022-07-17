@@ -731,6 +731,9 @@
       <None Include="Resources\Img\background-samus.jpg">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+      <None Include="Resources\List\Default\wheel_description.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
       <Content Include="Resources\List\RHG\konatyactics.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>

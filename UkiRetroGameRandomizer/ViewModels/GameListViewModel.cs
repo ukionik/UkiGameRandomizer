@@ -350,6 +350,11 @@ namespace UkiRetroGameRandomizer.ViewModels
                         gameName = _previousGame2.Name;
                         break;
                 }
+
+                if (_platform == null)
+                {
+                    return;
+                }
                 
                 
                 if ((_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
@@ -366,6 +371,11 @@ namespace UkiRetroGameRandomizer.ViewModels
                         text = _rhgWheelItemRepository.FindByName(gameName).Description;
                     }
                     
+                    _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
+                }
+                else if (PlatformGamesUtil.HasDescription(_platform))
+                {
+                    var text = PlatformGamesUtil.FindDescription(_platform, gameName);
                     _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));
                 }
                 else
