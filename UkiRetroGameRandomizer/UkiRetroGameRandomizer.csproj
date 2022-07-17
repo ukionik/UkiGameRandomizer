@@ -728,9 +728,6 @@
       <None Include="Resources\Img\background.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Include="Resources\Img\background-samus.jpg">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
       <None Include="Resources\List\Default\wheel_description.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
