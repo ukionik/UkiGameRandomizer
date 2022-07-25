@@ -18,7 +18,7 @@ GBC;GBC;gbc.txt
 DC;Dreamcast;dc.txt
 PS2;PS2;ps2.txt
 GBA;GBA;gba.txt
-GC;Gamecube;gc.txt
+DS;Nintendo DS;ds.txt
 PSP;PSP;psp.txt
 Wheel;Колесо;wheel.txt
 Items;Предметы;items.txt
