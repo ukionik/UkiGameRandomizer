@@ -349,10 +349,7 @@
         <None Include="Resources\List\Dropmania\saturn.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\Dropmania\sega_cd.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\Dropmania\smd+cd.txt">
+        <None Include="Resources\List\Dropmania\smd_cd_32x.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\Dropmania\smd.txt">
@@ -360,6 +357,9 @@
         </None>
         <None Include="Resources\List\Dropmania\sms.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="Resources\List\Dropmania\sms_gg.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\Dropmania\snes.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
