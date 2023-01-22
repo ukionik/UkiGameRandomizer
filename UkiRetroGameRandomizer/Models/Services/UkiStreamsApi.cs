@@ -8,7 +8,7 @@ namespace UkiRetroGameRandomizer.Models.Services
 {
     public class UkiStreamsApi
     {
-        private readonly string _url = "https://ukistreams.ru:8443/api/v1";
+        private readonly string _url = "https://api.ukistreams.ru/api/v1";
         private readonly HttpClient _httpClient;
 
         public UkiStreamsApi()
