@@ -2,6 +2,6 @@ namespace UkiRetroGameRandomizer.Models.Enums
 {
     public enum Profile
     {
-        Default, Dropmania, RHG 
+        Default, Dropmania, RGG 
     }
 }

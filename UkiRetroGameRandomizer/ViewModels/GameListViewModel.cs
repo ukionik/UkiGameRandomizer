@@ -38,7 +38,7 @@ namespace UkiRetroGameRandomizer.ViewModels
         private readonly IDroppedGameRepository _droppedGameRepository;
         private readonly IDropmaniaWheelItemRepository _dropmaniaWheelItemRepository;
         private readonly IDropmaniaRolledGameRepository _dropmaniaRolledGameRepository;
-        private readonly IRhgWheelItemRepository _rhgWheelItemRepository;
+        private readonly IRggWheelItemRepository _rggWheelItemRepository;
         private readonly IPopupViewModel _popupViewModel;
         private readonly Mp3Player _mp3Player;
         private ImageSource _backgroundImage;
@@ -126,13 +126,13 @@ namespace UkiRetroGameRandomizer.ViewModels
             , IDroppedGameRepository droppedGameRepository
             , IDropmaniaWheelItemRepository dropmaniaWheelItemRepository
             , IDropmaniaRolledGameRepository dropmaniaRolledGameRepository
-            , IRhgWheelItemRepository rhgWheelItemRepository)
+            , IRggWheelItemRepository rggWheelItemRepository)
         {
             _eventAggregator = eventAggregator;
             _droppedGameRepository = droppedGameRepository;
             _dropmaniaWheelItemRepository = dropmaniaWheelItemRepository;
             _dropmaniaRolledGameRepository = dropmaniaRolledGameRepository;
-            _rhgWheelItemRepository = rhgWheelItemRepository;
+            _rggWheelItemRepository = rggWheelItemRepository;
             _eventAggregator.Subscribe(this);
             PreviousGame2 = gameViewModelFactory.Create(GameFontSize.Small, false);
             PreviousGame1 = gameViewModelFactory.Create(GameFontSize.Medium, false);
@@ -205,9 +205,9 @@ namespace UkiRetroGameRandomizer.ViewModels
                 _games = _dropmaniaWheelItemRepository.Data
                     .Select(x => new GameInfo(x.Title, x.Type == "Item" ? AppData.SelectedItemColor : null));
             }
-            else if (platform.Name == "Wheel" && AppData.ProfileEnum == Profile.RHG)
+            else if (platform.Name == "Wheel" && AppData.ProfileEnum == Profile.RGG)
             {
-                _games = _rhgWheelItemRepository.Data
+                _games = _rggWheelItemRepository.Data
                     .Select(x => new GameInfo(x.Title, x.Type == "Item" ? AppData.SelectedItemColor : null));
             }
             else if (platform.Name == "Items" && AppData.ProfileEnum == Profile.Dropmania)
@@ -216,9 +216,9 @@ namespace UkiRetroGameRandomizer.ViewModels
                     .Where(x => x.Type == "Item")
                     .Select(x => new GameInfo(x.Title));
             }
-            else if (platform.Name == "Items" && AppData.ProfileEnum == Profile.RHG)
+            else if (platform.Name == "Items" && AppData.ProfileEnum == Profile.RGG)
             {
-                _games = _rhgWheelItemRepository.Data
+                _games = _rggWheelItemRepository.Data
                     .Where(x => x.Type == "Item")
                     .Select(x => new GameInfo(x.Title));
             }
@@ -227,13 +227,13 @@ namespace UkiRetroGameRandomizer.ViewModels
                 _games = _droppedGameRepository.Data
                     .Select(x => new GameInfo(x.ToString()));
             }
-            else if (platform.Name == "Dropmania1" && AppData.ProfileEnum == Profile.RHG)
+            else if (platform.Name == "Dropmania1" && AppData.ProfileEnum == Profile.RGG)
             {
                 _games = _dropmaniaRolledGameRepository.Data
                     .Where(x => x.Status == DropmaniaGameStatus.Dropped)
                     .Select(x => new GameInfo($"{x.Game} [{x.Platform}] ({x.Player})"));
             }
-            else if (platform.Name == "Dropmania2" && AppData.ProfileEnum == Profile.RHG)
+            else if (platform.Name == "Dropmania2" && AppData.ProfileEnum == Profile.RGG)
             {
                 _games = _dropmaniaRolledGameRepository.Data
                     .Where(x => x.Status == DropmaniaGameStatus.Completed)
@@ -359,16 +359,16 @@ namespace UkiRetroGameRandomizer.ViewModels
                 
                 if ((_platform.Name.Equals("wheel", StringComparison.OrdinalIgnoreCase)
                     || _platform.Name.Equals("items", StringComparison.OrdinalIgnoreCase))
-                    && AppData.ProfileEnum is Profile.Dropmania or Profile.RHG)
+                    && AppData.ProfileEnum is Profile.Dropmania or Profile.RGG)
                 {
                     var text = "";
                     if (AppData.ProfileEnum is Profile.Dropmania)
                     {
                         text = _dropmaniaWheelItemRepository.FindByName(gameName).Description;                        
                     }
-                    else if (AppData.ProfileEnum is Profile.RHG)
+                    else if (AppData.ProfileEnum is Profile.RGG)
                     {
-                        text = _rhgWheelItemRepository.FindByName(gameName).Description;
+                        text = _rggWheelItemRepository.FindByName(gameName).Description;
                     }
                     
                     _eventAggregator.PublishOnUIThread(new PopupEvent(true, text));

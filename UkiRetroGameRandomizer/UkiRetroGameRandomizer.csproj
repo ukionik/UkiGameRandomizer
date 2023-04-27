@@ -124,10 +124,10 @@
         <Compile Include="Models\Repositories\DroppedGameRepository.cs" />
         <Compile Include="Models\Repositories\IRetroPlayPlatformRepository.cs" />
         <Compile Include="Models\Repositories\IDropmaniaWheelItemRepository.cs" />
-        <Compile Include="Models\Repositories\IRhgWheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\IRggWheelItemRepository.cs" />
         <Compile Include="Models\Repositories\RetroPlayPlatformRepository.cs" />
         <Compile Include="Models\Repositories\DropmaniaWheelItemRepository.cs" />
-        <Compile Include="Models\Repositories\RhgWheelItemRepository.cs" />
+        <Compile Include="Models\Repositories\RggWheelItemRepository.cs" />
         <Compile Include="Models\Services\DropmaniaApi.cs" />
         <Compile Include="Models\Services\HistoryLogger.cs" />
         <Compile Include="Models\Services\Mp3Player.cs" />
@@ -376,106 +376,106 @@
         <None Include="Resources\List\Dropmania\tg16_tcd.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\3ds.txt">
+        <None Include="Resources\List\RGG\3ds.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\castlevania.txt">
+        <None Include="Resources\List\RGG\castlevania.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\cat.txt">
+        <None Include="Resources\List\RGG\cat.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\cat_bag.txt">
+        <None Include="Resources\List\RGG\cat_bag.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\dc.txt">
+        <None Include="Resources\List\RGG\dc.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\ds.txt">
+        <None Include="Resources\List\RGG\ds.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\fds.txt">
+        <None Include="Resources\List\RGG\fds.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\gb.txt">
+        <None Include="Resources\List\RGG\gb.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\gba.txt">
+        <None Include="Resources\List\RGG\gba.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\gbc.txt">
+        <None Include="Resources\List\RGG\gbc.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\gc.txt">
+        <None Include="Resources\List\RGG\gc.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\gg.txt">
+        <None Include="Resources\List\RGG\gg.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\headtails.txt">
+        <None Include="Resources\List\RGG\headtails.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\megaman.txt">
+        <None Include="Resources\List\RGG\megaman.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\metadata.txt">
+        <None Include="Resources\List\RGG\metadata.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\n64.txt">
+        <None Include="Resources\List\RGG\n64.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\nes.txt">
+        <None Include="Resources\List\RGG\nes.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\platforms.txt">
+        <None Include="Resources\List\RGG\platforms.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\ps1.txt">
+        <None Include="Resources\List\RGG\ps1.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\ps2.txt">
+        <None Include="Resources\List\RGG\ps2.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\psp.txt">
+        <None Include="Resources\List\RGG\psp.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\roulette.txt">
+        <None Include="Resources\List\RGG\roulette.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\saturn.txt">
+        <None Include="Resources\List\RGG\saturn.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\sega_cd.txt">
+        <None Include="Resources\List\RGG\sega_cd.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\smd.txt">
+        <None Include="Resources\List\RGG\smd.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\sms.txt">
+        <None Include="Resources\List\RGG\sms.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\snes.txt">
+        <None Include="Resources\List\RGG\snes.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\sneschallenge.txt">
+        <None Include="Resources\List\RGG\sneschallenge.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\tcd.txt">
+        <None Include="Resources\List\RGG\tcd.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\tg16.txt">
+        <None Include="Resources\List\RGG\tg16.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\vita.txt">
+        <None Include="Resources\List\RGG\vita.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\wii.txt">
+        <None Include="Resources\List\RGG\wii.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\wiiu.txt">
+        <None Include="Resources\List\RGG\wiiu.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RHG\xbox.txt">
+        <None Include="Resources\List\RGG\xbox.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
@@ -720,7 +720,7 @@
       </None>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\RHG\contra.txt">
+      <None Include="Resources\List\RGG\contra.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
@@ -731,12 +731,12 @@
       <None Include="Resources\List\Default\wheel_description.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <Content Include="Resources\List\RHG\konatyactics.txt">
+      <Content Include="Resources\List\RGG\konatyactics.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\RHG\metroid.txt">
+      <None Include="Resources\List\RGG\metroid.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

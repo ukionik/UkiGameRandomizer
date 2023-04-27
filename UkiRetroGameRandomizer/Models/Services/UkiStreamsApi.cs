@@ -23,7 +23,7 @@ namespace UkiRetroGameRandomizer.Models.Services
         
         public async Task<List<WheelItem>> GetWheelItems()
         {
-            return await GetResult<List<WheelItem>>("/rhg/wheel-items");
+            return await GetResult<List<WheelItem>>("/rgg/randomizer-wheel-items/2");
         }
 
         

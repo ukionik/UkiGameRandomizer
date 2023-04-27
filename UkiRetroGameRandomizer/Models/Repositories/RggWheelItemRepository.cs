@@ -7,7 +7,7 @@ using UkiRetroGameRandomizer.Models.Services;
 
 namespace UkiRetroGameRandomizer.Models.Repositories
 {
-    public class RhgWheelItemRepository : IRhgWheelItemRepository
+    public class RggWheelItemRepository : IRggWheelItemRepository
     {
         public List<WheelItem> Data { get; private set; }
 

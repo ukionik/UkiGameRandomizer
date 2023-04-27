@@ -50,7 +50,7 @@ namespace UkiRetroGameRandomizer.Configuration
             {
                 {"Width", windowWidth},
                 {"Height", windowHeight},
-                {"Title", "UkiRetroGameRandomizer 1.2.4"}
+                {"Title", "UkiRetroGameRandomizer 1.2.5"}
             };
 
             Platforms.InitPlatforms();
@@ -60,9 +60,9 @@ namespace UkiRetroGameRandomizer.Configuration
                 await _kernel.Get<IDroppedGameRepository>().LoadAsync();
                 await _kernel.Get<IDropmaniaWheelItemRepository>().LoadAsync();
             }
-            else if (AppData.ProfileEnum == Profile.RHG)
+            else if (AppData.ProfileEnum == Profile.RGG)
             {
-                await _kernel.Get<IRhgWheelItemRepository>().LoadAsync();
+                await _kernel.Get<IRggWheelItemRepository>().LoadAsync();
                 await _kernel.Get<IDropmaniaRolledGameRepository>().LoadAsync();
             }
 
