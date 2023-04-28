@@ -1,28 +1,4 @@
-NES;NES;nes.txt
-FDS;FDS;fds.txt
-SMS;SMS;sms.txt
-GG;GG;gg.txt
-TG16;TG16;tg16.txt
-SMD;SMD;smd.txt
-TCD;TCD;tcd.txt
-GB;GB;gb.txt
-SNES;SNES;snes.txt
-SEGACD;SEGACD;sega_cd.txt
-STN;Saturn;saturn.txt
-PS1;PS1;ps1.txt
-N64;N64;n64.txt
-GBC;GBC;gbc.txt
-DC;Dreamcast;dc.txt
-PS2;PS2;ps2.txt
-GBA;GBA;gba.txt
-GC;Gamecube;gc.txt
-XBOX;XBOX;xbox.txt
-DS;DS;ds.txt
-PSP;PSP;psp.txt
-WII;Wii;wii.txt
-3DS;3ds;3ds.txt
-VITA;Vita;vita.txt
-WIIU;Wii U;wiiu.txt
+Atari;Atari;atari.txt
 Wheel;Колесо;wheel.txt
 Items;Предметы;items.txt
 Platforms;Платформы;platforms.txt
@@ -30,11 +6,3 @@ CATBAG;Кот в мешке;cat_bag.txt
 Roulette;Русская рулетка;roulette.txt
 HeadTails;Орел или Решка;headtails.txt
 Cat;Игры про котеек;cat.txt
-SnesChallenge;SNES Challenge;sneschallenge.txt
-Dropmania1;Привет из дропмании 1;dropmania1.txt
-Dropmania2;Привет из дропмании 2;dropmania2.txt
-Castlevania;Castlevania;castlevania.txt
-Contra;Contra;contra.txt
-MegaMan;Mega Man;megaman.txt
-Metroid;Metroid;metroid.txt
-Konatyactics;Конатяктики;konatyactics.txt

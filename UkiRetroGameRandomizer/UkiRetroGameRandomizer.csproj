@@ -376,12 +376,6 @@
         <None Include="Resources\List\Dropmania\tg16_tcd.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RGG\3ds.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\RGG\castlevania.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
         <None Include="Resources\List\RGG\cat.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
@@ -414,9 +408,6 @@
         </None>
         <None Include="Resources\List\RGG\headtails.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\RGG\megaman.txt">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\RGG\metadata.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -720,23 +711,13 @@
       </None>
     </ItemGroup>
     <ItemGroup>
-      <None Include="Resources\List\RGG\contra.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-    <ItemGroup>
       <None Include="Resources\Img\background.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Include="Resources\List\Default\wheel_description.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <Content Include="Resources\List\RGG\konatyactics.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Resources\List\RGG\metroid.txt">
+      <None Include="Resources\List\RGG\atari.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

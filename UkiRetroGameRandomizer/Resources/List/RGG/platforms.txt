@@ -1,24 +1,30 @@
-NES
-SMS
-FDS
-TG16
-SMD
-TCD
-GB
-SNES
-SCD
-STN
-PS1
-N64
-GBC
-DC
-PS2
-GBA
-GC
-XBOX
-DS
-PSP
-Wii
+3DO / Sega CD
 3DS
-Vita
-WiiU
+Atari
+Dreamcast
+DS
+Game Gear
+Gameboy
+Gameboy Advance
+Gameboy Color
+Gamecube
+MiSTer Arcade
+N64
+Neo-Geo
+NES
+PEKA
+PS Vita
+PS1
+PS2
+PS3
+PSP
+Saturn
+Sega Master System
+Sega Mega Drive
+SNES
+Turbografx
+Wii
+Wii U
+Xbox 360
+Xbox Original
+Соня в мешке
