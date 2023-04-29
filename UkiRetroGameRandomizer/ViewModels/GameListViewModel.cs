@@ -233,10 +233,11 @@ namespace UkiRetroGameRandomizer.ViewModels
                     .Where(x => x.Status == DropmaniaGameStatus.Dropped)
                     .Select(x => new GameInfo($"{x.Game} [{x.Platform}] ({x.Player})"));
             }
-            else if (platform.Name == "Dropmania2" && AppData.ProfileEnum == Profile.RGG)
+            else if (platform.Name == "Dropmania" && AppData.ProfileEnum == Profile.RGG)
             {
                 _games = _dropmaniaRolledGameRepository.Data
-                    .Where(x => x.Status == DropmaniaGameStatus.Completed)
+                    .Where(x => x.Status == DropmaniaGameStatus.Completed
+                    && x.Player != "Ukionik")
                     .Select(x => new GameInfo($"{x.Game} [{x.Platform}] ({x.Player})"));
             }
             /*else if (platform.Name == "RetroPlay")

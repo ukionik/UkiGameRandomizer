@@ -133,7 +133,6 @@ ATV Offroad Fury 2
 ATV Offroad Fury 3
 ATV Offroad Fury 4
 ATV Quad Power Racing 2
-Austin Mini Racing
 Auto Modellista
 Autobahn Raser IV
 Autobahn Raser: Das Spiel zum Film
@@ -166,7 +165,6 @@ Barbie Horse Adventures: Wild Horse Rescue
 Barbie in the 12 Dancing Princesses
 Bard's Tale, The
 Baroque
-Baseball Mania
 Basketball Xciting
 Bass Strike
 Batman Begins
@@ -321,10 +319,8 @@ Charlotte's Web
 Cheggers Party Quiz
 Chemist Tycoon
 Chess Challenger
-Chess Crusade
 Chessmaster
 Choaniki: Sei Naru Protein Densetsu
-ChopLifter: Crisis Shield
 ChoroQ
 Chronicles of Narnia, The: Prince Caspian
 Chronicles of Narnia, The: The Lion, The Witch and The Wardrobe
@@ -336,8 +332,6 @@ City Crisis
 City Soccer Challenge
 Classic British Motor Racing
 Clock Tower 3
-Club Football
-Club Football 2005
 Clumsy Shumsy
 Cocoto Fishing Master
 Cocoto Funfair
@@ -428,7 +422,6 @@ Dave Mirra Freestyle BMX 2
 David Beckham Soccer
 David Douillet Judo
 Dawn of Mana
-De Grote Nederlandse Voetbalquiz
 Dead Eye Jim
 Dead or Alive 2
 Dead To Rights
@@ -1026,7 +1019,6 @@ Kamen Rider: Climax Heroes
 Kao the Kangaroo Round 2
 Kart Racer
 Katamari Damacy
-Katana Action
 Kelly Slater's Pro Surfer
 Kengo: Master of Bushido
 Kengo 3
@@ -1075,7 +1067,6 @@ Konami Kids Playground: Alphabet Circus
 Konami Kids Playground: Dinosaurs - Shapes & Colors
 Konami Kids Playground: Frogger Hop, Skip & Jumpin' Fun
 Konami Kids Playground: Toy Pals Fun with Numbers
-Kung Fu
 Kuon
 Kya: Dark Lineage
 L.A. Rush
@@ -1085,8 +1076,6 @@ Lara Croft Tomb Raider: The Angel of Darkness
 Largo Winch: Empire Under Threat
 Lassie
 Le Mans 24 Hours
-Le Tour de France
-Le Tour de France: Centenary Edition
 Leaderboard Golf
 League Series Baseball 2
 Legacy of Kain: Defiance
@@ -1168,7 +1157,6 @@ Mana Khemia 2: Fall of Alchemy
 Manhunt
 Manhunt 2
 Maniac Mole
-Marble Chaos
 Marc Ecko's Getting Up: Contents Under Pressure
 Margot's Word Brain
 Mark Davis Pro Bass Challenge
@@ -1422,8 +1410,6 @@ Need for Speed Underground 2
 Neo Contra
 NeoGeo Battle Coliseum
 Neopets: The Darkest Faerie
-Next Generation Tennis
-Next Generation Tennis 2003
 NFL 2K2
 NFL 2K3
 NFL Blitz 20-02
@@ -1585,7 +1571,6 @@ Pop'n Taisen Puzzle-Dama Online
 Portal Runner
 Postman Pat
 Power Drome
-Power Fighters
 Power Rangers: Dino Thunder
 Power Rangers: Super Legends - 15th Anniversary
 Power Volleyball
@@ -1717,6 +1702,8 @@ Rocky: Legends
 Rogue Galaxy
 Rogue Ops
 Rogue Trooper
+Roland Garros French Open 2002
+Roland Garros French Open 2003
 Roland Garros 2005: Powered by Smash Court Tennis
 Roller Coaster Funfare
 Rollercoaster World
@@ -1749,6 +1736,7 @@ Rugby 2004
 Rugby 2005
 Rugby Challenge 2006
 Rugby League
+Rugby League 2
 Rugby League 2 World Cup Edition
 Rugrats: Royal Ransom
 Rule of Rose
@@ -1792,7 +1780,7 @@ Scooby-Doo! Night of 100 Frights
 Scooby-Doo! Unmasked
 SCORE International Baja 1000
 Scorpion King, The: Rise of the Akkadian
-Scrabble 2003
+Scrabble Interactive
 SD Gundam Force: Showdown!
 Sea Monsters: A Prehistoric Adventure
 Sea World: Shamu's Deep Sea Adventures
@@ -1911,7 +1899,6 @@ Siren
 Sitting Ducks
 Skate Attack
 Skateboard Madness Xtreme Edition
-Ski Alpin 2005
 Ski and Shoot
 Ski Racing 2005
 Ski Racing 2006
@@ -2076,7 +2063,6 @@ Super Fruit Fall
 Super Monkey Ball Adventure
 Super Monkey Ball Deluxe
 Super PickUps
-Super Rugby League 2
 Super Shanghai 2005
 Super Trucks Racing
 Superbike GP
@@ -2130,7 +2116,6 @@ Tenchu: Fatal Shadows
 Tenchu: Wrath of Heaven
 Tengai
 Tennis Court Smash
-Tennis Masters Series 2003
 Terminator 3: Rise of the Machines
 Terminator 3: The Redemption
 Terminator: Dawn of Fate
@@ -2210,6 +2195,8 @@ Total Immersion Racing
 Total Overdose: A Gunslinger's Tale in Mexico
 Totally Spies! Totally Party
 Tough: Dark Fight
+Tour de France, Le
+Tour de France, Le: Centenary Edition
 Toukon Inoki Michi: Puzzle de Daa!
 Tourist Trophy
 Toy Golf Extreme
@@ -2285,7 +2272,6 @@ Victorious Boxers: Ippo's Road to Glory
 Victorious Boxers 2: Fighting Spirit
 Video Poker & Blackjack
 Vietcong Purple Haze
-Vietnam: The Tet Offensive
 Viewtiful Joe
 Viewtiful Joe 2
 Virtua Fighter: 10th Anniversary
@@ -2350,7 +2336,6 @@ World Championship Poker
 World Championship Poker 2: Featuring Howard Lederer
 World Championship Poker: Featuring Howard Lederer - All In
 World Championship Pool 2004
-World Championship Rugby
 World Championship Snooker 2002
 World Championship Snooker 2003
 World Championship Snooker 2004
@@ -2388,7 +2373,6 @@ WRC II Extreme
 WRC 3
 WRC 4: FIA World Rally Championship
 Wreckless: The Yakuza Missions
-WSC REAL 08: World Snooker Championship
 WTA Tour Tennis
 WWC: World Wrestling Championship
 WWE All Stars
@@ -2449,7 +2433,6 @@ Zathura
 Zero4 Champ Series: Drift Champ
 Zoids Struggle
 Zombie Attack
-Zombie Hunters
 Zombie Hunters 2
 Zombie Virus
 Zombie Zone

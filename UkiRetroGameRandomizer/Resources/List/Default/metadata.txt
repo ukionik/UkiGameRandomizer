@@ -33,3 +33,4 @@ ZX;ZX Spectrum;zx.txt
 MSXMSX2;MSX+MSX2;msx_msx2.txt 
 Wheel;Колесо;wheel.txt
 HeadTails;Орел или Решка;headtails.txt
+RetroChill;Ретрочил;retrochill.txt

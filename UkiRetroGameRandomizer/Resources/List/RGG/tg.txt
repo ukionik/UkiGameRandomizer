@@ -1,233 +1,392 @@
-1941: Counter Attack
-1943 Kai
-Aero Blasters
-After Burner II
-Air Zonk
-Aldynes: The Mission Code for Rage Crisis
-Alien Crush
-Andre Panza Kick Boxing
-Aoi Blink
-Atomic Robo-Kid Special
-Ballistix
-Bari Bari Densetsu
-Barunba
-Batman
-Battle Ace
-Battle Lode Runner
-Battle Royale
-Bikkuriman World
-Blazing Lazers
-Bloody Wolf
-Bomberman
-Bomberman '93
-Bomberman '94
-Bonk 3: Bonk's Big Adventure
-Bonk's Adventure
-Bonk's Revenge
-Bouken Danshaku Don - The Lost Sunheart
-Boxyboy 
-Bravoman
-Break In
-Bullfight Ring no Hasha
-Burning Angels
-Cadash
-Champion Wrestler
-Champions Forever Boxing
-Chase H.Q.
-Chew Man-Fu
-China Warrior
-Circus Lido
-Columns
-Coryoon
-Cratermaze
-Cross Wiber: Cyber Combat Police
-Cyber Core
-Cyber Cross
-Cyber Dodge
-Dai Makaimura
-Daisenpuu
-Darius Alpha
-Darius Plus
-Darkwing Duck
-Davis Cup Tennis
-Dead Moon
-Deep Blue
-Detana!! Twinbee
-Devil's Crush
-Die Hard
-Digital Champ
-Don Doko Don
-Doraemon: Nobita no Dorabian Night
-Double Dungeons
-Download
-Dragon Egg!
-Dragon Saber
-Dragon Spirit
-Dragon's Curse
-Drop Off
-Dungeon Explorer
-Dungeons & Dragons: Order of the Griffon
-Energy
-F-1 Dream
-F-1 Pilot
-F1 Circus
-F1 Circus '91
-F1 Circus '92
-F1 Triple Battle
-Falcon
-Fantasy Zone
-Fighting Run
-Final Blaster
-Final Lap Twin
-Final Match Tennis
-Final Soldier
-Fire Pro Wrestling Combination Tag
-Fire Pro Wrestling 2nd Bout
-Formation Armed F
-Formation Soccer - Human Cup '90
-Formation Soccer on J. League
-Fushigi no Yume no Alice
-Galaga '90
-Gekisha Boy
-Genji Tsuushin Agedama
-Genpei Toumaden
-Ghost Manor
-Gokuraku! Chuuka Taisen
-Gomola Speed
-Gradius
-Gunboat
-Hana Taka Daka!
-Hatris
-Heavy Unit
-Hit the Ice
-Honey in the Sky
-Honey on the Road
-Image Fight
-Impossamole
-J.J. & Jeff
-J. League Greatest Eleven
-Jack Nicklaus' Turbo Golf
-Jackie Chan's Action Kung Fu
-Jigoku Meguri
-Jinmu Denshou
-Juuouki
-Kaizou Choujin Shubibinman
-Keith Courage in Alpha Zones
-Kickball
-Kiki Kaikai
-King Of Casino
-Klax
-Knight Rider Special
-Kyuukyoku Tiger
-Legend of Hero Tonma
-Legendary Axe, The
-Legendary Axe II, The
-Lode Runner: Ushina Wareta Meikyuu
-Madou King Granzort
-Magical Chase
-Makai Prince Dorabocchan
-Marchen Maze
-Metal Stoker
-Military Madness
-Mizubaku Daibouken
-Moto Roader
-Moto Roader II
-Mr. Heli no Daibouken
-Naxat Open
-Nekketsu Koukou Dodgeball Bu: PC Bangai Hen
-Nekketsu Koukou Dodgeball Bu: PC Soccer Hen
-Neutopia
-Neutopia II
-New Adventure Island
-New Zealand Story, The
-Night Creatures
-Niko-Niko Pun
-Ninja Ryukenden
-Ninja Spirit
-Ninja Warriors, The
-Obocchamakun
-Operation Wolf
-Ordyne
-OutRun
-Override
-P-47: The Freedom Fighter
-Pac-Land
-Parasol Stars: The Story of Bubble Bobble III
-Parodius Da! - Shinwa kara Owarai he
-Populous
-Power Drift
-Power Eleven
-Power Gate
-Power Golf
-Power Tennis
-Psycho Chaser
-Psychosis
-Puzzle Boy
-Puzznic
-R-Type
-R-Type II
-Rabio Lepus Special
-Racing Damashii
-Raiden
-Rastan Saga II
-Rock-On
-Ryuukyuu
-S.C.I.: Special Criminal Investigation
-Salamander
-Samurai Ghost
-Shanghai
-Shinobi
-Shockman
-Side Arms - Hyper Dyne
-Silent Debuggers
-Sinistron
-Skweek
-Soldier Blade
-Somer Assault
-Sonic Spike
-SonSon II
-Space Harrier
-Space Invaders: Fukkatsu no Hi
-Spin Pair
-Splatterhouse
-Street Fighter II': Champion Edition
-Strip Fighter II
-Super Star Soldier
-Super Volleyball
-Takeda Shingen
-Takin' It to the Hoop
-TaleSpin
-Tatsu no Ko Fighter
-Tatsujin
-Tenseiryuu: Saint Dragon
-Terra Cresta II: Mandrer no Gyakushuu
-Thunder Blade
-Tiger Road
-Time Cruise
-Timeball
-Titan
-Toilet Kids
-Toshi Tensou Keikaku: Eternal City
-Tower of Druaga, The
-Toy Shop Boys
-Tricky Kick
-Tsuppari Oozumou Heisei Ban
-Turrican
-TV Sports Basketball
-TV Sports Football
-TV Sports Hockey
-Valkyrie no Densetsu
-Veigues Tactical Gladiator
-Victory Run
-Vigilante
-Volfied
-W Ring: The Double Rings
-Winning Shot
-Wonder Momo
-World Class Baseball
-World Court Tennis
-World Sports Competition
-Xevious: Fardraut Saga
-Yo, Bro
-Youkai Douchuuki
-Zipang
+1941: Counter Attack (TG16)
+1943 Kai (TG16)
+Aero Blasters (TG16)
+After Burner II (TG16)
+Air Zonk (TG16)
+Aldynes: The Mission Code for Rage Crisis (TG16)
+Alien Crush (TG16)
+Andre Panza Kick Boxing (TG16)
+Aoi Blink (TG16)
+Atomic Robo-Kid Special (TG16)
+Ballistix (TG16)
+Bari Bari Densetsu (TG16)
+Barunba (TG16)
+Batman (TG16)
+Battle Ace (TG16)
+Battle Lode Runner (TG16)
+Battle Royale (TG16)
+Bikkuriman World (TG16)
+Blazing Lazers (TG16)
+Bloody Wolf (TG16)
+Bomberman (TG16)
+Bomberman '93 (TG16)
+Bomberman '94 (TG16)
+Bonk 3: Bonk's Big Adventure (TG16)
+Bonk's Adventure (TG16)
+Bonk's Revenge (TG16)
+Bouken Danshaku Don - The Lost Sunheart (TG16)
+Boxyboy  (TG16)
+Bravoman (TG16)
+Break In (TG16)
+Bullfight Ring no Hasha (TG16)
+Burning Angels (TG16)
+Cadash (TG16)
+Champion Wrestler (TG16)
+Champions Forever Boxing (TG16)
+Chase H.Q. (TG16)
+Chew Man-Fu (TG16)
+China Warrior (TG16)
+Circus Lido (TG16)
+Columns (TG16)
+Coryoon (TG16)
+Cratermaze (TG16)
+Cross Wiber: Cyber Combat Police (TG16)
+Cyber Core (TG16)
+Cyber Cross (TG16)
+Cyber Dodge (TG16)
+Dai Makaimura (TG16)
+Daisenpuu (TG16)
+Darius Alpha (TG16)
+Darius Plus (TG16)
+Darkwing Duck (TG16)
+Davis Cup Tennis (TG16)
+Dead Moon (TG16)
+Deep Blue (TG16)
+Detana!! Twinbee (TG16)
+Devil's Crush (TG16)
+Die Hard (TG16)
+Digital Champ (TG16)
+Don Doko Don (TG16)
+Doraemon: Nobita no Dorabian Night (TG16)
+Double Dungeons (TG16)
+Download (TG16)
+Dragon Egg! (TG16)
+Dragon Saber (TG16)
+Dragon Spirit (TG16)
+Dragon's Curse (TG16)
+Drop Off (TG16)
+Dungeon Explorer (TG16)
+Dungeons & Dragons: Order of the Griffon (TG16)
+Energy (TG16)
+F-1 Dream (TG16)
+F-1 Pilot (TG16)
+F1 Circus (TG16)
+F1 Circus '91 (TG16)
+F1 Circus '92 (TG16)
+F1 Triple Battle (TG16)
+Falcon (TG16)
+Fantasy Zone (TG16)
+Fighting Run (TG16)
+Final Blaster (TG16)
+Final Lap Twin (TG16)
+Final Match Tennis (TG16)
+Final Soldier (TG16)
+Fire Pro Wrestling Combination Tag (TG16)
+Fire Pro Wrestling 2nd Bout (TG16)
+Formation Armed F (TG16)
+Formation Soccer - Human Cup '90 (TG16)
+Formation Soccer on J. League (TG16)
+Fushigi no Yume no Alice (TG16)
+Galaga '90 (TG16)
+Gekisha Boy (TG16)
+Genji Tsuushin Agedama (TG16)
+Genpei Toumaden (TG16)
+Ghost Manor (TG16)
+Gokuraku! Chuuka Taisen (TG16)
+Gomola Speed (TG16)
+Gradius (TG16)
+Gunboat (TG16)
+Hana Taka Daka! (TG16)
+Hatris (TG16)
+Heavy Unit (TG16)
+Hit the Ice (TG16)
+Honey in the Sky (TG16)
+Honey on the Road (TG16)
+Image Fight (TG16)
+Impossamole (TG16)
+J.J. & Jeff (TG16)
+J. League Greatest Eleven (TG16)
+Jack Nicklaus' Turbo Golf (TG16)
+Jackie Chan's Action Kung Fu (TG16)
+Jigoku Meguri (TG16)
+Jinmu Denshou (TG16)
+Juuouki (TG16)
+Kaizou Choujin Shubibinman (TG16)
+Keith Courage in Alpha Zones (TG16)
+Kickball (TG16)
+Kiki Kaikai (TG16)
+King Of Casino (TG16)
+Klax (TG16)
+Knight Rider Special (TG16)
+Kyuukyoku Tiger (TG16)
+Legend of Hero Tonma (TG16)
+Legendary Axe, The (TG16)
+Legendary Axe II, The (TG16)
+Lode Runner: Ushina Wareta Meikyuu (TG16)
+Madou King Granzort (TG16)
+Magical Chase (TG16)
+Makai Prince Dorabocchan (TG16)
+Marchen Maze (TG16)
+Metal Stoker (TG16)
+Military Madness (TG16)
+Mizubaku Daibouken (TG16)
+Moto Roader (TG16)
+Moto Roader II (TG16)
+Mr. Heli no Daibouken (TG16)
+Naxat Open (TG16)
+Nekketsu Koukou Dodgeball Bu: PC Bangai Hen (TG16)
+Nekketsu Koukou Dodgeball Bu: PC Soccer Hen (TG16)
+Neutopia (TG16)
+Neutopia II (TG16)
+New Adventure Island (TG16)
+New Zealand Story, The (TG16)
+Night Creatures (TG16)
+Niko-Niko Pun (TG16)
+Ninja Ryukenden (TG16)
+Ninja Spirit (TG16)
+Ninja Warriors, The (TG16)
+Obocchamakun (TG16)
+Operation Wolf (TG16)
+Ordyne (TG16)
+OutRun (TG16)
+Override (TG16)
+P-47: The Freedom Fighter (TG16)
+Pac-Land (TG16)
+Parasol Stars: The Story of Bubble Bobble III (TG16)
+Parodius Da! - Shinwa kara Owarai he (TG16)
+Populous (TG16)
+Power Drift (TG16)
+Power Eleven (TG16)
+Power Gate (TG16)
+Power Golf (TG16)
+Power Tennis (TG16)
+Psycho Chaser (TG16)
+Psychosis (TG16)
+Puzzle Boy (TG16)
+Puzznic (TG16)
+R-Type (TG16)
+R-Type II (TG16)
+Rabio Lepus Special (TG16)
+Racing Damashii (TG16)
+Raiden (TG16)
+Rastan Saga II (TG16)
+Rock-On (TG16)
+Ryuukyuu (TG16)
+S.C.I.: Special Criminal Investigation (TG16)
+Salamander (TG16)
+Samurai Ghost (TG16)
+Shanghai (TG16)
+Shinobi (TG16)
+Shockman (TG16)
+Side Arms - Hyper Dyne (TG16)
+Silent Debuggers (TG16)
+Sinistron (TG16)
+Skweek (TG16)
+Soldier Blade (TG16)
+Somer Assault (TG16)
+Sonic Spike (TG16)
+SonSon II (TG16)
+Space Harrier (TG16)
+Space Invaders: Fukkatsu no Hi (TG16)
+Spin Pair (TG16)
+Splatterhouse (TG16)
+Street Fighter II': Champion Edition (TG16)
+Strip Fighter II (TG16)
+Super Star Soldier (TG16)
+Super Volleyball (TG16)
+Takeda Shingen (TG16)
+Takin' It to the Hoop (TG16)
+TaleSpin (TG16)
+Tatsu no Ko Fighter (TG16)
+Tatsujin (TG16)
+Tenseiryuu: Saint Dragon (TG16)
+Terra Cresta II: Mandrer no Gyakushuu (TG16)
+Thunder Blade (TG16)
+Tiger Road (TG16)
+Time Cruise (TG16)
+Timeball (TG16)
+Titan (TG16)
+Toilet Kids (TG16)
+Toshi Tensou Keikaku: Eternal City (TG16)
+Tower of Druaga, The (TG16)
+Toy Shop Boys (TG16)
+Tricky Kick (TG16)
+Tsuppari Oozumou Heisei Ban (TG16)
+Turrican (TG16)
+TV Sports Basketball (TG16)
+TV Sports Football (TG16)
+TV Sports Hockey (TG16)
+Valkyrie no Densetsu (TG16)
+Veigues Tactical Gladiator (TG16)
+Victory Run (TG16)
+Vigilante (TG16)
+Volfied (TG16)
+W Ring: The Double Rings (TG16)
+Winning Shot (TG16)
+Wonder Momo (TG16)
+World Class Baseball (TG16)
+World Court Tennis (TG16)
+World Sports Competition (TG16)
+Xevious: Fardraut Saga (TG16)
+Yo, Bro (TG16)
+Youkai Douchuuki (TG16)
+Zipang (TG16)
+Addams Family, The (TG-CD)
+Advanced V.G. (TG-CD)
+Ai Cho Aniki (TG-CD)
+Akumajou Dracula X: Chi no Rondo (TG-CD)
+Ane-san (TG-CD)
+Asuka 120% Maxima - Burning Fest. Maxima (TG-CD)
+Avenger (TG-CD)
+Baby Jo: The Super Hero (TG-CD)
+Bakushou Yoshimoto Shingeki (TG-CD)
+Battle Shanghai: Dragon's Eye ~ Shanghai III - Dragon's Eye (TG-CD)
+Bazar de Gozarre no Game de Gozarre (TG-CD)
+Beyond Shadowgate (TG-CD)
+Black Hole Assault (TG-CD)
+Bomberman: Panic Bomber (TG-CD)
+Bonanza Bros. (TG-CD)
+Bonk 3: Bonk's Big Adventure (TG-CD)
+Browning (TG-CD)
+BuilderLand: The Story of Melba (TG-CD)
+Buster Bros. (TG-CD)
+Camp California (TG-CD)
+Chiki Chiki Boys (TG-CD)
+Cho Aniki (TG-CD)
+Chou Jikuu Yousai Macross 2036 (TG-CD)
+Cosmic Fantasy 2 (TG-CD)
+Cotton: Fantastic Night Dreams (TG-CD)
+Daisenpuu Custom (TG-CD)
+Davis Cup Tennis (TG-CD)
+Doraemon: Nobita no Dorabian Night (TG-CD)
+Double Dragon II: The Revenge (TG-CD)
+Download 2 (TG-CD)
+Downtown Nekketsu Koushinkyoku: Soreyuke Daiundoukai (TG-CD)
+Downtown Nekketsu Monogatari (TG-CD)
+Dragon Slayer: The Legend of Heroes (TG-CD)
+Dungeon Explorer II (TG-CD)
+Dungeon Master (TG-CD)
+Dynastic Hero, The (TG-CD)
+Exile (TG-CD)
+Exile: Wicked Phenomenon (TG-CD)
+F1 Circus Special: Pole To Win (TG-CD)
+Faceball (TG-CD)
+Faussete Armour (TG-CD)
+Fighting Street (TG-CD)
+Final Zone II (TG-CD)
+Flash Hiders (TG-CD)
+Forgotten Worlds (TG-CD)
+Formation Soccer '95: della Seria A (TG-CD)
+Gain Ground SX (TG-CD)
+Galaxy Deka Gayvan (TG-CD)
+Garou Densetsu Special (TG-CD)
+Garou Densetsu 2: Aratanaru Tatakai (TG-CD)
+Gate of Thunder (TG-CD)
+Genocide (TG-CD)
+Ginga Fukei Densetsu Sapphire (TG-CD)
+God Panic: Shijou Saikyou no Gundan (TG-CD)
+Godzilla (TG-CD)
+Goetzendiener (TG-CD)
+Golden Axe (TG-CD)
+Gradius II: Gofer no Yabou (TG-CD)
+Hawk F-123 (TG-CD)
+Hellfire S (TG-CD)
+Hihou Densetsu: Chris no Bouken (TG-CD)
+Horror Story (TG-CD)
+Hu PGA Tour: PowerGolf 2 - Golfer (TG-CD)
+Human Sports Festival (TG-CD)
+Hyper Dyne Side Arms Special (TG-CD)
+Iga Ninden Gaiou (TG-CD)
+Image Fight II (TG-CD)
+In Magical Adventure: Fray CD - Xak Gaiden (TG-CD)
+It Came From The Desert (TG-CD)
+J.B. Harold Murder Club (TG-CD)
+J. League Tremendous Soccer '94 (TG-CD)
+Jack Nicklaus Turbo Golf (TG-CD)
+Jim Power (TG-CD)
+John Madden Duo CD Football (TG-CD)
+Juuouki (TG-CD)
+Kabuki Ittou Ryoudan (TG-CD)
+Kaizou Choujin Shubibinman 3: Ikai no Princess (TG-CD)
+Kakutou Haou Densetsu: Algunos (TG-CD)
+Kaze Kiri: Ninja Action (TG-CD)
+Kiaidan 00 (TG-CD)
+Kick Boxing, The (TG-CD)
+L-Dis (TG-CD)
+Last Alert (TG-CD)
+Legion (TG-CD)
+Lemmings (TG-CD)
+Loom (TG-CD)
+Lords of the Rising Sun (TG-CD)
+Lords of Thunder (TG-CD)
+Mad Stalker: Full Metal Force (TG-CD)
+Magical Dinosaur Tour (TG-CD)
+Manhole, The (TG-CD)
+Martial Champion (TG-CD)
+Metamor Jupiter (TG-CD)
+Might and Magic III: Isles of Terra (TG-CD)
+Minesweeper (TG-CD)
+Mirai Shounen Conan (TG-CD)
+Monster Lair (TG-CD)
+Moto Roader MC (TG-CD)
+Motteke Tamago (TG-CD)
+Mugen Senshi Valis: The Legend of a Fantasm Soldier (TG-CD)
+Mystic Formula (TG-CD)
+Nekketsu Koukou Dodge Ball-Bu: CD Soccer-hen (TG-CD)
+Nexzr (TG-CD)
+Pop'n Magic (TG-CD)
+Populous: The Promised Lands (TG-CD)
+Prince of Persia (TG-CD)
+Psychic Storm (TG-CD)
+Puyo Puyo CD (TG-CD)
+Puyo Puyo CD Tsuu (TG-CD)
+R-Type: Complete CD (TG-CD)
+Rainbow Islands (TG-CD)
+Rally Championship (TG-CD)
+Ranma 1/2 (TG-CD)
+Ranma 1/2: Datou, Ganso Musabetsu Kakutou-ryuu! (TG-CD)
+Rayxanber II (TG-CD)
+Rayxanber III (TG-CD)
+Renny Blaster (TG-CD)
+Riot Zone (TG-CD)
+Road Spirits (TG-CD)
+Ryuuko no Ken (TG-CD)
+Seirei Senshi Spriggan (TG-CD)
+Shadow of the Beast (TG-CD)
+Shanghai II (TG-CD)
+Shape Shifter (TG-CD)
+Sherlock Holmes Consulting Detective (TG-CD)
+Sherlock Holmes: Consulting Detective - Volume 2 (TG-CD)
+Shin Nippon Pro Wrestling '94: Battlefield in Tokyo Dome (TG-CD)
+SimEarth: The Living Planet (TG-CD)
+Splash Lake (TG-CD)
+Spriggan Mark 2: Re Terraform Project (TG-CD)
+Star Mobile (TG-CD)
+Star Parodier (TG-CD)
+Steam-Heart's (TG-CD)
+Strider Hiryuu (TG-CD)
+Summer Carnival '92 - Alzadick (TG-CD)
+Summer Carnival '93: NEXZR Special (TG-CD)
+Super Air Zonk (TG-CD)
+Super Darius (TG-CD)
+Super Darius II (TG-CD)
+Super Raiden (TG-CD)
+SydMead's TerraForming (TG-CD)
+Sylphia (TG-CD)
+Tecmo World Cup Super Soccer (TG-CD)
+Tenchi o Kurau (TG-CD)
+Tengai Makyou: Deden no Kabuki-den (TG-CD)
+Todd's Adventures in Slime World (TG-CD)
+Travel Eple (TG-CD)
+TV Show, The (TG-CD)
+Valis II (TG-CD)
+Valis III (TG-CD)
+Valis IV (TG-CD)
+Vasteel (TG-CD)
+Where in the World is Carmen Sandiego? (TG-CD)
+Wonder Boy III: Monster Lair (TG-CD)
+World Heroes 2 (TG-CD)
+Ys Book I & II (TG-CD)
+Ys III: Wanderers from Ys (TG-CD)
+Yuu Yuu Hakusho: Yami Shoubu!! Ankoku Bujutsu-kai (TG-CD)
+Zero Wing (TG-CD)

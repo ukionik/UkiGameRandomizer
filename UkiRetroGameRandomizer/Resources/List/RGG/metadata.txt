@@ -7,12 +7,35 @@ GG;Game Gear;gg.txt
 GBA;Gameboy Advance;gba.txt
 GBC;Gameboy Color;gbc.txt
 GC;Gamecube;gc.txt
+MARC;MiSTer Arcade;marc.txt
 N64;N64;n64.txt
 NG;Neo-Geo;ng.txt
+NES;NES;nes.txt
+PEKA;Peka;peka.txt
+Vita;PS Vita;vita.txt
+PS1;PS1;ps1.txt
+PS2;PS2;ps2.txt
+PS3;PS3;ps3.txt
+PSP;PSP;psp.txt
+STN;Saturn;saturn.txt
+SMS;Sega Master System;sms.txt
+SMD;Sega Mega Drive;smd.txt
+SNES;SNES;snes.txt
+STEAM;Steam;steam.txt
+TG;Turbografx 16/CD;tg.txt
+Wii;Wii;wii.txt
+WiiU;Wii U;wiiu.txt
+X360;Xbox 360;x360.txt
+XBOX;Xbox Original;xbox.txt
+Drop;Дроп в мешке;drop_bag.txt
 Cat;Игры про котеек;cat.txt
 Wheel;Колесо;wheel.txt
-CATBAG;Кот в мешке;cat_bag.txt
 HeadTails;Орел или Решка;headtails.txt
 Platforms;Платформы;platforms.txt
+Dropmania;Привет из дропмании;dropmania.txt
+Kona;Привет от Коны;kona.txt
 Items;Предметы;items.txt
 Roulette;Русская рулетка;roulette.txt
+Sega;Сега;sega.txt
+Secret;Секретный список;secret.txt
+Sonya;Соня в мешке;sonya.txt

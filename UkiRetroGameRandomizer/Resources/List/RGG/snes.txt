@@ -187,8 +187,8 @@ Cosmo Gang: The Video
 Cosmo Police Galivan II: Arrow of Justice
 Crayon Shin-Chan: Arashi o Yobu Enji
 Crayon Shin-Chan 2: Dai Maou no Gyakushuu
+Crystal Beans: From Dungeon Explorer
 Cu-On-Pa SFC
-
 Cutthroat Island
 Cyber Knight
 Cyber Knight II: Chikyuu Teikoku no Yabou
@@ -791,7 +791,6 @@ SD The Great Battle
 SeaQuest DSV
 Secret of Evermore
 Secret of Mana
-Secret of the Stars
 Seifuku Densetsu: Pretty Fighter
 Seiken Densetsu 3
 Sengoku Denshou
@@ -1009,6 +1008,7 @@ Taekwon-Do
 Takeda Nobuhiro no Super League Soccer
 Tales of Phantasia
 Taz-Mania
+Tecmo Secret of the Stars
 Tecmo Super Baseball
 Tecmo Super Bowl
 Tecmo Super Bowl II: Special Edition
