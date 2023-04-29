@@ -4,6 +4,7 @@ Atari;Atari;atari.txt
 DC;Dreamcast;dc.txt
 DS;DS;ds.txt
 GG;Game Gear;gg.txt
+GB;Gameboy;gb.txt
 GBA;Gameboy Advance;gba.txt
 GBC;Gameboy Color;gbc.txt
 GC;Gamecube;gc.txt
