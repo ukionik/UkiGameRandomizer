@@ -1,8 +1,18 @@
+3DO_SCD;3DO/SCD;3do_scd.txt
+3DS;3ds;3ds.txt
 Atari;Atari;atari.txt
-Wheel;Колесо;wheel.txt
-Items;Предметы;items.txt
-Platforms;Платформы;platforms.txt
-CATBAG;Кот в мешке;cat_bag.txt
-Roulette;Русская рулетка;roulette.txt
-HeadTails;Орел или Решка;headtails.txt
+DC;Dreamcast;dc.txt
+DS;DS;ds.txt
+GG;Game Gear;gg.txt
+GBA;Gameboy Advance;gba.txt
+GBC;Gameboy Color;gbc.txt
+GC;Gamecube;gc.txt
+N64;N64;n64.txt
+NG;Neo-Geo;ng.txt
 Cat;Игры про котеек;cat.txt
+Wheel;Колесо;wheel.txt
+CATBAG;Кот в мешке;cat_bag.txt
+HeadTails;Орел или Решка;headtails.txt
+Platforms;Платформы;platforms.txt
+Items;Предметы;items.txt
+Roulette;Русская рулетка;roulette.txt

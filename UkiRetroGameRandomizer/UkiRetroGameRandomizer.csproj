@@ -379,16 +379,13 @@
         <None Include="Resources\List\RGG\cat.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RGG\cat_bag.txt">
+        <None Include="Resources\List\RGG\drop_bag.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\RGG\dc.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\RGG\ds.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\RGG\fds.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\RGG\gb.txt">
@@ -436,9 +433,6 @@
         <None Include="Resources\List\RGG\saturn.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RGG\sega_cd.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
         <None Include="Resources\List\RGG\smd.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
@@ -448,13 +442,7 @@
         <None Include="Resources\List\RGG\snes.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Include="Resources\List\RGG\sneschallenge.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\RGG\tcd.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Include="Resources\List\RGG\tg16.txt">
+        <None Include="Resources\List\RGG\tg.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Include="Resources\List\RGG\vita.txt">
@@ -718,6 +706,21 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Include="Resources\List\RGG\atari.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="Resources\List\RGG\3do_scd.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="Resources\List\RGG\3ds.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="Resources\List\RGG\ng.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
