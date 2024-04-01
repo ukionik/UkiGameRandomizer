@@ -5,6 +5,7 @@
 1944: The Loop Master
 19XX: The War Against Destiny
 4-D Warriors
+Ace Attacker
 Action Fighter
 Air Duel
 Alcon
@@ -12,13 +13,18 @@ Alex Kidd: The Lost Stars
 Alien Arena
 Alien Syndrome
 Alien vs. Predator
+Aliens
 Alpha Mission
+Alpine Ski
 Altered Beast
 Arkanoid
+Arkanoid 2: Revenge of Doh
 Armed Police BatRider
 Armored Warriors
 Astro Flash
+Astyanax
 Athena
+Avenging Spirit
 Bad Dudes Vs. Dragon Ninja
 Bank Panic
 Battle Bakraid
@@ -26,11 +32,13 @@ Battle Circuit
 Battle Garegga
 Battle Road, The
 Bay Route
+Bio-Attack
 Bionic Commando
 Birdiy
 Black Tiger
 Blade Master
 Block Block
+Body Slam
 Bomb Jack
 Botanic
 Boulder Dash
@@ -54,11 +62,13 @@ Cotton: Fantastic Night Dreams
 Country Club
 Crater Raider
 Crazy Climber 2
+Crime Fighters
 Crystal Castles
 Cyberbots: Fullmetal Madness
 Dangun Feveron
 Darkstalkers: The Night Warriors
 Demolition Derby
+Demon's World
 Dig Dug
 Dig Dug II
 Dimahoo
@@ -72,6 +82,7 @@ Donpachi
 Dorodon
 Double Dragon
 Double Dragon II - The Revenge
+Dr. Toppel's Adventure
 Dragon Breed
 Dragonninja
 Dream Soccer '94
@@ -82,11 +93,13 @@ Dynamite Dux
 Dynasty Wars
 Eco Fighters
 Eggor
+Elevator Action
 ESP RA.DE.
 ESWAT: Cyber Police
 Exed Exes
 Exerion
 Express Raider
+Extermination
 F-1 Dream
 Fantasy Zone
 Fantasy Zone II: The Tears of Opa-Opa
@@ -94,7 +107,9 @@ Fast Lane
 Fever SOS
 Fighting Golf
 Final Fight
+Final Round, The
 Finalizer - Super Transformation
+Fire Shark
 Flash Point
 Flicky
 Food Fight
@@ -105,6 +120,7 @@ Gaia Crusaders
 Galaga
 Galaxian
 Gallop - Armed Police Unit
+Gang Busters
 Gang Wars
 Gaplus
 Gauntlet
@@ -123,11 +139,14 @@ Gun.Smoke
 Gunforce: Battle Fire Engulfed Terror Island
 Guwange
 Gyruss
+Hachoo!
 Hammerin' Harry
 Hang-On Jr.
+Haunted Castle
 Heavy Barrel
 Hellfire
 Hello Kitty's Magical Pumpkin
+High Way Race
 Hippodrome
 Hook
 Horizon
@@ -138,6 +157,8 @@ Ikari Warriors
 Ikari III - The Rescue
 Image Fight
 In the Hunt
+In Your Face
+Insector X
 Iron Horse
 Jackal
 Jail Break
@@ -145,8 +166,10 @@ Janpai Puzzle Choukou
 Journey
 Joust 2: Survival of the Fittest
 Jump Shot
+Ka-Ge-Ki
 Karate Champ
 Karnov
+Kick And Run
 Kicker
 Kid Niki - Radical Ninja
 Kid no Hore Hore Daisakusen
@@ -169,6 +192,7 @@ Lost Tomb
 M.V.P.
 Mad Planets
 Magic Sword - Heroic Fantasy
+Major League
 Major Title 2: Tournament Leader
 Mappy
 Mario Bros.
@@ -192,13 +216,16 @@ Mr. Goemon
 Mr. HELI no Daibouken
 Ms. Pac-Man
 MX5000
+Muscle Bomber Duo: Ultimate Team Battle
 My Hero
 Mystic Marathon
 Mystic Riders
 Nemo
+New Zealand Story, The
 Next Space, The
 Night Warriors: Darkstalkers' Revenge
 Ninja Baseball Bat Man
+Ninja Kazan
 Ninja Spirit
 Ninja-Kun: Majou no Bouken
 Nova 2001
@@ -206,6 +233,7 @@ Number Crash
 OutRun
 Out Zone
 P.O.W.: Prisoners of War
+P-47: The Phantom Fighter
 Pac & Pal
 Pac-Man
 Paddle Mania
@@ -214,11 +242,13 @@ Pang! 3
 Passing Shot
 Penguin-Kun Wars
 Performan
+Phantasm (JP)
 Pickin'
 Pipi & Bibi's
 Pirate Ship Higemaru
 Pitfall II: The Lost Caverns
 Playball
+Plus Alpha
 Pnickies
 Pokonyan! Balloon
 Pooyan
@@ -230,12 +260,15 @@ Punisher, The
 Puzz Loop 2
 Puzzle Uo Poko
 Q*Bert's Qubes
+Quartet
+Quartet 2
 Quiz & Dragons: Capcom Quiz Game
 R-Type
 R-Type II
 R-Type Leo
 Rafflesia
 Raiders 5
+Rally Bike
 Rampage
 Rastan
 Regulus
@@ -246,12 +279,15 @@ Riot City
 Road Fighter
 RoboCop
 Roc 'N Rope
+Rod-Land
 Rygar
 Ryu Kyu
+Saint Dragon
 SAR - Search And Rescue
 Sarge
 Saturday Night Slam Masters
 Scooter Shooter
+Scramble Formation
 SDI: Strategic Defense Initiative
 Secret Agent
 Section Z
@@ -266,6 +302,7 @@ Slap Fight
 Slap Shooter
 Snow Bros. 2 - With New Elves - Otenki Paradise
 Solar Warrior
+Soldam
 Soldier Girl Amazon
 Solomon's Key
 Sonic Boom
@@ -290,6 +327,7 @@ Street Smart
 Strider
 Super Bagman
 Super Basketball
+Super Contra
 Super Gem Fighter Mini Mix
 Super Hang-On
 Super Pac-Man
@@ -308,8 +346,9 @@ Terra Force
 Tetris
 Tetris (Atari)
 Three Wonders
-Tiger Road
+Thunder Cross
 Tiger-Heli
+Tiger Road
 Timber
 Time Pilot '84
 Time Scanner
@@ -325,8 +364,8 @@ Trojan
 Tropical Angel
 Truxton
 Truxton II
-Turbo Tag
 Turbo OutRun
+Turbo Tag
 Turkey Shoot
 Two Tigers
 U.N. Squadron
@@ -340,11 +379,13 @@ Van-Van Car
 Varth: Operation Thunderstorm
 Victory Road
 Vigilante
+Vimana
 Vindicators Part II
 Vulgus
 Wacko
 Warriors of Fate
 Water Match
+Water Ski
 Willow
 Wonder Boy
 Wonder Boy III: Monster Lair
