@@ -30,6 +30,8 @@ C64;Commodore 64;c64.txt
 AMG;Amiga;amg.txt
 DOS;DOS;dos.txt
 ZX;ZX Spectrum;zx.txt
+ST;Atari ST;atarist.txt
+CPC;Amstrad CPC;cpc.txt
 MSXMSX2;MSX+MSX2;msx_msx2.txt 
 Wheel;Колесо;wheel.txt
 HeadTails;Орел или Решка;headtails.txt
