@@ -1,5 +1,6 @@
 3DO_SCD;3DO/SCD;3do_scd.txt
 3DS;3ds;3ds.txt
+Amiga;Amiga;amiga.txt
 Atari;Atari;atari.txt
 DC;Dreamcast;dc.txt
 DS;DS;ds.txt
@@ -12,7 +13,6 @@ MARC;MiSTer Arcade;marc.txt
 N64;N64;n64.txt
 NG;Neo-Geo;ng.txt
 NES;NES;nes.txt
-PEKA;Peka;peka.txt
 Vita;PS Vita;vita.txt
 PS1;PS1;ps1.txt
 PS2;PS2;ps2.txt
